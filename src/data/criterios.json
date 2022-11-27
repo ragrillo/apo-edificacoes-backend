@@ -1,0 +1,25 @@
+[
+  {
+    "nome": "VII - Conforto visual",
+    "subcriterios": [
+      {
+        "nome": "Iluminação natural",
+        "link": "https://forms.gle/mebZkSTGiKuYLR5L8"
+      },
+      {
+        "nome": "Iluminação artificial"
+      }
+    ]
+  },
+  {
+    "nome": "VIII - Qualidade do ar",
+    "subcriterios": [
+      {
+        "nome": "Circulação e renovação do ar"
+      },
+      {
+        "nome": "Umidade do ar"
+      }
+    ]
+  }
+]
