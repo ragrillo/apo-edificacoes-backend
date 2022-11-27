@@ -28,7 +28,7 @@ class App {
     this.app.use('/api/v1/criterio', this.routes.criterio);
   }
 
-  public initialize(port: number): void {
+  public initialize(port: string): void {
     this.app.listen(port, () => console.log(`server is running on port ${port}`)) ;
   }
 }
