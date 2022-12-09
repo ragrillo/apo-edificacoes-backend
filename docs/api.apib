@@ -1,0 +1,27 @@
+FORMAT: 1A
+HOST: http://localhost:3000/api/v1
+
+# Documentação da API da APO Edificações
+
+Descrição dos endpoints da API da APO Edificações com exemplos.
+
+# Group Critério
+
+## Critério [/criterio?grupo=(grupo)]
+
+### Listar critérios [GET]
+Listar todos os subcritérios dos 21 critérios a partir de um grupo.
+
++ Query
+  + grupo: Assume os valores _aspectos-gerais, ambiente, gestao, projeto_.
+
++ Response 200 (application/json)
+  + Attributes (array[Criterio])
+
+# Data Structures
+
+## Criterio (object)
++ titulo (string) - Nome do critério
++ subtitulo (string) - Nome do subcritério
++ endpoint (string) - Link para o critério
++ grupo (string) - Grupo ao qual o critério pertence
