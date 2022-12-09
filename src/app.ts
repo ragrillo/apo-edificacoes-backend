@@ -1,3 +1,4 @@
+import path from 'path';
 import cors from 'cors';
 import express, { Application } from 'express';
 import Routes from './routes';
@@ -12,6 +13,7 @@ class App {
 
     this.setMiddlewares();
     this.setRoutes();
+    this.setApiDocumentation();
   }
 
   private setMiddlewares(): void {
@@ -28,8 +30,13 @@ class App {
     this.app.use('/api/v1/criterio', this.routes.criterio);
   }
 
+  private setApiDocumentation(): void {
+    const filePath = path.join(__dirname, '..', 'docs', 'index.html');
+    this.app.get('/api/v1/', (_request, response) => response.sendFile(filePath));
+  }
+
   public initialize(port: string): void {
-    this.app.listen(port, () => console.log(`server is running on port ${port}`)) ;
+    this.app.listen(port, () => console.log(`server is running on port ${port}`));
   }
 }
 
