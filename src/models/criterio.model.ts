@@ -1,15 +1,12 @@
 import { model, Schema } from 'mongoose';
-import { ICriterio, ISubcriterio } from '../interfaces';
-
-const subcriterioSchema = new Schema<ISubcriterio>({
-  nome: { type: String },
-  link: { type: String },
-  respondido: { type: Boolean, default: false },
-}, { _id: false });
+import { ICriterio } from '../interfaces';
 
 const criterioSchema = new Schema<ICriterio>({
-  nome: { type: String },
-  subcriterio: [{ type: subcriterioSchema }],
+  titulo: { type: String },
+  subtitulo: { type: String },
+  endpoint: { type: String },
+  grupo: { type: String },
+  respondido: { type: Boolean, default: false },
 });
 
 const CriterioModel = model('CriterioModel', criterioSchema);

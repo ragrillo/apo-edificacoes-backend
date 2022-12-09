@@ -1,12 +1,11 @@
-interface ISubcriterio {
-  nome: string;
-  link: string;
+type GrupoType = 'ambiente' | 'projeto' | 'gestao' | 'aspectos-gerais';
+
+interface ICriterio {
+  titulo: string;
+  subtitulo: string;
+  endpoint: string;
+  grupo: GrupoType;
   respondido: boolean;
 }
 
-interface ICriterio {
-  nome: string;
-  subcriterio: ISubcriterio[];
-}
-
-export { ICriterio, ISubcriterio };
+export { ICriterio };

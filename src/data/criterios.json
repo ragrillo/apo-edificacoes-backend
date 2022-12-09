@@ -1,25 +1,26 @@
 [
   {
-    "nome": "VII - Conforto visual",
-    "subcriterios": [
-      {
-        "nome": "Iluminação natural",
-        "link": "https://forms.gle/mebZkSTGiKuYLR5L8"
-      },
-      {
-        "nome": "Iluminação artificial"
-      }
-    ]
+    "titulo": "VII - Conforto Visual",
+    "subtitulo": "1. Iluminação Natural",
+    "endpoint": "/criterio/7/1",
+    "grupo": "ambiente"
   },
   {
-    "nome": "VIII - Qualidade do ar",
-    "subcriterios": [
-      {
-        "nome": "Circulação e renovação do ar"
-      },
-      {
-        "nome": "Umidade do ar"
-      }
-    ]
+    "titulo": "VII - Conforto Visual",
+    "subtitulo": "2. Iluminação Artificial",
+    "endpoint": "/criterio/7/2",
+    "grupo": "ambiente"
+  },
+  {
+    "titulo": "VIII - Qualidade do Ar",
+    "subtitulo": "1. Circulação e Renovação do Ar",
+    "endpoint": "/criterio/8/1",
+    "grupo": "ambiente"
+  },
+  {
+    "titulo": "VIII - Qualidade do Ar",
+    "subtitulo": "2. Umidade do Ar",
+    "endpoint": "/criterio/8/2",
+    "grupo": "ambiente"
   }
 ]
