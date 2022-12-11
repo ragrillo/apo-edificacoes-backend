@@ -7,7 +7,7 @@ class CadastrarAmbiente {
     const data = request.body;
     const { largura, comprimento } = data.dimensoes;
     data.areaAmbiente = largura * comprimento;
-  
+
     const ambiente = await AmbienteModel.create(data);
     await ambiente.save();
 

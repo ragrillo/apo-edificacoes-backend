@@ -12,26 +12,25 @@ interface INovoUsuario extends IUsuario {
 class CadastrarUsuarioController {
   public async handle(request: Request, response: Response) {
     const data = request.body as INovoUsuario;
-    const { nomeCompleto, telefone, email, senha, confirmarSenha } = data;
-    
-    if ((!nomeCompleto || !telefone || !email || !senha || !confirmarSenha))
-      return response.json(HttpResponse.create(HttpStatus.UNPROCESSABLE_ENTITY, 'Preencha todos os dados!'));
+    const {
+      nomeCompleto, telefone, email, senha, confirmarSenha,
+    } = data;
 
-    if (senha !== confirmarSenha)
-      return response.json(HttpResponse.create(HttpStatus.BAD_REQUEST, 'As senhas não coincidem!'));
+    if ((!nomeCompleto || !telefone || !email || !senha || !confirmarSenha)) return response.json(HttpResponse.create(HttpStatus.UNPROCESSABLE_ENTITY, 'Preencha todos os dados!'));
+
+    if (senha !== confirmarSenha) return response.json(HttpResponse.create(HttpStatus.BAD_REQUEST, 'As senhas não coincidem!'));
 
     const userAlreadyExists = await UsuarioModel.findOne({ email });
-  
-    if (userAlreadyExists)
-      return response.json(HttpResponse.create(HttpStatus.BAD_REQUEST, 'Usuário já cadastrado'));
-  
+
+    if (userAlreadyExists) return response.json(HttpResponse.create(HttpStatus.BAD_REQUEST, 'Usuário já cadastrado'));
+
     const saltRounds = Math.floor(Math.random() * 10);
     const hashPassword = bcrypt.hashSync(senha, saltRounds);
     data.senha = hashPassword;
-  
+
     const newUser = await UsuarioModel.create(data);
     await newUser.save();
-    
+
     return response.json(HttpResponse.create(HttpStatus.CREATED, 'Solicitação enviada com sucesso! Aguarde aprovação'));
   }
 }

@@ -1,5 +1,7 @@
 import { model, Schema } from 'mongoose';
-import { IUnidade, IEscola, IHabitacao, IUBS, IEndereco } from '@src/interfaces';
+import {
+  IUnidade, IEscola, IHabitacao, IUBS, IEndereco,
+} from '@src/interfaces';
 
 const enderecoSchema = new Schema<IEndereco>({
   logradouro: { type: String },
@@ -22,7 +24,7 @@ const habitacaoSchema = new Schema<IHabitacao>({
   descricao: { type: String },
   nomeConstrutora: { type: String },
   numeroPavimentos: { type: Number },
-  tipoCasa: [{ type: String  }],
+  tipoCasa: [{ type: String }],
   totalUnidades: { type: Number },
   unidadesPorBloco: { type: Number },
 }, { _id: false });

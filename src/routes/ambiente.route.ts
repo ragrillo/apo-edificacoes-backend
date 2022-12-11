@@ -3,7 +3,7 @@ import { CadastrarAmbiente, GetAmbientesController } from '@src/controllers/ambi
 
 class AmbienteRouter {
   public router: Router;
-  
+
   constructor() {
     this.router = Router();
     this.setRoutes();

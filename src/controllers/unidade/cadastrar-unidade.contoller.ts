@@ -3,7 +3,7 @@ import { UnidadeModel } from '@src/models';
 import { HttpResponse, HttpStatus } from '@src/utils';
 
 class CadastrarUnidade {
-  public async handle(request: Request, response: Response) {   
+  public async handle(request: Request, response: Response) {
     const data = request.body;
     const unidade = await UnidadeModel.create(data);
     await unidade.save();

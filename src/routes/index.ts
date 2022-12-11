@@ -8,8 +8,11 @@ import {
 
 class Routes {
   public usuario: Router;
+
   public unidade: Router;
+
   public ambiente: Router;
+
   public criterio: Router;
 
   constructor() {

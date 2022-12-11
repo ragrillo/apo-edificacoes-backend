@@ -46,4 +46,6 @@ interface IUnidade {
   ubs?: IUBS;
 }
 
-export { IUnidade, IEscola, IHabitacao, IUBS, IEndereco };
+export {
+  IUnidade, IEscola, IHabitacao, IUBS, IEndereco,
+};

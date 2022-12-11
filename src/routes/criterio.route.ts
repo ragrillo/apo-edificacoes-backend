@@ -10,7 +10,7 @@ class CriterioRouter {
   }
 
   private setRoutes(): void {
-    this.router.get('/', new GetCriteriosController().handle);  
+    this.router.get('/', new GetCriteriosController().handle);
   }
 }
 

@@ -5,6 +5,7 @@ import express from 'express';
 
 class App {
   private routes: Routes;
+
   private app: express.Application;
 
   constructor() {
