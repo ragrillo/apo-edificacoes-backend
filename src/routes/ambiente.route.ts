@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { CadastrarAmbiente } from '../controllers/ambiente';
+import { CadastrarAmbiente, GetAmbientesController } from '../controllers/ambiente';
 
 class AmbienteRouter {
   public router: Router;
@@ -10,6 +10,7 @@ class AmbienteRouter {
   }
 
   private setRoutes(): void {
+    this.router.get('/', new GetAmbientesController().handle);
     this.router.post('/', new CadastrarAmbiente().handle);
   }
 }
