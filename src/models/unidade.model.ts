@@ -1,5 +1,5 @@
 import { model, Schema } from 'mongoose';
-import { IUnidade, IEscola, IHabitacao, IUBS, IEndereco } from '../interfaces';
+import { IUnidade, IEscola, IHabitacao, IUBS, IEndereco } from '@src/interfaces';
 
 const enderecoSchema = new Schema<IEndereco>({
   logradouro: { type: String },

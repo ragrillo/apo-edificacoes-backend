@@ -1,11 +1,11 @@
+import Routes from '@src/routes';
 import path from 'path';
 import cors from 'cors';
-import express, { Application } from 'express';
-import Routes from './routes';
+import express from 'express';
 
 class App {
   private routes: Routes;
-  private app: Application;
+  private app: express.Application;
 
   constructor() {
     this.app = express();

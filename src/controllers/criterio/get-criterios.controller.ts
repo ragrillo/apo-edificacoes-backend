@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { CriterioModel } from '../../models';
-import { HttpResponse, HttpStatus } from '../../utils';
+import { CriterioModel } from '@src/models';
+import { HttpResponse, HttpStatus } from '@src/utils';
 
 class GetCriteriosController {
   public async handle(request: Request, response: Response): Promise<Response> {

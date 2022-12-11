@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { UnidadeModel } from '../../models';
-import { HttpResponse, HttpStatus } from '../../utils';
+import { UnidadeModel } from '@src/models';
+import { HttpResponse, HttpStatus } from '@src/utils';
 
 class CadastrarUnidade {
   public async handle(request: Request, response: Response) {   

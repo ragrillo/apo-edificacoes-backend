@@ -1,5 +1,5 @@
 import { model, Schema } from 'mongoose';
-import { IAmbiente } from '../interfaces';
+import { IAmbiente } from '@src/interfaces';
 
 const tipoAmbienteEnum = ['Coberto', 'Descoberto'];
 

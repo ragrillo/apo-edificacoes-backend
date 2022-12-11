@@ -2,8 +2,8 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 
 import { Request, Response } from 'express';
-import { UsuarioModel } from '../../models';
-import { HttpResponse, HttpStatus } from '../../utils';
+import { UsuarioModel } from '@src/models';
+import { HttpResponse, HttpStatus } from '@src/utils';
 
 class LoginUsuarioController {
   public async handle(request: Request, response: Response) {

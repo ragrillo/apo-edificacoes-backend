@@ -1,9 +1,9 @@
 import bcrypt from 'bcrypt';
 import { Request, Response } from 'express';
 
-import { IUsuario } from '../../interfaces';
-import { UsuarioModel } from '../../models';
-import { HttpResponse, HttpStatus } from '../../utils';
+import { IUsuario } from '@src/interfaces';
+import { UsuarioModel } from '@src/models';
+import { HttpResponse, HttpStatus } from '@src/utils';
 
 interface INovoUsuario extends IUsuario {
   confirmarSenha: string;

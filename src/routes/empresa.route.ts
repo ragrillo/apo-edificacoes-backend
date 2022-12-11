@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { CadastrarEmpresa, GetAllEmpresas } from '../controllers/empresa';
+import { CadastrarEmpresa, GetAllEmpresas } from '@src/controllers/empresa';
 
 class EmpresaRouter {
   public router: Router;

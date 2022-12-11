@@ -1,5 +1,5 @@
 import { model, Schema } from 'mongoose';
-import { IEmpresa } from '../interfaces';
+import { IEmpresa } from '@src/interfaces';
 
 const empresaSchema = new Schema<IEmpresa>({
   nome: { type: String },

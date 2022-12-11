@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { CadastrarUnidade } from '../controllers/unidade';
+import { CadastrarUnidade } from '@src/controllers/unidade';
 
 class UnidadeRouter {
   public router: Router;

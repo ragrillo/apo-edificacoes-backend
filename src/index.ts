@@ -1,11 +1,10 @@
-import { config } from 'dotenv';
-
-import App from './app';
-import Database from './database';
+import App from '@src/app';
+import Database from '@src/database';
+import dotenv from 'dotenv';
 
 const NODE_ENV = process.env.NODE_ENV || 'development';
 
-config({ path: `.env.${NODE_ENV}` });
+dotenv.config({ path: `.env.${NODE_ENV}` });
 
 const server = new App();
 const database = new Database();

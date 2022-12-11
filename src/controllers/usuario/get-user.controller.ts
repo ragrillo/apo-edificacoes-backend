@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { UsuarioModel } from '../../models';
-import { HttpResponse, HttpStatus } from '../../utils';
+import { UsuarioModel } from '@src/models';
+import { HttpResponse, HttpStatus } from '@src/utils';
 
 class GetUserController {
   public async handle(request: Request, response: Response) {

@@ -6,7 +6,7 @@ import {
   UpdateUserController,
   LoginUsuarioController,
   CadastrarUsuarioController,
-} from '../controllers/usuario';
+} from '@src/controllers/usuario';
 
 class UsuarioRouter {
   public router: Router;

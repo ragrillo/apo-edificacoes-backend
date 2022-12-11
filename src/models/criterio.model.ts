@@ -1,5 +1,5 @@
 import { model, Schema } from 'mongoose';
-import { ICriterio } from '../interfaces';
+import { ICriterio } from '@src/interfaces';
 
 const criterioSchema = new Schema<ICriterio>({
   titulo: { type: String },

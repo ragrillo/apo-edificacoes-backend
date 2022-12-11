@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { CadastrarAmbiente, GetAmbientesController } from '../controllers/ambiente';
+import { CadastrarAmbiente, GetAmbientesController } from '@src/controllers/ambiente';
 
 class AmbienteRouter {
   public router: Router;

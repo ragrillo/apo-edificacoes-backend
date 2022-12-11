@@ -1,5 +1,5 @@
 import { model, Schema } from 'mongoose';
-import { IUsuario } from '../interfaces';
+import { IUsuario } from '@src/interfaces';
 
 const usuarioSchema = new Schema<IUsuario>({
   cargo: { type: String },

@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { AmbienteModel } from '../../models';
-import { HttpResponse, HttpStatus } from '../../utils';
+import { AmbienteModel } from '@src/models';
+import { HttpResponse, HttpStatus } from '@src/utils';
 
 class CadastrarAmbiente {
   public async handle(request: Request, response: Response) {

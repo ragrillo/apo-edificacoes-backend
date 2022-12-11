@@ -1,8 +1,8 @@
 import validator from 'validator';
-import { IEmpresa } from '../../interfaces';
-import { EmpresaModel } from '../../models';
+import { IEmpresa } from '@src/interfaces';
+import { EmpresaModel } from '@src/models';
 import { Request, Response } from 'express';
-import { HttpResponse, HttpStatus } from '../../utils';
+import { HttpResponse, HttpStatus } from '@src/utils';
 
 const CNPJ_REGEX = '[0-9]{2}.[0-9]{3}.[0-9]{3}/[0-9]{4}-[0-9]{2}';
 

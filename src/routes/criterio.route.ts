@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { GetCriteriosController } from '../controllers/criterio';
+import { GetCriteriosController } from '@src/controllers/criterio';
 
 class CriterioRouter {
   public router: Router;
