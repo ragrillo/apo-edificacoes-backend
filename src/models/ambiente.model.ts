@@ -25,6 +25,7 @@ const areaAberturaSchema = new Schema({
 
 const ambienteSchema = new Schema<IAmbiente>({
   nomeAmbiente: { type: String },
+  grupoAmbiente: { type: String },
   tipoAmbiente: { type: String, enum: tipoAmbienteEnum },
   dimensoes: { type: dimensoesSchema },
   areaAmbiente: { type: Number },

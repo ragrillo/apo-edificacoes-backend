@@ -22,6 +22,7 @@ type TipoAreaAbertura = {
 
 interface IAmbiente {
   nomeAmbiente: string;
+  grupoAmbiente: string;
   tipoAmbiente: TipoAmbiente;
   dimensoes: TipoDimensioes;
   areaAmbiente: number;
