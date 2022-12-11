@@ -4,10 +4,13 @@ import jwt from 'jsonwebtoken';
 import { Request, Response } from 'express';
 import { UsuarioModel } from '@src/models';
 import { HttpResponse, HttpStatus } from '@src/utils';
+import { environmentVarialbles } from '@src/utils';
 
 class LoginUsuarioController {
   public async handle(request: Request, response: Response) {
     const { email, password } = request.body;
+    const { SECRET_KEY } = environmentVarialbles;
+
     const user = await UsuarioModel.findOne({ email });
 
     if (!user) return response.json(HttpResponse.create(HttpStatus.NOT_FOUND, 'Usuário não encontrado!'));
@@ -25,7 +28,7 @@ class LoginUsuarioController {
       edificacao: user.edificacao,
     };
 
-    const token = jwt.sign(payload, String(process.env.SECRET_KEY));
+    const token = jwt.sign(payload, SECRET_KEY);
 
     return response.json(HttpResponse.create(HttpStatus.OK, token));
   }
