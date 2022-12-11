@@ -26,7 +26,6 @@ class App {
     this.app.use('/api/v1/usuario', this.routes.usuario);
     this.app.use('/api/v1/unidade', this.routes.unidade);
     this.app.use('/api/v1/ambiente', this.routes.ambiente);
-    this.app.use('/api/v1/empresa', this.routes.empresa);
     this.app.use('/api/v1/criterio', this.routes.criterio);
   }
 
