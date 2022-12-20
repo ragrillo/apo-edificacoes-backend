@@ -36,6 +36,7 @@ interface IEscola {
 
 interface IUnidade {
   nome: String;
+  usuario: String;
   responsavel: String;
   telefone: String;
   horarioFuncionamento: String[];

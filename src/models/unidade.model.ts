@@ -44,6 +44,7 @@ const UBSchema = new Schema<IUBS>({
 
 const unidadeSchema = new Schema<IUnidade>({
   nome: { type: String, required: true },
+  usuario: { type: String, required: true },
   telefone: { type: String, required: true },
   responsavel: { type: String, required: true },
   horarioFuncionamento: [{ type: String }],

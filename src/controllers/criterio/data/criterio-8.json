@@ -1,0 +1,14 @@
+[
+  {
+    "titulo": "VIII - Qualidade do Ar",
+    "subtitulo": "Circulação e Renovação do Ar",
+    "endpoint": "/criterio/8/1",
+    "grupo": "ambiente"
+  },
+  {
+    "titulo": "VIII - Qualidade do Ar",
+    "subtitulo": "Umidade do Ar",
+    "endpoint": "/criterio/8/2",
+    "grupo": "ambiente"
+  }
+]

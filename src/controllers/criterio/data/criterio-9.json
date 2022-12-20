@@ -1,0 +1,26 @@
+[
+  {
+    "titulo": "IX - Conforto Térmico",
+    "subtitulo": "Isolamento e Conforto Térmico",
+    "endpoint": "/criterio/9/1",
+    "grupo": "ambiente"
+  },
+  {
+    "titulo": "IX - Conforto Térmico",
+    "subtitulo": "Umidade nos Ambientes",
+    "endpoint": "/criterio/9/2",
+    "grupo": "ambiente"
+  },
+  {
+    "titulo": "IX - Conforto Térmico",
+    "subtitulo": "Variação Térmica",
+    "endpoint": "/criterio/9/3",
+    "grupo": "ambiente"
+  },
+  {
+    "titulo": "IX - Conforto Térmico",
+    "subtitulo": "Variação Natural",
+    "endpoint": "/criterio/9/4",
+    "grupo": "ambiente"
+  }
+]

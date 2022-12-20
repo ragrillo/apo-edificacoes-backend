@@ -1,0 +1,44 @@
+[
+  {
+    "titulo": "XIX - Promoção e Manutençao da Saúde",
+    "subtitulo": "Influência da Saúde",
+    "endpoint": "/criterio/19/1",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "XIX - Promoção e Manutençao da Saúde",
+    "subtitulo": "Medidas de Limpeza",
+    "endpoint": "/criterio/19/2",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "XIX - Promoção e Manutençao da Saúde",
+    "subtitulo": "Capacidade de Antender às Necessidades dos Ocupantes",
+    "endpoint": "/criterio/19/3",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "XIX - Promoção e Manutençao da Saúde",
+    "subtitulo": "Medidade Preventivas",
+    "endpoint": "/criterio/19/4",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "XIX - Promoção e Manutençao da Saúde",
+    "subtitulo": "Serviços de Saúde",
+    "endpoint": "/criterio/19/5",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "XIX - Promoção e Manutençao da Saúde",
+    "subtitulo": "Serviços de Nutrição",
+    "endpoint": "/criterio/19/6",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "XIX - Promoção e Manutençao da Saúde",
+    "subtitulo": "Fadiga e Stress no Trabalho",
+    "endpoint": "/criterio/19/7",
+    "grupo": "gestao"
+  }
+]

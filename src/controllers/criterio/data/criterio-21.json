@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "XXI - Aspectos Sociais e Culturais",
+    "subtitulo": "Desenvolvimento da Comunidade Local",
+    "endpoint": "/criterio/21/1",
+    "grupo": "outros"
+  },
+  {
+    "titulo": "XXI - Aspectos Sociais e Culturais",
+    "subtitulo": "Contratação de Bens e Serviços Locais / Prioridade Regional",
+    "endpoint": "/criterio/21/2",
+    "grupo": "outros"
+  },
+  {
+    "titulo": "XXI - Aspectos Sociais e Culturais",
+    "subtitulo": "Valor Cultural - Estrutura do Patrimônio",
+    "endpoint": "/criterio/21/3",
+    "grupo": "outros"
+  }
+]

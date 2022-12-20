@@ -1,0 +1,14 @@
+[
+  {
+    "titulo": "XVI - Custos",
+    "subtitulo": "Custo de Manutenção",
+    "endpoint": "/criterio/16/1",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "XVI - Custos",
+    "subtitulo": "Custo Previsto x Custo Realizado",
+    "endpoint": "/criterio/16/2",
+    "grupo": "gestao"
+  }
+]

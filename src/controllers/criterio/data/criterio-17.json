@@ -1,0 +1,26 @@
+[
+  {
+    "titulo": "XVII - Local, Uso e Ocupação do Terreno",
+    "subtitulo": "Localização e Conexão com o Entorno",
+    "endpoint": "/criterio/17/1",
+    "grupo": "ambiente"
+  },
+  {
+    "titulo": "XVII - Local, Uso e Ocupação do Terreno",
+    "subtitulo": "Implantação / Orientação Solar",
+    "endpoint": "/criterio/17/2",
+    "grupo": "outros"
+  },
+  {
+    "titulo": "XVII - Local, Uso e Ocupação do Terreno",
+    "subtitulo": "Topografia",
+    "endpoint": "/criterio/17/3",
+    "grupo": "outros"
+  },
+  {
+    "titulo": "XVII - Local, Uso e Ocupação do Terreno",
+    "subtitulo": "Impermeabilização",
+    "endpoint": "/criterio/17/4",
+    "grupo": "ambiente"
+  }
+]

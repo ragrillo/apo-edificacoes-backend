@@ -1,0 +1,80 @@
+[
+  {
+    "titulo": "V - Espaços",
+    "subtitulo": "Área de Recreação e Ambientes",
+    "endpoint": "/criterio/5/1",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "V - Espaços",
+    "subtitulo": "Dimensões dos Espaços",
+    "endpoint": "/criterio/5/2",
+    "grupo": "ambientes"
+  },
+  {
+    "titulo": "V - Espaços",
+    "subtitulo": "Atendimento ao Público",
+    "endpoint": "/criterio/5/3",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "V - Espaços",
+    "subtitulo": "Área de Espera",
+    "endpoint": "/criterio/5/4",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "V - Espaços",
+    "subtitulo": "Banheiros",
+    "endpoint": "/criterio/5/5",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "V - Espaços",
+    "subtitulo": "Espaço de Armazenamento / Almoxarifado",
+    "endpoint": "/criterio/5/6",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "V - Espaços",
+    "subtitulo": "Espaços de Administração",
+    "endpoint": "/criterio/5/7",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "V - Espaços",
+    "subtitulo": "Área de Trabalho",
+    "endpoint": "/criterio/5/8",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "V - Espaços",
+    "subtitulo": "Área de Vestiário",
+    "endpoint": "/criterio/5/9",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "V - Espaços",
+    "subtitulo": "Cozinha",
+    "endpoint": "/criterio/5/10",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "V - Espaços",
+    "subtitulo": "Área de Descanso",
+    "endpoint": "/criterio/5/11",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "V - Espaços",
+    "subtitulo": "Área de Apoio aos Usuários",
+    "endpoint": "/criterio/5/12",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "V - Espaços",
+    "subtitulo": "Paisagismo",
+    "endpoint": "/criterio/5/13",
+    "grupo": "gestao"
+  }
+]

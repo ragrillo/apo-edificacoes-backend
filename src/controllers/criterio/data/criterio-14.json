@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "XIV - Instalações Hidráulicas",
+    "subtitulo": "Instalações Hidráulicas",
+    "endpoint": "/criterio/14/1",
+    "grupo": "ambiente"
+  },
+  {
+    "titulo": "XIV - Instalações Hidráulicas",
+    "subtitulo": "Sistema de Telecomunicação",
+    "endpoint": "/criterio/14/2",
+    "grupo": "ambiente"
+  },
+  {
+    "titulo": "XIV - Instalações Hidráulicas",
+    "subtitulo": "Redução e Consumo em Hoŕario de Pico",
+    "endpoint": "/criterio/14/3",
+    "grupo": "ambiente"
+  }
+]

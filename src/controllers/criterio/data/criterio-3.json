@@ -1,0 +1,26 @@
+[
+  {
+    "titulo": "III - Acessibilidade e Circulação",
+    "subtitulo": "Acessos e Circulação no Interior da Edificação",
+    "endpoint": "/criterio/3/1",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "III - Acessibilidade e Circulação",
+    "subtitulo": "Acessibilidade",
+    "endpoint": "/criterio/3/2",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "III - Acessibilidade e Circulação",
+    "subtitulo": "Acesso à Remoção do Resíduos",
+    "endpoint": "/criterio/3/3",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "III - Acessibilidade e Circulação",
+    "subtitulo": "Sinalização Interna e Externa",
+    "endpoint": "/criterio/3/4",
+    "grupo": "gestao"
+  }
+]

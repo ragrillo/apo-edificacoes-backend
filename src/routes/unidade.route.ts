@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { CadastrarUnidade } from '@src/controllers/unidade';
+import { CadastrarUnidade, GetUnidadesByUsuarioController } from '@src/controllers/unidade';
 
 class UnidadeRouter {
   public router: Router;
@@ -10,6 +10,7 @@ class UnidadeRouter {
   }
 
   private setRoutes(): void {
+    this.router.get('/:usuario', new GetUnidadesByUsuarioController().handle);
     this.router.post('/', new CadastrarUnidade().handle);
   }
 }

@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { GetCriteriosController } from '@src/controllers/criterio';
+import { GetCriteriosController, CadastrarCriteriosController } from '@src/controllers/criterio';
 
 class CriterioRouter {
   public router: Router;
@@ -11,6 +11,7 @@ class CriterioRouter {
 
   private setRoutes(): void {
     this.router.get('/', new GetCriteriosController().handle);
+    this.router.post('/', new CadastrarCriteriosController().handle);
   }
 }
 

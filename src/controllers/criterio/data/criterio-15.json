@@ -1,0 +1,80 @@
+[
+  {
+    "titulo": "XV - Sustentabilidade",
+    "subtitulo": "Gestão de Captação de Chuvas",
+    "endpoint": "/criterio/15/1",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "XV - Sustentabilidade",
+    "subtitulo": "Poluição Ambiental - Redução de Poluentes Internos e Externos",
+    "endpoint": "/criterio/15/2",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "XV - Sustentabilidade",
+    "subtitulo": "Plano de Gestão Ambiental",
+    "endpoint": "/criterio/15/3",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "XV - Sustentabilidade",
+    "subtitulo": "Economia e Eficiência Energética",
+    "endpoint": "/criterio/15/4",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "XV - Sustentabilidade",
+    "subtitulo": "Fontes de Energia Alternativa",
+    "endpoint": "/criterio/15/5",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "XV - Sustentabilidade",
+    "subtitulo": "Economia e Eficiência Hídrica",
+    "endpoint": "/criterio/15/6",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "XV - Sustentabilidade",
+    "subtitulo": "Uso de Águas Cinzas",
+    "endpoint": "/criterio/15/7",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "XV - Sustentabilidade",
+    "subtitulo": "Redução de Efeito Ilha de Calor",
+    "endpoint": "/criterio/15/8",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "XV - Sustentabilidade",
+    "subtitulo": "ACV - Avaliação do Ciclo de Vida",
+    "endpoint": "/criterio/15/9",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "XV - Sustentabilidade",
+    "subtitulo": "Contratação de Especialista Ambiental",
+    "endpoint": "/criterio/15/10",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "XV - Sustentabilidade",
+    "subtitulo": "Uso Racional de Insumos",
+    "endpoint": "/criterio/15/11",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "XV - Sustentabilidade",
+    "subtitulo": "Gestão de Resíduos",
+    "endpoint": "/criterio/15/12",
+    "grupo": "gestao"
+  },
+  {
+    "titulo": "XV - Sustentabilidade",
+    "subtitulo": "Recuperação de Efluentes",
+    "endpoint": "/criterio/15/13",
+    "grupo": "gestao"
+  }
+]
