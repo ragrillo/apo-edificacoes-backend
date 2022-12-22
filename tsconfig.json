@@ -25,5 +25,14 @@
       "./src",
       "./test"
     ],
-  }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "docs",
+    "test"
+  ]
 }
