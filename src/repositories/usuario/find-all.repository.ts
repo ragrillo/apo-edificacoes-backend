@@ -1,3 +1,4 @@
+import { MongoClient } from '../../database/mongo.database';
 import { Usuario } from '../../models/usuario.model';
 
 export interface IFindAllUsuariosRepository {
@@ -6,15 +7,10 @@ export interface IFindAllUsuariosRepository {
 
 export class FindAllUsuariosRepository implements IFindAllUsuariosRepository {
   async handle(): Promise<Usuario[]> {
-    const usuarios = [
-      {
-        id: '1',
-        nomeCompleto: 'John Doe',
-        email: 'john.doe@xample.com',
-        senha: '123456',
-      }
-    ];
+    const usuarios = await MongoClient.db.collection<Omit<Usuario, 'id'>>('usuarios').find().toArray();
 
-    return usuarios;
+    return usuarios.map(({ _id, ...usuario }) => {
+      return { ...usuario, id: _id.toHexString() };
+    });
   }
 }
