@@ -9,24 +9,24 @@ import { FindAllUsuariosService } from '../services/usuario/find-all.service';
 
 const usuarioRouter = Router();
 
-usuarioRouter.get('/', async (httpRequest: Request, httpResponse: Response) => {
+usuarioRouter.get('/', async (request: Request, response: Response) => {
   const findAllUsuariosRepository = new FindAllUsuariosRepository();
   const findAllUsuariosService = new FindAllUsuariosService(findAllUsuariosRepository);
   const findAllUsuariosController = new FindAllUsuariosController(findAllUsuariosService);
 
-  const { statusCode, body } = await findAllUsuariosController.handle();
+  const httpResponse = await findAllUsuariosController.handle();
 
-  httpResponse.status(statusCode).json(body);
+  response.status(httpResponse.statusCode).json(httpResponse);
 });
 
-usuarioRouter.post('/', async (httpRequest: Request, httpResponse: Response) => {
+usuarioRouter.post('/', async (request: Request, response: Response) => {
   const createUsuarioRepository = new CreateUsuarioRepository();
   const createUsuarioService = new CreateUsuarioService(createUsuarioRepository);
   const createUsuarioController = new CreateUsuarioController(createUsuarioService);
 
-  const { statusCode, body } = await createUsuarioController.handle(httpRequest);
+  const httpResponse = await createUsuarioController.handle(request);
 
-  httpResponse.status(statusCode).json(body);
+  response.status(httpResponse.statusCode).json(httpResponse);
 });
 
 export { usuarioRouter };
