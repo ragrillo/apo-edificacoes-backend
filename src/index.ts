@@ -1,11 +1,13 @@
-import App from '@src/app';
-import Database from '@src/database';
-import { environmentVarialbles } from '@src/utils';
+import express from 'express';
+import { usuarioRouter } from './routers/usuario.router';
 
-const server = new App();
-const database = new Database();
+const app = express();
 
-const { DATABASE_URL, PORT } = environmentVarialbles;
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-database.connect(DATABASE_URL);
-server.initialize(PORT);
+app.use('/api/v1/usuarios', usuarioRouter);
+
+app.listen(3000, () => {
+  console.log('Server started on port 3000');
+});
