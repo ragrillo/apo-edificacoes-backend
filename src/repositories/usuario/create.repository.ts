@@ -1,3 +1,4 @@
+import { MongoClient } from '../../database/mongo.database';
 import { Usuario } from '../../models/usuario.model';
 
 export interface CreateUsuarioParams {
@@ -12,13 +13,13 @@ export interface ICreateUsuarioRepository {
 
 export class CreateUsuarioRepository implements ICreateUsuarioRepository {
   async handle(data: CreateUsuarioParams): Promise<Usuario> {
-    const usuario = {
-      id: '1',
-      nomeCompleto: data.nomeCompleto,
-      email: data.email,
-      senha: data.senha,
-    };
+    const { insertedId } = await MongoClient.db.collection('usuarios').insertOne(data);
+    const usuario = await MongoClient.db.collection<Omit<Usuario, 'id'>>('usuarios').findOne({ _id: insertedId });
 
-    return usuario;
+    if (!usuario) {
+      throw new Error('Erro ao criar usuário.');
+    }
+
+    return { id: usuario._id.toHexString(), ...usuario };
   }
 }
