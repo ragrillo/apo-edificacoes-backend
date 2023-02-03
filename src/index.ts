@@ -1,13 +1,20 @@
 import express from 'express';
+import { MongoClient } from './database/mongo.database';
 import { usuarioRouter } from './routers/usuario.router';
 
-const app = express();
+const main = async () => {
+  await MongoClient.connect();
 
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+  const app = express();
 
-app.use('/api/v1/usuarios', usuarioRouter);
+  app.use(express.json());
+  app.use(express.urlencoded({ extended: true }));
 
-app.listen(3000, () => {
-  console.log('Server started on port 3000');
-});
+  app.use('/api/v1/usuarios', usuarioRouter);
+
+  app.listen(3000, () => {
+    console.log('Server started on port 3000');
+  });
+}
+
+main();
