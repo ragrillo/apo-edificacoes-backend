@@ -1,18 +1,23 @@
+import { HttpRequest } from '../../interfaces/http-request';
 import { HttpResponse } from '../../interfaces/http-response';
 import { Usuario } from '../../models/usuario.model';
 import { IFindOneUsuarioService } from '../../services/usuario/find-one.service';
 import { HttpStatusCodes } from '../../utils/http-status-codes.utils';
 
+interface FindOneParams {
+  id: string;
+}
+
 export interface IFindOneUsuarioController {
-  handle(id: string): Promise<HttpResponse<Usuario>>;
+  handle(data: HttpRequest<FindOneParams>): Promise<HttpResponse<Usuario>>;
 }
 
 export class FindOneUsuarioController implements IFindOneUsuarioController {
   constructor(private readonly findOneUsuarioService: IFindOneUsuarioService) {}
 
-  async handle(id: string): Promise<HttpResponse<Usuario>> {
+  async handle(data: HttpRequest<FindOneParams>): Promise<HttpResponse<Usuario>> {
     try {
-      const usuario = await this.findOneUsuarioService.findById(id);
+      const usuario = await this.findOneUsuarioService.findById(data.params.id);
 
       if (!usuario) {
         return {

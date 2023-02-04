@@ -31,13 +31,11 @@ usuarioRouter.get('/', async (request: Request, response: Response) => {
 });
 
 usuarioRouter.get('/:id', async (request: Request, response: Response) => {
-  const { id } = request.params;
-
   const findOneUsuarioRepository = new FindOneUsuarioRepository();
   const findOneUsuarioService = new FindOneUsuarioService(findOneUsuarioRepository);
   const findOneUsuarioController = new FindOneUsuarioController(findOneUsuarioService);
 
-  const httpResponse = await findOneUsuarioController.handle(id);
+  const httpResponse = await findOneUsuarioController.handle(request);
 
   response.status(httpResponse.statusCode).json(httpResponse);
 });
@@ -55,7 +53,6 @@ usuarioRouter.post('/', async (request: Request, response: Response) => {
 
 usuarioRouter.post('/login', async (request: Request, response: Response) => {
   const secret = process.env.SECRET_KEY as string;
-  console.log(secret);
 
   const jwtTokenAdapter = new JwtTokenAdapter(secret);
   const hashPasswordAdapter = new HashPasswordAdapter();
