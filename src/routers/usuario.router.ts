@@ -9,6 +9,8 @@ import { FindOneUsuarioRepository } from '../repositories/usuario/find-one.repos
 import { CreateUsuarioService } from '../services/usuario/create.service';
 import { FindAllUsuariosService } from '../services/usuario/find-all.service';
 import { FindOneUsuarioService } from '../services/usuario/find-one.service';
+import { LoginUsuarioService } from '../services/usuario/login.service';
+import { LoginUsuarioController } from '../controllers/usuario/login.controller';
 
 const usuarioRouter = Router();
 
@@ -40,6 +42,16 @@ usuarioRouter.post('/', async (request: Request, response: Response) => {
   const createUsuarioController = new CreateUsuarioController(createUsuarioService);
 
   const httpResponse = await createUsuarioController.handle(request);
+
+  response.status(httpResponse.statusCode).json(httpResponse);
+});
+
+usuarioRouter.post('/login', async (request: Request, response: Response) => {
+  const findOneUsuarioRepository = new FindOneUsuarioRepository();
+  const loginUsuarioService = new LoginUsuarioService(findOneUsuarioRepository);
+  const loginUsuarioController = new LoginUsuarioController(loginUsuarioService);
+
+  const httpResponse = await loginUsuarioController.handle(request);
 
   response.status(httpResponse.statusCode).json(httpResponse);
 });
