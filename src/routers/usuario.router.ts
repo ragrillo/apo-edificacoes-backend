@@ -1,4 +1,5 @@
 import { Router, Request, Response } from 'express';
+import { config } from 'dotenv';
 
 import { HashPasswordAdapter } from '../adapters/hash-password.adapter';
 import { CreateUsuarioController } from '../controllers/usuario/create.controller';
@@ -12,6 +13,10 @@ import { FindAllUsuariosService } from '../services/usuario/find-all.service';
 import { FindOneUsuarioService } from '../services/usuario/find-one.service';
 import { LoginUsuarioService } from '../services/usuario/login.service';
 import { LoginUsuarioController } from '../controllers/usuario/login.controller';
+import { JwtTokenAdapter } from '../adapters/jwt-token.adapter';
+
+const NODE_ENV = process.env.NODE_ENV || 'development';
+config({ path: `${__dirname}/../../.env.${NODE_ENV}` });
 
 const usuarioRouter = Router();
 
@@ -49,8 +54,14 @@ usuarioRouter.post('/', async (request: Request, response: Response) => {
 });
 
 usuarioRouter.post('/login', async (request: Request, response: Response) => {
+  const secret = process.env.SECRET_KEY as string;
+  console.log(secret);
+
+  const jwtTokenAdapter = new JwtTokenAdapter(secret);
+  const hashPasswordAdapter = new HashPasswordAdapter();
+
   const findOneUsuarioRepository = new FindOneUsuarioRepository();
-  const loginUsuarioService = new LoginUsuarioService(findOneUsuarioRepository);
+  const loginUsuarioService = new LoginUsuarioService(findOneUsuarioRepository, hashPasswordAdapter, jwtTokenAdapter);
   const loginUsuarioController = new LoginUsuarioController(loginUsuarioService);
 
   const httpResponse = await loginUsuarioController.handle(request);
