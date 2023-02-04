@@ -1,4 +1,4 @@
-type Edificacao = 'Escola' | 'UBS' | 'Residência';
+export type Edificacao = 'Escola' | 'UBS' | 'Residência';
 type Status = 'Pendente' | 'Ativado' | 'Desativado';
 
 export interface Usuario {
