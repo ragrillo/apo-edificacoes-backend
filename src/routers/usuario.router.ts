@@ -1,5 +1,6 @@
 import { Router, Request, Response } from 'express';
 
+import { HashPasswordAdapter } from '../adapters/hash-password.adapter';
 import { CreateUsuarioController } from '../controllers/usuario/create.controller';
 import { FindAllUsuariosController } from '../controllers/usuario/find-all.controller';
 import { FindOneUsuarioController } from '../controllers/usuario/find-one.controller';
@@ -38,7 +39,8 @@ usuarioRouter.get('/:id', async (request: Request, response: Response) => {
 
 usuarioRouter.post('/', async (request: Request, response: Response) => {
   const createUsuarioRepository = new CreateUsuarioRepository();
-  const createUsuarioService = new CreateUsuarioService(createUsuarioRepository);
+  const hashPasswordAdapter = new HashPasswordAdapter();
+  const createUsuarioService = new CreateUsuarioService(createUsuarioRepository, hashPasswordAdapter);
   const createUsuarioController = new CreateUsuarioController(createUsuarioService);
 
   const httpResponse = await createUsuarioController.handle(request);

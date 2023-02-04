@@ -28,6 +28,8 @@ export class CreateUsuarioController implements ICreateUsuarioController {
         body: usuario,
       };
     } catch (error) {
+      console.error(error);
+      
       return {
         statusCode: HttpStatusCodes.INTERNAL_SERVER_ERROR,
         body: 'Erro interno do servidor.',

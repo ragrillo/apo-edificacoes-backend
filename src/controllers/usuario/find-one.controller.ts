@@ -12,7 +12,7 @@ export class FindOneUsuarioController implements IFindOneUsuarioController {
 
   async handle(id: string): Promise<HttpResponse<Usuario>> {
     try {
-      const usuario = await this.findOneUsuarioService.handle(id);
+      const usuario = await this.findOneUsuarioService.findById(id);
 
       if (!usuario) {
         return {
