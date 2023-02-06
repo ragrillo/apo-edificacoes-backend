@@ -2,6 +2,7 @@ import { Endereco } from '../interfaces/endereco.interface';
 import { Edificacao } from './usuario.model';
 
 interface Unidade {
+  id: string;
   nome: string;
   telefone: string;
   responsavel: string;
