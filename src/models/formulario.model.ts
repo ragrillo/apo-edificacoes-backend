@@ -8,6 +8,7 @@ type Resposta = {
 }
 
 export interface Formulario {
+  id: string;
   titulo: string;
   respostas: Resposta[];
 }
