@@ -3,6 +3,7 @@ import { MongoClient } from './database/mongo.database';
 
 import { usuarioRouter } from './routers/usuario.router';
 import { formularioRouter } from './routers/formulario.router';
+import { ambienteRouter } from './routers/ambiente.router';
 
 const main = async () => {
   await MongoClient.connect();
@@ -15,6 +16,7 @@ const main = async () => {
 
   app.use('/api/v1/usuarios', usuarioRouter);
   app.use('/api/v1/formularios', formularioRouter);
+  app.use('/api/v1/ambientes', ambienteRouter);
 
   app.listen(PORT, () => {
     console.log(`Server started on port ${PORT}`);
