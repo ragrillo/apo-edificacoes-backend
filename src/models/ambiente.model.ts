@@ -3,7 +3,7 @@ export type Cobertura = 'Coberto' | 'Descoberto';
 type Dimensoes = {
   largura: number;
   comprimento: number;
-  peDireito: number; 
+  peDireito: number;
 }
 
 type Area = {
@@ -15,6 +15,7 @@ type Area = {
 }
 
 export interface Ambiente {
+  id: string;
   nome: string;
   grupo: string;
   cobertura: Cobertura;
