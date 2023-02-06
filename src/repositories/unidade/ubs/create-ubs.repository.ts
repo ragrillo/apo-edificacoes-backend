@@ -9,8 +9,8 @@ export interface ICreateUBSRepository {
 
 export class CreateUBSRepository implements ICreateUBSRepository {
   async handle(data: CreateUBSDTO): Promise<UBS> {
-    const { insertedId } = await MongoClient.db.collection('UBS').insertOne(data);
-    const UBS = await MongoClient.db.collection('UBS').findOne({ _id: insertedId });
+    const { insertedId } = await MongoClient.db.collection('ubs').insertOne(data);
+    const UBS = await MongoClient.db.collection('ubs').findOne({ _id: insertedId });
 
     if (!UBS) {
       throw new Error('UBS não encontrada');
