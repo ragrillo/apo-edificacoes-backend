@@ -1,14 +1,10 @@
-import { resolve } from 'path';
-import { config } from 'dotenv';
 import { NextFunction, Request, Response } from 'express';
 import { HttpStatusCodes } from '../utils/http-status-codes.utils';
+import { API_KEY, NODE_ENV } from '../utils/environment-variables.utils';
 
 export interface ApiKeyMiddlewareOptions {
   handle(req: Request, res: Response, next: NextFunction): void;
 }
-
-const NODE_ENV = process.env.NODE_ENV || 'development';
-config({ path: resolve(__dirname, `../../.env.${NODE_ENV}`) });
 
 export class ApiKeyMiddleware {
   public handle(request: Request, response: Response, next: NextFunction) {
@@ -16,7 +12,7 @@ export class ApiKeyMiddleware {
       return next();
     }
 
-    if (request.headers['x-api-key'] === process.env.API_KEY) {
+    if (request.headers['x-api-key'] === API_KEY) {
       return next();
     }
 

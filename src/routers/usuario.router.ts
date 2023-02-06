@@ -1,25 +1,28 @@
 import { Router, Request, Response } from 'express';
-import { config } from 'dotenv';
+
+import { CreateUsuarioController } from '../controllers/usuario/create.controller';
+import { CreateUsuarioRepository } from '../repositories/usuario/create.repository';
+import { CreateUsuarioService } from '../services/usuario/create.service';
+
+import { FindAllUsuariosController } from '../controllers/usuario/find-all.controller';
+import { FindAllUsuariosRepository } from '../repositories/usuario/find-all.repository';
+import { FindAllUsuariosService } from '../services/usuario/find-all.service';
+
+import { FindOneUsuarioController } from '../controllers/usuario/find-one.controller';
+import { FindOneUsuarioRepository } from '../repositories/usuario/find-one.repository';
+import { FindOneUsuarioService } from '../services/usuario/find-one.service';
+
+import { LoginUsuarioController } from '../controllers/usuario/login.controller';
+import { LoginUsuarioService } from '../services/usuario/login.service';
+
+import { UpdateUsuarioController } from '../controllers/usuario/update.controller';
+import { UpdateUsuarioRepository } from '../repositories/usuario/update.repository';
+import { UpdateUsuarioService } from '../services/usuario/update.service';
 
 import { HashPasswordAdapter } from '../adapters/hash-password.adapter';
-import { CreateUsuarioController } from '../controllers/usuario/create.controller';
-import { FindAllUsuariosController } from '../controllers/usuario/find-all.controller';
-import { FindOneUsuarioController } from '../controllers/usuario/find-one.controller';
-import { CreateUsuarioRepository } from '../repositories/usuario/create.repository';
-import { FindAllUsuariosRepository } from '../repositories/usuario/find-all.repository';
-import { FindOneUsuarioRepository } from '../repositories/usuario/find-one.repository';
-import { CreateUsuarioService } from '../services/usuario/create.service';
-import { FindAllUsuariosService } from '../services/usuario/find-all.service';
-import { FindOneUsuarioService } from '../services/usuario/find-one.service';
-import { LoginUsuarioService } from '../services/usuario/login.service';
-import { LoginUsuarioController } from '../controllers/usuario/login.controller';
 import { JwtTokenAdapter } from '../adapters/jwt-token.adapter';
-import { UpdateUsuarioController } from '../controllers/usuario/update.controller';
-import { UpdateUsuarioService } from '../services/usuario/update.service';
-import { UpdateUsuarioRepository } from '../repositories/usuario/update.repository';
 
-const NODE_ENV = process.env.NODE_ENV || 'development';
-config({ path: `${__dirname}/../../.env.${NODE_ENV}` });
+import { SECRET_KEY } from '../utils/environment-variables.utils';
 
 const usuarioRouter = Router();
 
@@ -55,9 +58,7 @@ usuarioRouter.post('/', async (request: Request, response: Response) => {
 });
 
 usuarioRouter.post('/login', async (request: Request, response: Response) => {
-  const secret = process.env.SECRET_KEY as string;
-
-  const jwtTokenAdapter = new JwtTokenAdapter(secret);
+  const jwtTokenAdapter = new JwtTokenAdapter(SECRET_KEY as string);
   const hashPasswordAdapter = new HashPasswordAdapter();
 
   const findOneUsuarioRepository = new FindOneUsuarioRepository();

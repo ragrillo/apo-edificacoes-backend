@@ -1,17 +1,11 @@
-import { config } from 'dotenv';
-import { resolve } from 'path';
 import { Db, MongoClient as Mongo } from 'mongodb';
-
-const NODE_ENV = process.env.NODE_ENV || 'development';
-config({ path: resolve(__dirname, `../../.env.${NODE_ENV}`) });
+import { MONGODB_DATABASE, MONGODB_URL } from '../utils/environment-variables.utils';
 
 export const MongoClient = {
   client: undefined as unknown as Mongo,
   db: undefined as unknown as Db,
 
   async connect(): Promise<void> {
-    const { MONGODB_URL, MONGODB_DATABASE } = process.env;
-
     const url = MONGODB_URL || 'mongodb://localhost:27017';
     const database = MONGODB_DATABASE || 'apo-edificacoes-dev';
 
