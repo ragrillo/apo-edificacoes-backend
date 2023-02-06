@@ -10,5 +10,6 @@ type Resposta = {
 export interface Formulario {
   id: string;
   titulo: string;
+  numero: string;
   respostas: Resposta[];
 }
