@@ -7,6 +7,8 @@ import { ambienteRouter } from './routers/ambiente.router';
 import { escolaRouter } from './routers/unidade/escola.router';
 import { ubsRouter } from './routers/unidade/ubs.router';
 
+import { ApiKeyMiddleware } from './middlewares/api-key.middleware';
+
 const main = async () => {
   await MongoClient.connect();
 
@@ -15,6 +17,8 @@ const main = async () => {
 
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
+
+  app.use('/', new ApiKeyMiddleware().handle);
 
   app.use('/api/v1/usuarios', usuarioRouter);
   app.use('/api/v1/formularios', formularioRouter);
