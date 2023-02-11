@@ -1,4 +1,4 @@
-import { MongoClient } from 'src/database/mongo.database';
+import { MongoClient } from '../../../database/mongo.database';
 import { Residencia } from '../../../models/unidade.model';
 
 export interface ICreateResidenciaDTO extends Partial<Residencia> {}
