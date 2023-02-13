@@ -1,13 +1,12 @@
 import express from 'express';
+import cors from 'cors';
 import { MongoClient } from './database/mongo.database';
-
+import { ApiKeyMiddleware } from './middlewares/api-key.middleware';
 import { usuarioRouter } from './routers/usuario.router';
 import { formularioRouter } from './routers/formulario.router';
 import { ambienteRouter } from './routers/ambiente.router';
 import { escolaRouter } from './routers/unidade/escola.router';
 import { ubsRouter } from './routers/unidade/ubs.router';
-
-import { ApiKeyMiddleware } from './middlewares/api-key.middleware';
 
 const main = async () => {
   await MongoClient.connect();
@@ -17,6 +16,7 @@ const main = async () => {
 
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
+  app.use(cors());
 
   app.use('/', new ApiKeyMiddleware().handle);
 
