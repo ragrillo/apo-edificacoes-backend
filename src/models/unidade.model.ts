@@ -1,8 +1,10 @@
+import { ObjectId } from 'mongodb';
 import { Endereco } from '../interfaces/endereco.interface';
 import { Edificacao } from './usuario.model';
 
 interface Unidade {
   id: string;
+  proprietario: ObjectId;
   nome: string;
   telefone: string;
   responsavel: string;
