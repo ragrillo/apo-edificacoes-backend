@@ -24,9 +24,9 @@ const main = async () => {
   app.use('/api/v1/usuarios', usuarioRouter);
   app.use('/api/v1/formularios', formularioRouter);
   app.use('/api/v1/ambientes', ambienteRouter);
-  app.use('/api/v1/unidades/escola', escolaRouter);
-  app.use('/api/v1/unidades/ubs', ubsRouter);
-  app.use('/api/v1/unidades/residencia', unidadeRouter);
+  // app.use('/api/v1/unidades/escola', escolaRouter);
+  // app.use('/api/v1/unidades/ubs', ubsRouter);
+  app.use('/api/v1/unidades', unidadeRouter);
 
   app.listen(PORT, () => {
     console.log(`Server started on port ${PORT}`);
