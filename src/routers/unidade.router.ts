@@ -5,17 +5,47 @@ import { CreateResidenciaRepository } from '../repositories/unidade/create-resid
 import { CreateResidenciaService } from '../services/unidade/create-residencia.service';
 import { FindUnidadesByIdService } from '../services/unidade/find-unidades-by-id.service';
 import { FindUnidadesByIdController } from '../controllers/unidade/find-unidades-by-id.controller';
+import { CreateEscolaController } from '../controllers/unidade/escola/create-escola.controller';
+import { CreateEscolaRepository } from '../repositories/unidade/escola/create-escola.repository';
+import { CreateEscolaService } from '../services/unidade/escola/create-escola.service';
+import { CreateUBSService } from '../services/unidade/ubs/create-ubs.service';
+import { CreateUBSController } from '../controllers/unidade/ubs/create-ubs.controller';
+import { CreateUBSRepository } from '../repositories/unidade/ubs/create-ubs.repository';
+import { HttpStatusCodes } from '../utils/http-status-codes.utils';
 
 const unidadeRouter = Router();
 
 unidadeRouter.post('/', async (request: Request, response: Response) => {
-  const createResidenciaRepository = new CreateResidenciaRepository();
-  const createResidenciaService = new CreateResidenciaService(createResidenciaRepository);
-  const createResidenciaController = new CreateResidenciaController(createResidenciaService);
+  const { edificacao } = request.query;
 
-  const { body, statusCode } = await createResidenciaController.create(request);
+  switch (edificacao) {
+    case 'residencia':
+      const createResidenciaRepository = new CreateResidenciaRepository();
+      const createResidenciaService = new CreateResidenciaService(createResidenciaRepository);
+      const createResidenciaController = new CreateResidenciaController(createResidenciaService);
 
-  return response.status(statusCode).json(body);
+      await createResidenciaController.create(request);
+
+      break;
+    case 'escola':
+      const createEscolaRepository = new CreateEscolaRepository();
+      const createEscolaService = new CreateEscolaService(createEscolaRepository);
+      const createEscolaController = new CreateEscolaController(createEscolaService);
+
+      await createEscolaController.handle(request);
+
+      break;
+    case 'ubs':
+      const createUbsRepository = new CreateUBSRepository();
+      const createUbsService = new CreateUBSService(createUbsRepository);
+      const createUbsController = new CreateUBSController(createUbsService);
+
+      await createUbsController.handle(request);
+
+      break;
+  }
+
+  return response.status(HttpStatusCodes.CREATED).send();
 });
 
 unidadeRouter.get('/:id', async (request: Request, response: Response) => {

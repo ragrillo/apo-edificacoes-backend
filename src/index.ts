@@ -5,8 +5,6 @@ import { ApiKeyMiddleware } from './middlewares/api-key.middleware';
 import { usuarioRouter } from './routers/usuario.router';
 import { formularioRouter } from './routers/formulario.router';
 import { ambienteRouter } from './routers/ambiente.router';
-import { escolaRouter } from './routers/unidade/escola.router';
-import { ubsRouter } from './routers/unidade/ubs.router';
 import { unidadeRouter } from './routers/unidade.router';
 
 const main = async () => {
@@ -24,8 +22,6 @@ const main = async () => {
   app.use('/api/v1/usuarios', usuarioRouter);
   app.use('/api/v1/formularios', formularioRouter);
   app.use('/api/v1/ambientes', ambienteRouter);
-  // app.use('/api/v1/unidades/escola', escolaRouter);
-  // app.use('/api/v1/unidades/ubs', ubsRouter);
   app.use('/api/v1/unidades', unidadeRouter);
 
   app.listen(PORT, () => {
