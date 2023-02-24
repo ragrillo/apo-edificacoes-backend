@@ -1,7 +1,9 @@
 import express from 'express';
 import cors from 'cors';
+
 import { MongoClient } from './database/mongo.database';
 import { ApiKeyMiddleware } from './middlewares/api-key.middleware';
+
 import { usuarioRouter } from './routers/usuario.router';
 import { formularioRouter } from './routers/formulario.router';
 import { ambienteRouter } from './routers/ambiente.router';
@@ -13,6 +15,7 @@ const main = async () => {
   const app = express();
   const PORT = process.env.PORT || 3000;
 
+  app.use(cors());
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
   app.use(cors());
