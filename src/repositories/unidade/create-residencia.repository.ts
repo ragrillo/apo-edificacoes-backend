@@ -1,3 +1,4 @@
+import { ObjectId } from 'mongodb';
 import { MongoClient } from '../../database/mongo.database';
 import { Residencia } from '../../models/unidade.model';
 
@@ -9,6 +10,8 @@ export interface ICreateResidenciaRepository {
 
 export class CreateResidenciaRepository implements ICreateResidenciaRepository {
   async create(data: CreateResidenciaDTO): Promise<void> {
-    await MongoClient.db.collection('residencias').insertOne(data);
+    const payload: CreateResidenciaDTO = { ...data, proprietario: new ObjectId(data.proprietario) };
+
+    await MongoClient.db.collection('residencias').insertOne(payload);
   }
 }
