@@ -9,6 +9,8 @@ http://localhost:3000/api/v1
 
 ### Unidade
 
+#### Escola
+
 Cadastrar uma nova escola:
 ```
 POST /unidades/escolas
@@ -24,6 +26,16 @@ GET /unidades/escolas
 
 Resposta:
 - 200 | Retorna uma lista de escolas cadastradas
+
+Obter uma escola pelo ID:
+```
+GET /unidades/escolas/:id
+```
+
+Resposta:
+- 200 | Retorna uma escola
+
+### Residência
 
 Cadastrar uma nova residência:
 ```
@@ -41,6 +53,16 @@ GET /unidades/residencias
 Resposta:
 - 200 | Retorna uma lista de residências cadastradas
 
+Obter uma residência pelo ID:
+```
+GET /unidades/residencias/:id
+```
+
+Resposta:
+- 200 | Retorna uma residência
+
+### UBS
+
 Cadastrar uma nova UBS:
 ```
 POST /unidades/ubs
@@ -56,3 +78,11 @@ GET /unidades/ubs
 
 Resposta:
 - 200 | Retorna uma lista de UBS cadastradas
+
+Obter uma UBS pelo ID:
+```
+GET /unidades/ubs/:id
+```
+
+Resposta:
+- 200 | Retorna uma UBS
