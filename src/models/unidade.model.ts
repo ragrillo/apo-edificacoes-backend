@@ -1,23 +1,14 @@
-import { ObjectId } from 'mongodb';
-import { Edificacao } from './usuario.model';
-
-interface Endereco {
-  cep: string;
-  logradouro: string;
-  numero: string;
-  bairro: string;
-  cidade: string;
-  estado: string;
-}
+import IEndereco from '../interfaces/endereco.interface';
+import { EdificacaoType } from './usuario.model';
 
 interface UnidadeModel {
   id: string;
-  proprietario: ObjectId;
+  proprietario: string;
   nome: string;
   telefone: string;
   responsavel: string;
-  endereco: Endereco;
-  edificacao: Edificacao;
+  endereco: IEndereco;
+  edificacao: EdificacaoType;
   horarioFuncionamento: string[];
 }
 
@@ -34,7 +25,7 @@ interface UBSModel extends UnidadeModel {
   construtora: {
     nome: string;
     telefone: string;
-    endereco: Endereco;
+    endereco: IEndereco;
   };
 }
 
