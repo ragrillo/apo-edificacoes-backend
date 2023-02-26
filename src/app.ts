@@ -4,6 +4,7 @@ import cors from 'cors';
 import UnidadeRouter from './routers/unidade.router';
 import AmbienteRouter from './routers/ambiente.router';
 import EmpresaRouter from './routers/empresa.router';
+import UsuarioRouter from './routers/usuario.router';
 
 class App {
   app: express.Application;
@@ -24,6 +25,7 @@ class App {
     this.app.use('/api/v1/unidades', new UnidadeRouter().router);
     this.app.use('/api/v1/ambientes', new AmbienteRouter().router);
     this.app.use('/api/v1/empresas', new EmpresaRouter().router);
+    this.app.use('/api/v1/usuarios', new UsuarioRouter().router);
   }
 }
 

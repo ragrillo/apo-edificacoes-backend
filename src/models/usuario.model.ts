@@ -1,7 +1,7 @@
 interface UsuarioModel {
   id: string;
   cargo: CargoType;
-  edificacao: EdificacaoType;
+  edificacao?: EdificacaoType;
   nomeCompleto: string;
   telefone: string;
   email: string;
@@ -18,4 +18,4 @@ type EdificacaoType = 'Escola' | 'UBS' | 'Residência';
 
 type StatusType = 'Pendente' | 'Ativado' | 'Desativado';
 
-export { UsuarioModel, UsuarioDTO, EdificacaoType }
+export { UsuarioModel, UsuarioDTO, EdificacaoType, CargoType }
