@@ -51,6 +51,12 @@ class UnidadeRouter {
       return response.status(statusCode).json(body);
     });
 
+    this.router.post('/escolas', async (request: Request, response: Response) => {
+      const { statusCode, body } = await escolaController.create(request);
+
+      return response.status(statusCode).json(body);
+    });
+
     this.router.get('/residencias', async (request: Request, response: Response) => {
       const residenciaController = makeResidenciaController();
       const { statusCode, body } = await residenciaController.findAll();
@@ -58,9 +64,23 @@ class UnidadeRouter {
       return response.status(statusCode).json(body);
     });
 
+    this.router.post('/residencias', async (request: Request, response: Response) => {
+      const residenciaController = makeResidenciaController();
+      const { statusCode, body } = await residenciaController.create(request);
+
+      return response.status(statusCode).json(body);
+    });
+
     this.router.get('/ubs', async (request: Request, response: Response) => {
       const ubsController = makeUBSController();
       const { statusCode, body } = await ubsController.findAll();
+
+      return response.status(statusCode).json(body);
+    });
+
+    this.router.post('/ubs', async (request: Request, response: Response) => {
+      const ubsController = makeUBSController();
+      const { statusCode, body } = await ubsController.create(request);
 
       return response.status(statusCode).json(body);
     });
