@@ -134,3 +134,45 @@ DELETE /unidades/ubs/:id
 
 Resposta:
 - 204 | Não possui retorno
+
+### Ambiente
+
+Cadastrar um novo ambiente:
+```
+POST /ambientes
+```
+
+Resposta:
+- 201 | Não possui retorno
+
+Obter lista de ambientes cadastrados:
+```
+GET /ambientes
+```
+
+Resposta:
+- 200 | Retorna uma lista de ambientes cadastrados
+
+Obter um ambiente pelo ID:
+```
+GET /ambientes/:id
+```
+
+Resposta:
+- 200 | Retorna um ambiente
+
+Atualizar um ambiente pelo ID:
+```
+PUT /ambientes/:id
+```
+
+Resposta:
+- 204 | Não possui retorno
+
+Remover um ambiente pelo ID:
+```
+DELETE /ambientes/:id
+```
+
+Resposta:
+- 204 | Não possui retorno
