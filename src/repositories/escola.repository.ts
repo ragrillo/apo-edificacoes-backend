@@ -1,5 +1,5 @@
-import { MongoClient } from '../database/mongo.database';
 import { EscolaModel } from '../models/unidade.model';
+import MongoClient from '../database/mongo.database';
 import IBaseRepository from './base.repository';
 
 interface IEscolaRepository extends IBaseRepository<EscolaModel> {}
