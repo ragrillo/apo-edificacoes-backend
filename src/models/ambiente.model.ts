@@ -14,7 +14,7 @@ type Area = {
   areaIluminacao: number;
 }
 
-export interface Ambiente {
+interface AmbienteModel {
   id: string;
   nome: string;
   grupo: string;
@@ -25,3 +25,7 @@ export interface Ambiente {
   janelas: Area[];
   portas: Area[];
 }
+
+interface AmbienteDTO extends Omit<AmbienteModel, 'id'> {}
+
+export { AmbienteModel, AmbienteDTO };
