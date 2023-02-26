@@ -35,6 +35,22 @@ GET /unidades/escolas/:id
 Resposta:
 - 200 | Retorna uma escola
 
+Atualizar uma escola pelo ID:
+```
+PUT /unidades/escolas/:id
+```
+
+Resposta:
+- 204 | Não possui retorno
+
+Remover uma escola pelo ID:
+```
+DELETE /unidades/escolas/:id
+```
+
+Resposta:
+- 204 | Não possui retorno
+
 ### Residência
 
 Cadastrar uma nova residência:
@@ -61,6 +77,22 @@ GET /unidades/residencias/:id
 Resposta:
 - 200 | Retorna uma residência
 
+Atualizar uma residência pelo ID:
+```
+PUT /unidades/residencias/:id
+```
+
+Resposta:
+- 204 | Não possui retorno
+
+Remover uma residência pelo ID:
+```
+DELETE /unidades/residencias/:id
+```
+
+Resposta:
+- 204 | Não possui retorno
+
 ### UBS
 
 Cadastrar uma nova UBS:
@@ -86,3 +118,19 @@ GET /unidades/ubs/:id
 
 Resposta:
 - 200 | Retorna uma UBS
+
+Atualizar uma UBS pelo ID:
+```
+PUT /unidades/ubs/:id
+```
+
+Resposta:
+- 204 | Não possui retorno
+
+Remover uma UBS pelo ID:
+```
+DELETE /unidades/ubs/:id
+```
+
+Resposta:
+- 204 | Não possui retorno
