@@ -1,6 +1,7 @@
-import { IHttpResponse } from '../interfaces/http.interface';
+import { IHttpRequest, IHttpResponse } from '../interfaces/http.interface';
 
-interface IBaseController<T> {
+interface IBaseController<T, D> {
+  create(data: IHttpRequest<D>): Promise<IHttpResponse<T>>;
   findAll(): Promise<IHttpResponse<T[]>>;
 }
 

@@ -1,4 +1,5 @@
-interface IBaseRepository<T> {
+interface IBaseRepository<T, D> {
+  create(data: D): Promise<void>;
   findAll(): Promise<T[]>;
 }
 

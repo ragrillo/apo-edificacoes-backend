@@ -1,4 +1,5 @@
-interface IBaseService<T> {
+interface IBaseService<T, D> {
+  create(data: D): Promise<void>;
   findAll(): Promise<T[]>;
 }
 
