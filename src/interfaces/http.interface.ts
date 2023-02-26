@@ -10,8 +10,8 @@ enum HttpStatusCode {
   INTERNAL_SERVER_ERROR = 500,
 }
 
-interface IHttpRequest {
-  body?: any;
+interface IHttpRequest<T> {
+  body?: T;
   params?: any;
   query?: any;
   headers?: any;
@@ -19,7 +19,7 @@ interface IHttpRequest {
 
 interface IHttpResponse<T> {
   statusCode: HttpStatusCode;
-  body: T;
+  body?: T | string;
 }
 
 export { IHttpRequest, IHttpResponse, HttpStatusCode };
