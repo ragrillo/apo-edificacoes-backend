@@ -1,11 +1,15 @@
 import IBaseService from './base.service';
 import { IUBSRepository } from '../repositories/ubs.repository';
-import { UBSModel } from '../models/unidade.model';
+import { UBSDTO, UBSModel } from '../models/unidade.model';
 
-interface IUBSService extends IBaseService<UBSModel> {}
+interface IUBSService extends IBaseService<UBSModel, UBSDTO> {}
 
 class UBSService implements IUBSService {
   constructor(private readonly repository: IUBSRepository) {}
+
+  async create(data: UBSDTO): Promise<void> {
+    await this.repository.create(data);
+  }
 
   async findAll(): Promise<UBSModel[]> {
     const ubs: UBSModel[] = await this.repository.findAll();
