@@ -1,8 +1,16 @@
 import { ObjectId } from 'mongodb';
-import { Endereco } from '../interfaces/endereco.interface';
 import { Edificacao } from './usuario.model';
 
-interface Unidade {
+interface Endereco {
+  cep: string;
+  logradouro: string;
+  numero: string;
+  bairro: string;
+  cidade: string;
+  estado: string;
+}
+
+interface UnidadeModel {
   id: string;
   proprietario: ObjectId;
   nome: string;
@@ -13,13 +21,13 @@ interface Unidade {
   horarioFuncionamento: string[];
 }
 
-interface Escola extends Unidade {
+interface EscolaModel extends UnidadeModel {
   tipoEscola: string;
   modalidadeEscola: string;
   quantidadeAlunos: number;
 }
 
-interface UBS extends Unidade {
+interface UBSModel extends UnidadeModel {
   descricao: string;
   tipoUnidade: string;
   dataEntregaObra: string;
@@ -30,7 +38,7 @@ interface UBS extends Unidade {
   };
 }
 
-interface Residencia extends Unidade {
+interface ResidenciaModel extends UnidadeModel {
   tipoCasa: string;
   descricao: string;
   tipoUnidade: string;
@@ -42,4 +50,4 @@ interface Residencia extends Unidade {
   numUnidadesPorBloco: number;
 }
 
-export { Escola, UBS, Residencia };
+export { EscolaModel, UBSModel, ResidenciaModel };
