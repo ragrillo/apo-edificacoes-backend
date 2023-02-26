@@ -7,8 +7,7 @@ interface IEscolaRepository extends IBaseRepository<EscolaModel, EscolaDTO> { }
 
 class EscolaMongoRepository implements IEscolaRepository {
   async create(data: EscolaDTO): Promise<void> {
-    const payload: EscolaDTO = { ...data, proprietario: new ObjectId(data.proprietario) };
-    await MongoClient.db.collection<Omit<EscolaModel, 'id'>>('escolas').insertOne(payload);
+    await MongoClient.db.collection<Omit<EscolaModel, 'id'>>('escolas').insertOne(data);
   }
 
   async findAll(): Promise<EscolaModel[]> {
@@ -28,8 +27,7 @@ class EscolaMongoRepository implements IEscolaRepository {
   }
 
   async update(id: string, data: EscolaDTO): Promise<void> {
-    const payload: EscolaDTO = { ...data, proprietario: new ObjectId(data.proprietario) };
-    await MongoClient.db.collection<EscolaModel>('escolas').updateOne({ _id: new ObjectId(id) }, { $set: payload });
+    await MongoClient.db.collection<EscolaModel>('escolas').updateOne({ _id: new ObjectId(id) }, { $set: data });
   }
 
   async remove(id: string): Promise<void> {

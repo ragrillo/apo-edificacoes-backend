@@ -7,8 +7,7 @@ interface IResidenciaRepository extends IBaseRepository<ResidenciaModel, Residen
 
 class ResidenciaMongoRepository implements IResidenciaRepository {
   async create(data: ResidenciaDTO): Promise<void> {
-    const payload: ResidenciaDTO = { ...data, proprietario: new ObjectId(data.proprietario) };
-    await MongoClient.db.collection<Omit<ResidenciaModel, 'id'>>('residencias').insertOne(payload);
+    await MongoClient.db.collection<Omit<ResidenciaModel, 'id'>>('residencias').insertOne(data);
   }
 
   async findAll(): Promise<ResidenciaModel[]> {
@@ -28,8 +27,7 @@ class ResidenciaMongoRepository implements IResidenciaRepository {
   }
 
   async update(id: string, data: ResidenciaDTO): Promise<void> {
-    const payload: ResidenciaDTO = { ...data, proprietario: new ObjectId(data.proprietario) };
-    await MongoClient.db.collection<ResidenciaModel>('residencias').updateOne({ _id: new ObjectId(id) }, { $set: payload });
+    await MongoClient.db.collection<ResidenciaModel>('residencias').updateOne({ _id: new ObjectId(id) }, { $set: data });
   }
 
   async remove(id: string): Promise<void> {
