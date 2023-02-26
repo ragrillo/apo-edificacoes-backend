@@ -9,11 +9,11 @@ interface IResidenciaController extends IBaseController<ResidenciaModel, Residen
 class ResidenciaController implements IResidenciaController {
   constructor(private readonly service: IResidenciaService) {}
 
-  async create(request: IHttpRequest<ResidenciaDTO>): Promise<IHttpResponse<ResidenciaModel>> {
+  async create(request: IHttpRequest<ResidenciaDTO>): Promise<IHttpResponse<void>> {
     const payload = request.body;
 
     if (!payload) {
-      const httpResponse: IHttpResponse<ResidenciaModel> = {
+      const httpResponse: IHttpResponse<string> = {
         statusCode: HttpStatusCode.UNPROCESSABLE_ENTITY,
         body: 'Dados inválidos',
       };
@@ -23,7 +23,7 @@ class ResidenciaController implements IResidenciaController {
 
     await this.service.create(payload);
 
-    const httpResponse: IHttpResponse<ResidenciaModel> = {
+    const httpResponse: IHttpResponse<void> = {
       statusCode: HttpStatusCode.CREATED,
     };
 
@@ -49,6 +49,18 @@ class ResidenciaController implements IResidenciaController {
     const httpResponse: IHttpResponse<ResidenciaModel> = {
       statusCode: HttpStatusCode.OK,
       body: residencia,
+    };
+
+    return httpResponse;
+  }
+
+  async remove(httpRequest: IHttpRequest<string>): Promise<IHttpResponse<void>> {
+    const { id } = httpRequest.params;
+
+    await this.service.remove(id);
+
+    const httpResponse: IHttpResponse<void> = {
+      statusCode: HttpStatusCode.NO_CONTENT,
     };
 
     return httpResponse;

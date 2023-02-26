@@ -9,11 +9,11 @@ interface IEscolaController extends IBaseController<EscolaModel, EscolaDTO> {}
 class EscolaController implements IEscolaController {
   constructor(private readonly service: IEscolaService) {}
 
-  async create(request: IHttpRequest<EscolaDTO>): Promise<IHttpResponse<EscolaModel>> {
+  async create(request: IHttpRequest<EscolaDTO>): Promise<IHttpResponse<void>> {
     const payload = request.body;
 
     if (!payload) {
-      const httpResponse: IHttpResponse<EscolaModel> = {
+      const httpResponse: IHttpResponse<string> = {
         statusCode: HttpStatusCode.UNPROCESSABLE_ENTITY,
         body: 'Dados inválidos',
       };
@@ -23,7 +23,7 @@ class EscolaController implements IEscolaController {
 
     await this.service.create(payload);
 
-    const httpResponse: IHttpResponse<EscolaModel> = {
+    const httpResponse: IHttpResponse<void> = {
       statusCode: HttpStatusCode.CREATED,
     };
 
@@ -49,6 +49,18 @@ class EscolaController implements IEscolaController {
     const httpResponse: IHttpResponse<EscolaModel> = {
       statusCode: HttpStatusCode.OK,
       body: escola,
+    };
+
+    return httpResponse;
+  }
+
+  async remove(httpRequest: IHttpRequest<string>): Promise<IHttpResponse<void>> {
+    const { id } = httpRequest.params;
+
+    await this.service.remove(id);
+
+    const httpResponse: IHttpResponse<void> = {
+      statusCode: HttpStatusCode.NO_CONTENT,
     };
 
     return httpResponse;

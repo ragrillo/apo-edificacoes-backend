@@ -66,6 +66,11 @@ class UnidadeRouter {
       return response.status(statusCode).json(body);
     });
 
+    this.router.delete('/escolas/:id', async (request: Request, response: Response) => {
+      const { statusCode, body } = await this.escolaController.remove(request);
+      return response.status(statusCode).json(body);
+    });
+
     this.router.get('/residencias', async (request: Request, response: Response) => {
       const { statusCode, body } = await this.residenciaController.findAll();
       return response.status(statusCode).json(body);
@@ -81,6 +86,11 @@ class UnidadeRouter {
       return response.status(statusCode).json(body);
     });
 
+    this.router.delete('/residencias/:id', async (request: Request, response: Response) => {
+      const { statusCode, body } = await this.residenciaController.remove(request);
+      return response.status(statusCode).json(body);
+    });
+
     this.router.get('/ubs', async (request: Request, response: Response) => {
       const { statusCode, body } = await this.ubsController.findAll();
       return response.status(statusCode).json(body);
@@ -93,6 +103,11 @@ class UnidadeRouter {
 
     this.router.post('/ubs', async (request: Request, response: Response) => {
       const { statusCode, body } = await this.ubsController.create(request);
+      return response.status(statusCode).json(body);
+    });
+
+    this.router.delete('/ubs/:id', async (request: Request, response: Response) => {
+      const { statusCode, body } = await this.ubsController.remove(request);
       return response.status(statusCode).json(body);
     });
   }

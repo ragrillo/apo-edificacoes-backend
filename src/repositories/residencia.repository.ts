@@ -25,6 +25,10 @@ class ResidenciaMongoRepository implements IResidenciaRepository {
 
     return residencia;
   }
+
+  async remove(id: string): Promise<void> {
+    await MongoClient.db.collection<ResidenciaModel>('residencias').deleteOne({ _id: new ObjectId(id) });
+  }
 }
 
 export { IResidenciaRepository, ResidenciaMongoRepository };

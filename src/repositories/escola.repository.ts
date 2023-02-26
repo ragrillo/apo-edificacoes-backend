@@ -26,6 +26,10 @@ class EscolaMongoRepository implements IEscolaRepository {
 
     return escola;
   }
+
+  async remove(id: string): Promise<void> {
+    await MongoClient.db.collection<EscolaModel>('escolas').deleteOne({ _id: new ObjectId(id) });
+  }
 }
 
 export { EscolaDTO, IEscolaRepository, EscolaMongoRepository };

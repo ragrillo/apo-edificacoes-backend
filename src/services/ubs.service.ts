@@ -22,6 +22,10 @@ class UBSService implements IUBSService {
 
     return ubs;
   }
+
+  async remove(id: string): Promise<void> {
+    await this.repository.remove(id);
+  }
 }
 
 export { IUBSService, UBSService };

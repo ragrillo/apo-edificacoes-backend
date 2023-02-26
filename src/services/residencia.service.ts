@@ -22,6 +22,10 @@ class ResidenciaService implements IResidenciaService {
 
     return residencia;
   }
+
+  async remove(id: string): Promise<void> {
+    await this.repository.remove(id);
+  }
 }
 
 export { IResidenciaService, ResidenciaService };

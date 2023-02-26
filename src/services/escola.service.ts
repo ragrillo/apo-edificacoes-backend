@@ -22,6 +22,10 @@ class EscolaService implements IEscolaService {
 
     return escola;
   }
+
+  async remove(id: string): Promise<void> {
+    await this.repository.remove(id);
+  }
 }
 
 export { IEscolaService, EscolaService };

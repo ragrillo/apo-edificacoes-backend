@@ -25,6 +25,10 @@ class UBSMongoRepository implements IUBSRepository {
 
     return ubs;
   }
+
+  async remove(id: string): Promise<void> {
+    await MongoClient.db.collection<UBSModel>('ubs').deleteOne({ _id: new ObjectId(id) });
+  }
 }
 
 export { IUBSRepository, UBSMongoRepository };

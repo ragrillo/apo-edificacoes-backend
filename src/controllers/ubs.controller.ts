@@ -9,11 +9,11 @@ interface IUBSController extends IBaseController<UBSModel, UBSDTO> {}
 class UBSController implements IUBSController {
   constructor(private readonly service: IUBSService) {}
 
-  async create(request: IHttpRequest<UBSDTO>): Promise<IHttpResponse<UBSModel>> {
+  async create(request: IHttpRequest<UBSDTO>): Promise<IHttpResponse<void>> {
     const payload = request.body;
 
     if (!payload) {
-      const httpResponse: IHttpResponse<UBSModel> = {
+      const httpResponse: IHttpResponse<string> = {
         statusCode: HttpStatusCode.UNPROCESSABLE_ENTITY,
         body: 'Dados inválidos',
       };
@@ -23,7 +23,7 @@ class UBSController implements IUBSController {
 
     await this.service.create(payload);
 
-    const httpResponse: IHttpResponse<UBSModel> = {
+    const httpResponse: IHttpResponse<void> = {
       statusCode: HttpStatusCode.CREATED,
     };
 
@@ -49,6 +49,18 @@ class UBSController implements IUBSController {
     const httpResponse: IHttpResponse<UBSModel> = {
       statusCode: HttpStatusCode.OK,
       body: ubs,
+    };
+
+    return httpResponse;
+  }
+
+  async remove(httpRequest: IHttpRequest<string>): Promise<IHttpResponse<void>> {
+    const { id } = httpRequest.params;
+
+    await this.service.remove(id);
+
+    const httpResponse: IHttpResponse<void> = {
+      statusCode: HttpStatusCode.NO_CONTENT,
     };
 
     return httpResponse;
