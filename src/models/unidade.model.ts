@@ -50,4 +50,10 @@ interface ResidenciaModel extends UnidadeModel {
   numUnidadesPorBloco: number;
 }
 
-export { EscolaModel, UBSModel, ResidenciaModel };
+interface EscolaDTO extends Omit<EscolaModel, 'id'> { }
+
+interface UBSDTO extends Omit<UBSModel, 'id'> { }
+
+interface ResidenciaDTO extends Omit<ResidenciaModel, 'id'> { }
+
+export { EscolaModel, UBSModel, ResidenciaModel, EscolaDTO, UBSDTO, ResidenciaDTO };
