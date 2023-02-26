@@ -3,6 +3,7 @@ import cors from 'cors';
 
 import UnidadeRouter from './routers/unidade.router';
 import AmbienteRouter from './routers/ambiente.router';
+import EmpresaRouter from './routers/empresa.router';
 
 class App {
   app: express.Application;
@@ -22,6 +23,7 @@ class App {
   private loadRoutes(): void {
     this.app.use('/api/v1/unidades', new UnidadeRouter().router);
     this.app.use('/api/v1/ambientes', new AmbienteRouter().router);
+    this.app.use('/api/v1/empresas', new EmpresaRouter().router);
   }
 }
 
