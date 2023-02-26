@@ -40,6 +40,19 @@ class UBSController implements IUBSController {
 
     return httpResponse;
   }
+
+  async findById(httpRequest: IHttpRequest<string>): Promise<IHttpResponse<UBSModel>> {
+    const { id } = httpRequest.params;
+
+    const ubs: UBSModel = await this.service.findById(id);
+
+    const httpResponse: IHttpResponse<UBSModel> = {
+      statusCode: HttpStatusCode.OK,
+      body: ubs,
+    };
+
+    return httpResponse;
+  }
 }
 
 export { IUBSController, UBSController };

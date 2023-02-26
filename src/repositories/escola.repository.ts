@@ -16,6 +16,16 @@ class EscolaMongoRepository implements IEscolaRepository {
 
     return escolas;
   }
+
+  async findById(id: string): Promise<EscolaModel> {
+    const escola: EscolaModel | null = await MongoClient.db.collection<EscolaModel>('escolas').findOne({ _id: new ObjectId(id) });
+
+    if (!escola) {
+      throw new Error('Escola não encontrada');
+    }
+
+    return escola;
+  }
 }
 
 export { EscolaDTO, IEscolaRepository, EscolaMongoRepository };

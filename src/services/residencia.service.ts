@@ -16,6 +16,12 @@ class ResidenciaService implements IResidenciaService {
 
     return residencias;
   }
+
+  async findById(id: string): Promise<ResidenciaModel> {
+    const residencia: ResidenciaModel = await this.repository.findById(id);
+
+    return residencia;
+  }
 }
 
 export { IResidenciaService, ResidenciaService };

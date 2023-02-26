@@ -16,6 +16,12 @@ class EscolaService implements IEscolaService {
 
     return escolas;
   }
+
+  async findById(id: string): Promise<EscolaModel> {
+    const escola: EscolaModel = await this.repository.findById(id);
+
+    return escola;
+  }
 }
 
 export { IEscolaService, EscolaService };

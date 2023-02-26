@@ -16,6 +16,12 @@ class UBSService implements IUBSService {
 
     return ubs;
   }
+
+  async findById(id: string): Promise<UBSModel> {
+    const ubs: UBSModel = await this.repository.findById(id);
+
+    return ubs;
+  }
 }
 
 export { IUBSService, UBSService };

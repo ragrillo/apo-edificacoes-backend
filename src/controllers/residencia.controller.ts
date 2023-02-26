@@ -40,6 +40,19 @@ class ResidenciaController implements IResidenciaController {
 
     return httpResponse;
   }
+
+  async findById(httpRequest: IHttpRequest<string>): Promise<IHttpResponse<ResidenciaModel>> {
+    const { id } = httpRequest.params;
+
+    const residencia: ResidenciaModel = await this.service.findById(id);
+
+    const httpResponse: IHttpResponse<ResidenciaModel> = {
+      statusCode: HttpStatusCode.OK,
+      body: residencia,
+    };
+
+    return httpResponse;
+  }
 }
 
 export { IResidenciaController, ResidenciaController };

@@ -40,6 +40,19 @@ class EscolaController implements IEscolaController {
 
     return httpResponse;
   }
+
+  async findById(httpRequest: IHttpRequest<string>): Promise<IHttpResponse<EscolaModel>> {
+    const { id } = httpRequest.params;
+
+    const escola: EscolaModel = await this.service.findById(id);
+
+    const httpResponse: IHttpResponse<EscolaModel> = {
+      statusCode: HttpStatusCode.OK,
+      body: escola,
+    };
+
+    return httpResponse;
+  }
 }
 
 export { IEscolaController, EscolaController };
