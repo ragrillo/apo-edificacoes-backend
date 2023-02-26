@@ -23,6 +23,10 @@ class UBSService implements IUBSService {
     return ubs;
   }
 
+  async update(id: string, data: UBSDTO): Promise<void> {
+    await this.repository.update(id, data);
+  }
+
   async remove(id: string): Promise<void> {
     await this.repository.remove(id);
   }

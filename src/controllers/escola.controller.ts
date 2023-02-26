@@ -54,6 +54,28 @@ class EscolaController implements IEscolaController {
     return httpResponse;
   }
 
+  async update(httpRequest: IHttpRequest<EscolaDTO>): Promise<IHttpResponse<void>> {
+    const { id } = httpRequest.params;
+    const payload = httpRequest.body;
+
+    if (!payload || !id) {
+      const httpResponse: IHttpResponse<string> = {
+        statusCode: HttpStatusCode.UNPROCESSABLE_ENTITY,
+        body: 'Dados inválidos',
+      };
+
+      return httpResponse;
+    }
+
+    await this.service.update(id, payload);
+
+    const httpResponse: IHttpResponse<void> = {
+      statusCode: HttpStatusCode.NO_CONTENT,
+    };
+
+    return httpResponse;
+  }
+
   async remove(httpRequest: IHttpRequest<string>): Promise<IHttpResponse<void>> {
     const { id } = httpRequest.params;
 

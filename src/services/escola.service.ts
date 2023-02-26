@@ -23,6 +23,10 @@ class EscolaService implements IEscolaService {
     return escola;
   }
 
+  async update(id: string, data: EscolaDTO): Promise<void> {
+    await this.repository.update(id, data);
+  }
+
   async remove(id: string): Promise<void> {
     await this.repository.remove(id);
   }

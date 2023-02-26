@@ -7,7 +7,8 @@ interface IUBSRepository extends IBaseRepository<UBSModel, UBSDTO> { }
 
 class UBSMongoRepository implements IUBSRepository {
   async create(data: UBSDTO): Promise<void> {
-    await MongoClient.db.collection<Omit<UBSModel, 'id'>>('ubs').insertOne(data);
+    const payload: UBSDTO = { ...data, proprietario: new ObjectId(data.proprietario) };
+    await MongoClient.db.collection<Omit<UBSModel, 'id'>>('ubs').insertOne(payload);
   }
 
   async findAll(): Promise<UBSModel[]> {
@@ -24,6 +25,11 @@ class UBSMongoRepository implements IUBSRepository {
     }
 
     return ubs;
+  }
+
+  async update(id: string, data: UBSDTO): Promise<void> {
+    const payload: UBSDTO = { ...data, proprietario: new ObjectId(data.proprietario) };
+    await MongoClient.db.collection<UBSModel>('ubs').updateOne({ _id: new ObjectId(id) }, { $set: payload });
   }
 
   async remove(id: string): Promise<void> {

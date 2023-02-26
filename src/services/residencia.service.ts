@@ -23,6 +23,10 @@ class ResidenciaService implements IResidenciaService {
     return residencia;
   }
 
+  async update(id: string, data: ResidenciaDTO): Promise<void> {
+    await this.repository.update(id, data);
+  }
+
   async remove(id: string): Promise<void> {
     await this.repository.remove(id);
   }

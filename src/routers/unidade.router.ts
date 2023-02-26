@@ -51,6 +51,11 @@ class UnidadeRouter {
   }
 
   private routes(): void {
+    this.router.post('/escolas', async (request: Request, response: Response) => {
+      const { statusCode, body } = await this.escolaController.create(request);
+      return response.status(statusCode).json(body);
+    });
+
     this.router.get('/escolas', async (request: Request, response: Response) => {
       const { statusCode, body } = await this.escolaController.findAll();
       return response.status(statusCode).json(body);
@@ -61,13 +66,18 @@ class UnidadeRouter {
       return response.status(statusCode).json(body);
     });
 
-    this.router.post('/escolas', async (request: Request, response: Response) => {
-      const { statusCode, body } = await this.escolaController.create(request);
+    this.router.put('/escolas/:id', async (request: Request, response: Response) => {
+      const { statusCode, body } = await this.escolaController.update(request);
       return response.status(statusCode).json(body);
     });
 
     this.router.delete('/escolas/:id', async (request: Request, response: Response) => {
       const { statusCode, body } = await this.escolaController.remove(request);
+      return response.status(statusCode).json(body);
+    });
+
+    this.router.post('/residencias', async (request: Request, response: Response) => {
+      const { statusCode, body } = await this.residenciaController.create(request);
       return response.status(statusCode).json(body);
     });
 
@@ -81,13 +91,18 @@ class UnidadeRouter {
       return response.status(statusCode).json(body);
     });
 
-    this.router.post('/residencias', async (request: Request, response: Response) => {
-      const { statusCode, body } = await this.residenciaController.create(request);
+    this.router.put('/residencias/:id', async (request: Request, response: Response) => {
+      const { statusCode, body } = await this.residenciaController.update(request);
       return response.status(statusCode).json(body);
     });
 
     this.router.delete('/residencias/:id', async (request: Request, response: Response) => {
       const { statusCode, body } = await this.residenciaController.remove(request);
+      return response.status(statusCode).json(body);
+    });
+
+    this.router.post('/ubs', async (request: Request, response: Response) => {
+      const { statusCode, body } = await this.ubsController.create(request);
       return response.status(statusCode).json(body);
     });
 
@@ -101,8 +116,8 @@ class UnidadeRouter {
       return response.status(statusCode).json(body);
     });
 
-    this.router.post('/ubs', async (request: Request, response: Response) => {
-      const { statusCode, body } = await this.ubsController.create(request);
+    this.router.put('/ubs/:id', async (request: Request, response: Response) => {
+      const { statusCode, body } = await this.ubsController.update(request);
       return response.status(statusCode).json(body);
     });
 

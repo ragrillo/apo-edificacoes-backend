@@ -27,6 +27,11 @@ class EscolaMongoRepository implements IEscolaRepository {
     return escola;
   }
 
+  async update(id: string, data: EscolaDTO): Promise<void> {
+    const payload: EscolaDTO = { ...data, proprietario: new ObjectId(data.proprietario) };
+    await MongoClient.db.collection<EscolaModel>('escolas').updateOne({ _id: new ObjectId(id) }, { $set: payload });
+  }
+
   async remove(id: string): Promise<void> {
     await MongoClient.db.collection<EscolaModel>('escolas').deleteOne({ _id: new ObjectId(id) });
   }
