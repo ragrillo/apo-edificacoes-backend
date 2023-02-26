@@ -10,9 +10,7 @@ class AmbienteRouter {
 
   constructor() {
     this.router = Router();
-
     this.ambienteController = this.makeAmbienteController();
-
     this.routes();
   }
 
