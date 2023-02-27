@@ -22,7 +22,12 @@ class UsuarioService implements IUsuarioService {
   ) {}
 
   async create(data: UsuarioDTO): Promise<void> {
-    const payload: UsuarioDTO = { ...data, senha: await this.hashPasswordAdapter.hash(data.senha) };
+    const payload: UsuarioDTO = {
+      ...data,
+      status: 'Pendente',
+      senha: await this.hashPasswordAdapter.hash(data.senha),
+    };
+
     await this.repository.create(payload);
   }
 
