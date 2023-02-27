@@ -7,6 +7,98 @@ Base URL:
 http://localhost:3000/api/v1
 ```
 
+### Usuário
+
+Cadastrar um novo usuário:
+```
+POST /usuarios
+```
+
+Resposta:
+- 201 | Não possui retorno
+
+Obter lista de usuários cadastrados:
+```
+GET /usuarios
+```
+
+Resposta:
+- 200 | Retorna uma lista de usuários cadastrados
+
+Obter um usuário pelo ID:
+```
+GET /usuarios/:id
+```
+
+Resposta:
+- 200 | Retorna um usuário
+
+Atualizar um usuário pelo ID:
+```
+PUT /usuarios/:id
+```
+
+Resposta:
+- 204 | Não possui retorno
+
+Remover um usuário pelo ID:
+```
+DELETE /usuarios/:id
+```
+
+Resposta:
+- 204 | Não possui retorno
+
+Realizar login:
+```
+POST /usuarios/login
+```
+
+Resposta:
+- 200 | Retorna um token JWT
+
+### Empresa
+
+Cadastrar uma nova empresa:
+```
+POST /empresas
+```
+
+Resposta:
+- 201 | Não possui retorno
+
+Obter lista de empresas cadastradas:
+```
+GET /empresas
+```
+
+Resposta:
+- 200 | Retorna uma lista de empresas cadastradas
+
+Obter uma empresa pelo ID:
+```
+GET /empresas/:id
+```
+
+Resposta:
+- 200 | Retorna uma empresa
+
+Atualizar uma empresa pelo ID:
+```
+PUT /empresas/:id
+```
+
+Resposta:
+- 204 | Não possui retorno
+
+Remover uma empresa pelo ID:
+```
+DELETE /empresas/:id
+```
+
+Resposta:
+- 204 | Não possui retorno
+
 ### Unidade
 
 #### Escola
