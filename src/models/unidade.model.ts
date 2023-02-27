@@ -4,6 +4,7 @@ import { EdificacaoType } from './usuario.model';
 interface UnidadeModel {
   id: string;
   proprietario: string;
+  empresa: string;
   nome: string;
   telefone: string;
   responsavel: string;
