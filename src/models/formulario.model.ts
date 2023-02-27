@@ -1,15 +1,19 @@
 type SimOuNao = 'Sim' | 'Não' | 'Não sei responder' | 'Não se aplica';
 type ExceleteOuPessimo = 'Excelente' | 'Bom' | 'Regular' | 'Ruim' | 'Péssimo' | 'Não se aplica';
 
-type Resposta = {
+type RespostaType = {
   criterio: string;
   pergunta: string;
   resposta: SimOuNao | ExceleteOuPessimo;
 }
 
-export interface Formulario {
+interface FormularioModel {
   id: string;
   titulo: string;
   numero: string;
-  respostas: Resposta[];
+  respostas: RespostaType[];
 }
+
+interface FormularioDTO extends Omit<FormularioModel, 'id'> { }
+
+export { FormularioModel, FormularioDTO };
