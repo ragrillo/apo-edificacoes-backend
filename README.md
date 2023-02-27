@@ -99,9 +99,7 @@ DELETE /empresas/:id
 Resposta:
 - 204 | Não possui retorno
 
-### Unidade
-
-#### Escola
+### Unidade | Escola
 
 Cadastrar uma nova escola:
 ```
@@ -143,7 +141,7 @@ DELETE /unidades/escolas/:id
 Resposta:
 - 204 | Não possui retorno
 
-### Residência
+### Unidade | Residência
 
 Cadastrar uma nova residência:
 ```
@@ -185,7 +183,7 @@ DELETE /unidades/residencias/:id
 Resposta:
 - 204 | Não possui retorno
 
-### UBS
+### Unidade | UBS
 
 Cadastrar uma nova UBS:
 ```
