@@ -11,7 +11,7 @@ interface IUsuarioController extends IBaseController<UsuarioModel, UsuarioDTO> {
 class UsuarioController implements IUsuarioController {
   constructor(private readonly service: IUsuarioService) { }
 
-  async create(request: IHttpRequest<UsuarioDTO>): Promise<IHttpResponse<void>> {
+  async create(request: IHttpRequest<UsuarioDTO>): Promise<IHttpResponse<string>> {
     const payload = request.body;
 
     if (!payload) {
@@ -25,8 +25,9 @@ class UsuarioController implements IUsuarioController {
 
     await this.service.create(payload);
 
-    const httpResponse: IHttpResponse<void> = {
+    const httpResponse: IHttpResponse<string> = {
       statusCode: HttpStatusCode.CREATED,
+      body: 'Seu cadastro foi concluído com sucesso! Aguarde a aprovação do administrador',
     };
 
     return httpResponse;

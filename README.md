@@ -15,7 +15,7 @@ POST /usuarios
 ```
 
 Resposta:
-- 201 | Não possui retorno
+- 201 | Retorna uma mensagem de sucesso
 
 Obter lista de usuários cadastrados:
 ```
