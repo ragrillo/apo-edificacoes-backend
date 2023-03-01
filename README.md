@@ -83,6 +83,14 @@ GET /empresas/:id
 Resposta:
 - 200 | Retorna uma empresa
 
+Obter uma empresa pelo CNPJ:
+```
+GET /empresas/cnpj/:cnpj
+```
+
+Resposta:
+- 200 | Retorna uma empresa
+
 Atualizar uma empresa pelo ID:
 ```
 PUT /empresas/:id

@@ -4,7 +4,9 @@ import { EmpresaDTO, EmpresaModel } from '../models/empresa.model';
 import { IHttpResponse, HttpStatusCode, IHttpRequest } from '../interfaces/http.interface';
 import IBaseController from './base.controller';
 
-interface IEmpresaController extends IBaseController<EmpresaModel, EmpresaDTO> { }
+interface IEmpresaController extends IBaseController<EmpresaModel, EmpresaDTO> {
+  findByCnpj(httpRequest: IHttpRequest<string>): Promise<IHttpResponse<EmpresaModel | string>>;
+}
 
 class EmpresaController implements IEmpresaController {
   constructor(private readonly service: IEmpresaService) { }
@@ -52,6 +54,28 @@ class EmpresaController implements IEmpresaController {
     };
 
     return httpResponse;
+  }
+
+  async findByCnpj(httpRequest: IHttpRequest<string>): Promise<IHttpResponse<EmpresaModel | string>> {
+    const { cnpj } = httpRequest.params;
+
+    try {
+      const empresa: EmpresaModel = await this.service.findByCnpj(cnpj);
+
+      const httpResponse: IHttpResponse<EmpresaModel> = {
+        statusCode: HttpStatusCode.OK,
+        body: empresa,
+      };
+
+      return httpResponse;
+    } catch (error) {
+      const httpResponse: IHttpResponse<string> = {
+        statusCode: HttpStatusCode.NOT_FOUND,
+        body: 'Empresa não encontrada',
+      };
+
+      return httpResponse;
+    }
   }
 
   async update(httpRequest: IHttpRequest<EmpresaDTO>): Promise<IHttpResponse<void>> {

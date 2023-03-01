@@ -3,7 +3,9 @@ import { EmpresaModel, EmpresaDTO } from '../models/empresa.model';
 import MongoClient from '../database/mongo.database';
 import IBaseRepository from './base.repository';
 
-interface IEmpresaRepository extends IBaseRepository<EmpresaModel, EmpresaDTO> { }
+interface IEmpresaRepository extends IBaseRepository<EmpresaModel, EmpresaDTO> {
+  findByCnpj(cnpj: string): Promise<EmpresaModel>;
+}
 
 class EmpresaMongoRepository implements IEmpresaRepository {
   async create(data: EmpresaDTO): Promise<void> {
@@ -18,6 +20,16 @@ class EmpresaMongoRepository implements IEmpresaRepository {
 
   async findById(id: string): Promise<EmpresaModel> {
     const empresa: EmpresaModel | null = await MongoClient.db.collection<EmpresaModel>('empresas').findOne({ _id: new ObjectId(id) });
+
+    if (!empresa) {
+      throw new Error('Empresa não encontrada');
+    }
+
+    return empresa;
+  }
+
+  async findByCnpj(cnpj: string): Promise<EmpresaModel> {
+    const empresa: EmpresaModel | null = await MongoClient.db.collection<EmpresaModel>('empresas').findOne({ cnpj });
 
     if (!empresa) {
       throw new Error('Empresa não encontrada');

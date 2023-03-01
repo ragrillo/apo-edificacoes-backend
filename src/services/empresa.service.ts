@@ -2,7 +2,9 @@ import IBaseService from './base.service';
 import { IEmpresaRepository } from '../repositories/empresa.repository';
 import { EmpresaDTO, EmpresaModel } from '../models/empresa.model';
 
-interface IEmpresaService extends IBaseService<EmpresaModel, EmpresaDTO> {}
+interface IEmpresaService extends IBaseService<EmpresaModel, EmpresaDTO> {
+  findByCnpj(cnpj: string): Promise<EmpresaModel>;
+}
 
 class EmpresaService implements IEmpresaService {
   constructor(private readonly repository: IEmpresaRepository) {}
@@ -19,6 +21,13 @@ class EmpresaService implements IEmpresaService {
 
   async findById(id: string): Promise<EmpresaModel> {
     const empresa: EmpresaModel = await this.repository.findById(id);
+
+    return empresa;
+  }
+
+  async findByCnpj(cnpj: string): Promise<EmpresaModel> {
+    const cnpjFormatted = cnpj.replace(/^(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})$/, '$1.$2.$3/$4-$5')
+    const empresa: EmpresaModel = await this.repository.findByCnpj(cnpjFormatted);
 
     return empresa;
   }

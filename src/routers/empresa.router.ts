@@ -38,6 +38,11 @@ class EmpresaRouter {
       return response.status(statusCode).json(body);
     });
 
+    this.router.get('/cnpj/:cnpj', async (request: Request, response: Response) => {
+      const { statusCode, body } = await this.empresaController.findByCnpj(request);
+      return response.status(statusCode).json(body);
+    });
+
     this.router.put('/:id', async (request: Request, response: Response) => {
       const { statusCode, body } = await this.empresaController.update(request);
       return response.status(statusCode).json(body);
