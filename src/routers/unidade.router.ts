@@ -122,6 +122,11 @@ class UnidadeRouter {
       return response.status(statusCode).json(body);
     });
 
+    this.router.get('/ubs/proprietario/:id', async (request: Request, response: Response) => {
+      const { statusCode, body } = await this.ubsController.findByProprietarioId(request);
+      return response.status(statusCode).json(body);
+    });
+
     this.router.put('/ubs/:id', async (request: Request, response: Response) => {
       const { statusCode, body } = await this.ubsController.update(request);
       return response.status(statusCode).json(body);

@@ -217,6 +217,14 @@ GET /unidades/ubs/:id
 Resposta:
 - 200 | Retorna uma UBS
 
+Obter uma UBS pelo ID do proprietário:
+```
+/ubs/proprietario/:id
+```
+
+Resposta:
+- 200 | Retorna uma lista de UBS cadastradas pelo proprietário
+
 Atualizar uma UBS pelo ID:
 ```
 PUT /unidades/ubs/:id
