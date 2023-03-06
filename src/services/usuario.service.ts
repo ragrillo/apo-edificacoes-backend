@@ -3,6 +3,7 @@ import { IUsuarioRepository } from '../repositories/usuario.repository';
 import { UsuarioModel, UsuarioDTO, EdificacaoType, CargoType } from '../models/usuario.model';
 import { IHashPasswordAdapter } from '../adapters/hash-password.adapter';
 import { ITokenJWTAdapter } from '../adapters/token-jwt.adapter';
+import { WithId } from 'mongodb';
 
 type TokenPayload = {
   id: string;
@@ -58,7 +59,7 @@ class UsuarioService implements IUsuarioService {
   }
 
   async login(email: string, senha: string): Promise<string> {
-    const usuario: UsuarioModel = await this.repository.findByEmail(email);
+    const usuario: any = await this.repository.findByEmail(email);
 
     if (!usuario) {
       throw new Error('Email ou senha incorretos');
@@ -70,8 +71,8 @@ class UsuarioService implements IUsuarioService {
       throw new Error('Email ou senha incorretos');
     }
 
-    const { id, cargo, edificacao } = usuario;
-    const payload: TokenPayload = { id, cargo, edificacao };
+    const { _id, cargo, edificacao } = usuario;
+    const payload: TokenPayload = { id: _id, cargo, edificacao };
 
     const token: string = await this.tokenJWTAdapter.generate(payload);
 
