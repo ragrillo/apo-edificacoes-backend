@@ -135,7 +135,7 @@ Resposta:
 
 Obter uma escola pelo ID do proprietário:
 ```
-/escolas/proprietario/:id
+GET /unidades/escolas/proprietario/:id
 ```
 
 Resposta:
@@ -185,7 +185,7 @@ Resposta:
 
 Obter uma residência pelo ID do proprietário:
 ```
-/residencias/proprietario/:id
+GET /unidades/residencias/proprietario/:id
 ```
 
 Resposta:
@@ -235,7 +235,7 @@ Resposta:
 
 Obter uma UBS pelo ID do proprietário:
 ```
-/ubs/proprietario/:id
+GET /unidades/ubs/proprietario/:id
 ```
 
 Resposta:
