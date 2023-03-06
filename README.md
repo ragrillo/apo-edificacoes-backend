@@ -133,6 +133,14 @@ GET /unidades/escolas/:id
 Resposta:
 - 200 | Retorna uma escola
 
+Obter uma escola pelo ID do proprietário:
+```
+/escolas/proprietario/:id
+```
+
+Resposta:
+- 200 | Retorna uma lista de escolas cadastradas pelo proprietário
+
 Atualizar uma escola pelo ID:
 ```
 PUT /unidades/escolas/:id
@@ -175,6 +183,14 @@ GET /unidades/residencias/:id
 Resposta:
 - 200 | Retorna uma residência
 
+Obter uma residência pelo ID do proprietário:
+```
+/residencias/proprietario/:id
+```
+
+Resposta:
+- 200 | Retorna uma lista de residências cadastradas pelo proprietário
+
 Atualizar uma residência pelo ID:
 ```
 PUT /unidades/residencias/:id
@@ -216,6 +232,14 @@ GET /unidades/ubs/:id
 
 Resposta:
 - 200 | Retorna uma UBS
+
+Obter uma UBS pelo ID do proprietário:
+```
+/ubs/proprietario/:id
+```
+
+Resposta:
+- 200 | Retorna uma lista de UBS cadastradas pelo proprietário
 
 Atualizar uma UBS pelo ID:
 ```

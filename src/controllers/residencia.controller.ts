@@ -4,7 +4,9 @@ import { ResidenciaDTO, ResidenciaModel } from '../models/unidade.model';
 import { IHttpResponse, HttpStatusCode, IHttpRequest } from '../interfaces/http.interface';
 import IBaseController from './base.controller';
 
-interface IResidenciaController extends IBaseController<ResidenciaModel, ResidenciaDTO> {}
+interface IResidenciaController extends IBaseController<ResidenciaModel, ResidenciaDTO> {
+  findByProprietarioId(httpRequest: IHttpRequest<string>): Promise<IHttpResponse<ResidenciaModel[]>>;
+}
 
 class ResidenciaController implements IResidenciaController {
   constructor(private readonly service: IResidenciaService) {}
@@ -49,6 +51,19 @@ class ResidenciaController implements IResidenciaController {
     const httpResponse: IHttpResponse<ResidenciaModel> = {
       statusCode: HttpStatusCode.OK,
       body: residencia,
+    };
+
+    return httpResponse;
+  }
+
+  async findByProprietarioId(httpRequest: IHttpRequest<string>): Promise<IHttpResponse<ResidenciaModel[]>> {
+    const { id } = httpRequest.params;
+
+    const residencias: ResidenciaModel[] = await this.service.findByProprietarioId(id);
+
+    const httpResponse: IHttpResponse<ResidenciaModel[]> = {
+      statusCode: HttpStatusCode.OK,
+      body: residencias,
     };
 
     return httpResponse;

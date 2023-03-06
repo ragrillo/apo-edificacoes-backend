@@ -3,7 +3,9 @@ import { EscolaDTO, EscolaModel } from '../models/unidade.model';
 import MongoClient from '../database/mongo.database';
 import IBaseRepository from './base.repository';
 
-interface IEscolaRepository extends IBaseRepository<EscolaModel, EscolaDTO> { }
+interface IEscolaRepository extends IBaseRepository<EscolaModel, EscolaDTO> {
+  findByProprietarioId(id: string): Promise<EscolaModel[]>;
+}
 
 class EscolaMongoRepository implements IEscolaRepository {
   async create(data: EscolaDTO): Promise<void> {
@@ -24,6 +26,12 @@ class EscolaMongoRepository implements IEscolaRepository {
     }
 
     return escola;
+  }
+
+  async findByProprietarioId(id: string): Promise<EscolaModel[]> {
+    const escolas: EscolaModel[] = await MongoClient.db.collection<EscolaModel>('escolas').find({ proprietario: id }).toArray();
+
+    return escolas;
   }
 
   async update(id: string, data: EscolaDTO): Promise<void> {

@@ -4,7 +4,9 @@ import { UBSDTO, UBSModel } from '../models/unidade.model';
 import { IHttpResponse, HttpStatusCode, IHttpRequest } from '../interfaces/http.interface';
 import IBaseController from './base.controller';
 
-interface IUBSController extends IBaseController<UBSModel, UBSDTO> {}
+interface IUBSController extends IBaseController<UBSModel, UBSDTO> {
+  findByProprietarioId(httpRequest: IHttpRequest<string>): Promise<IHttpResponse<UBSModel[]>>;
+}
 
 class UBSController implements IUBSController {
   constructor(private readonly service: IUBSService) {}
@@ -47,6 +49,19 @@ class UBSController implements IUBSController {
     const ubs: UBSModel = await this.service.findById(id);
 
     const httpResponse: IHttpResponse<UBSModel> = {
+      statusCode: HttpStatusCode.OK,
+      body: ubs,
+    };
+
+    return httpResponse;
+  }
+
+  async findByProprietarioId(httpRequest: IHttpRequest<string>): Promise<IHttpResponse<UBSModel[]>> {
+    const { id } = httpRequest.params;
+
+    const ubs: UBSModel[] = await this.service.findByProprietarioId(id);
+
+    const httpResponse: IHttpResponse<UBSModel[]> = {
       statusCode: HttpStatusCode.OK,
       body: ubs,
     };

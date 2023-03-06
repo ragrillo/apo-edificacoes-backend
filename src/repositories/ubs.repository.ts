@@ -3,7 +3,9 @@ import MongoClient from '../database/mongo.database';
 import IBaseRepository from './base.repository';
 import { ObjectId } from 'mongodb';
 
-interface IUBSRepository extends IBaseRepository<UBSModel, UBSDTO> { }
+interface IUBSRepository extends IBaseRepository<UBSModel, UBSDTO> {
+  findByProprietarioId(id: string): Promise<UBSModel[]>;
+}
 
 class UBSMongoRepository implements IUBSRepository {
   async create(data: UBSDTO): Promise<void> {
@@ -22,6 +24,12 @@ class UBSMongoRepository implements IUBSRepository {
     if (!ubs) {
       throw new Error('UBS não encontrada');
     }
+
+    return ubs;
+  }
+
+  async findByProprietarioId(id: string): Promise<UBSModel[]> {
+    const ubs: UBSModel[] = await MongoClient.db.collection<UBSModel>('ubs').find({ proprietario: id }).toArray();
 
     return ubs;
   }

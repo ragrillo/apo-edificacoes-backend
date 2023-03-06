@@ -66,6 +66,12 @@ class UnidadeRouter {
       return response.status(statusCode).json(body);
     });
 
+    this.router.get('/escolas/proprietario/:id', async (request: Request, response: Response) => {
+      const { statusCode, body } = await this.escolaController.findByProprietarioId(request);
+
+      return response.status(statusCode).json(body);
+    });
+
     this.router.put('/escolas/:id', async (request: Request, response: Response) => {
       const { statusCode, body } = await this.escolaController.update(request);
       return response.status(statusCode).json(body);
@@ -91,6 +97,11 @@ class UnidadeRouter {
       return response.status(statusCode).json(body);
     });
 
+    this.router.get('/residencias/proprietario/:id', async (request: Request, response: Response) => {
+      const { statusCode, body } = await this.residenciaController.findByProprietarioId(request);
+      return response.status(statusCode).json(body);
+    });
+
     this.router.put('/residencias/:id', async (request: Request, response: Response) => {
       const { statusCode, body } = await this.residenciaController.update(request);
       return response.status(statusCode).json(body);
@@ -113,6 +124,11 @@ class UnidadeRouter {
 
     this.router.get('/ubs/:id', async (request: Request, response: Response) => {
       const { statusCode, body } = await this.ubsController.findById(request);
+      return response.status(statusCode).json(body);
+    });
+
+    this.router.get('/ubs/proprietario/:id', async (request: Request, response: Response) => {
+      const { statusCode, body } = await this.ubsController.findByProprietarioId(request);
       return response.status(statusCode).json(body);
     });
 
