@@ -2,7 +2,9 @@ import IBaseService from './base.service';
 import { IEscolaRepository } from '../repositories/escola.repository';
 import { EscolaDTO, EscolaModel } from '../models/unidade.model';
 
-interface IEscolaService extends IBaseService<EscolaModel, EscolaDTO> {}
+interface IEscolaService extends IBaseService<EscolaModel, EscolaDTO> {
+  findByProprietarioId(id: string): Promise<EscolaModel[]>;
+}
 
 class EscolaService implements IEscolaService {
   constructor(private readonly repository: IEscolaRepository) {}
@@ -21,6 +23,12 @@ class EscolaService implements IEscolaService {
     const escola: EscolaModel = await this.repository.findById(id);
 
     return escola;
+  }
+
+  async findByProprietarioId(id: string): Promise<EscolaModel[]> {
+    const escolas: EscolaModel[] = await this.repository.findByProprietarioId(id);
+
+    return escolas;
   }
 
   async update(id: string, data: EscolaDTO): Promise<void> {

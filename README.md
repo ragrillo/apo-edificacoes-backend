@@ -125,6 +125,14 @@ GET /unidades/escolas/:id
 Resposta:
 - 200 | Retorna uma escola
 
+Obter uma escola pelo ID do proprietário:
+```
+/escolas/proprietario/:id
+```
+
+Resposta:
+- 200 | Retorna uma lista de escolas cadastradas pelo proprietário
+
 Atualizar uma escola pelo ID:
 ```
 PUT /unidades/escolas/:id

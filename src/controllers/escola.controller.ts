@@ -4,7 +4,9 @@ import { EscolaDTO, EscolaModel } from '../models/unidade.model';
 import { IHttpResponse, HttpStatusCode, IHttpRequest } from '../interfaces/http.interface';
 import IBaseController from './base.controller';
 
-interface IEscolaController extends IBaseController<EscolaModel, EscolaDTO> {}
+interface IEscolaController extends IBaseController<EscolaModel, EscolaDTO> {
+  findByProprietarioId(httpRequest: IHttpRequest<string>): Promise<IHttpResponse<EscolaModel[]>>;
+}
 
 class EscolaController implements IEscolaController {
   constructor(private readonly service: IEscolaService) {}
@@ -49,6 +51,19 @@ class EscolaController implements IEscolaController {
     const httpResponse: IHttpResponse<EscolaModel> = {
       statusCode: HttpStatusCode.OK,
       body: escola,
+    };
+
+    return httpResponse;
+  }
+
+  async findByProprietarioId(httpRequest: IHttpRequest<string>): Promise<IHttpResponse<EscolaModel[]>> {
+    const { id } = httpRequest.params;
+
+    const escolas: EscolaModel[] = await this.service.findByProprietarioId(id);
+
+    const httpResponse: IHttpResponse<EscolaModel[]> = {
+      statusCode: HttpStatusCode.OK,
+      body: escolas,
     };
 
     return httpResponse;

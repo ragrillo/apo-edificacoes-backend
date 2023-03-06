@@ -66,6 +66,12 @@ class UnidadeRouter {
       return response.status(statusCode).json(body);
     });
 
+    this.router.get('/escolas/proprietario/:id', async (request: Request, response: Response) => {
+      const { statusCode, body } = await this.escolaController.findByProprietarioId(request);
+
+      return response.status(statusCode).json(body);
+    });
+
     this.router.put('/escolas/:id', async (request: Request, response: Response) => {
       const { statusCode, body } = await this.escolaController.update(request);
       return response.status(statusCode).json(body);
