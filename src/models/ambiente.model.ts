@@ -16,6 +16,7 @@ type Area = {
 
 interface AmbienteModel {
   id: string;
+  unidade: string;
   nome: string;
   grupo: string;
   cobertura: Cobertura;

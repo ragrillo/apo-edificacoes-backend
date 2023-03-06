@@ -33,6 +33,11 @@ class AmbienteRouter {
       return response.status(statusCode).json(body);
     });
 
+    this.router.get('/unidade/:id', async (request: Request, response: Response) => {
+      const { statusCode, body } = await this.ambienteController.findByUnidadeId(request);
+      return response.status(statusCode).json(body);
+    });
+
     this.router.get('/:id', async (request: Request, response: Response) => {
       const { statusCode, body } = await this.ambienteController.findById(request);
       return response.status(statusCode).json(body);

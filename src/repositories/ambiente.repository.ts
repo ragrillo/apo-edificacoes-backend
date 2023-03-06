@@ -3,7 +3,9 @@ import { AmbienteModel, AmbienteDTO } from '../models/ambiente.model';
 import MongoClient from '../database/mongo.database';
 import IBaseRepository from './base.repository';
 
-interface IAmbienteRepository extends IBaseRepository<AmbienteModel, AmbienteDTO> { }
+interface IAmbienteRepository extends IBaseRepository<AmbienteModel, AmbienteDTO> {
+  findByUnidadeId(id: string): Promise<AmbienteModel[]>;
+}
 
 class AmbienteMongoRepository implements IAmbienteRepository {
   async create(data: AmbienteDTO): Promise<void> {
@@ -12,6 +14,12 @@ class AmbienteMongoRepository implements IAmbienteRepository {
 
   async findAll(): Promise<AmbienteModel[]> {
     const ambientes: AmbienteModel[] = await MongoClient.db.collection<AmbienteModel>('ambientes').find().toArray();
+
+    return ambientes;
+  }
+
+  async findByUnidadeId(id: string): Promise<AmbienteModel[]> {
+    const ambientes: AmbienteModel[] = await MongoClient.db.collection<AmbienteModel>('ambientes').find({ unidade: id }).toArray();
 
     return ambientes;
   }

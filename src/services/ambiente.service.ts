@@ -2,7 +2,9 @@ import IBaseService from './base.service';
 import { IAmbienteRepository } from '../repositories/ambiente.repository';
 import { AmbienteDTO, AmbienteModel } from '../models/ambiente.model';
 
-interface IAmbienteService extends IBaseService<AmbienteModel, AmbienteDTO> {}
+interface IAmbienteService extends IBaseService<AmbienteModel, AmbienteDTO> {
+  findByUnidadeId(id: string): Promise<AmbienteModel[]>;
+}
 
 class AmbienteService implements IAmbienteService {
   constructor(private readonly repository: IAmbienteRepository) {}
@@ -13,6 +15,12 @@ class AmbienteService implements IAmbienteService {
 
   async findAll(): Promise<AmbienteModel[]> {
     const ambientes: AmbienteModel[] = await this.repository.findAll();
+
+    return ambientes;
+  }
+  
+  async findByUnidadeId(id: string): Promise<AmbienteModel[]> {
+    const ambientes: AmbienteModel[] = await this.repository.findByUnidadeId(id);
 
     return ambientes;
   }

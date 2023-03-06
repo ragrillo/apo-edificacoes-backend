@@ -275,6 +275,14 @@ GET /ambientes
 Resposta:
 - 200 | Retorna uma lista de ambientes cadastrados
 
+Obter lista de ambientes cadastrados por unidade:
+```
+GET /ambientes/unidade/:id
+```
+
+Resposta:
+- 200 | Retorna uma lista de ambientes cadastrados por unidade
+
 Obter um ambiente pelo ID:
 ```
 GET /ambientes/:id

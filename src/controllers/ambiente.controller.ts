@@ -4,7 +4,9 @@ import { AmbienteDTO, AmbienteModel } from '../models/ambiente.model';
 import { IHttpResponse, HttpStatusCode, IHttpRequest } from '../interfaces/http.interface';
 import IBaseController from './base.controller';
 
-interface IAmbienteController extends IBaseController<AmbienteModel, AmbienteDTO> { }
+interface IAmbienteController extends IBaseController<AmbienteModel, AmbienteDTO> {
+  findByUnidadeId(httpRequest: IHttpRequest<string>): Promise<IHttpResponse<AmbienteModel[]>>;
+}
 
 class AmbienteController implements IAmbienteController {
   constructor(private readonly service: IAmbienteService) { }
@@ -32,6 +34,19 @@ class AmbienteController implements IAmbienteController {
 
   async findAll(): Promise<IHttpResponse<AmbienteModel[]>> {
     const ambientes: AmbienteModel[] = await this.service.findAll();
+
+    const httpResponse: IHttpResponse<AmbienteModel[]> = {
+      statusCode: HttpStatusCode.OK,
+      body: ambientes,
+    };
+
+    return httpResponse;
+  }
+
+  async findByUnidadeId(httpRequest: IHttpRequest<string>): Promise<IHttpResponse<AmbienteModel[]>> {
+    const { id } = httpRequest.params;
+
+    const ambientes: AmbienteModel[] = await this.service.findByUnidadeId(id);
 
     const httpResponse: IHttpResponse<AmbienteModel[]> = {
       statusCode: HttpStatusCode.OK,
