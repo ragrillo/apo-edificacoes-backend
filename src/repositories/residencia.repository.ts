@@ -3,7 +3,9 @@ import { ResidenciaDTO, ResidenciaModel } from '../models/unidade.model';
 import MongoClient from '../database/mongo.database';
 import IBaseRepository from './base.repository';
 
-interface IResidenciaRepository extends IBaseRepository<ResidenciaModel, ResidenciaDTO> { }
+interface IResidenciaRepository extends IBaseRepository<ResidenciaModel, ResidenciaDTO> {
+  findByProprietarioId(id: string): Promise<ResidenciaModel[]>;
+}
 
 class ResidenciaMongoRepository implements IResidenciaRepository {
   async create(data: ResidenciaDTO): Promise<void> {
@@ -24,6 +26,12 @@ class ResidenciaMongoRepository implements IResidenciaRepository {
     }
 
     return residencia;
+  }
+
+  async findByProprietarioId(id: string): Promise<ResidenciaModel[]> {
+    const residencias: ResidenciaModel[] = await MongoClient.db.collection<ResidenciaModel>('residencias').find({ proprietarioId: id }).toArray();
+
+    return residencias;
   }
 
   async update(id: string, data: ResidenciaDTO): Promise<void> {

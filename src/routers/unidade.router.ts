@@ -97,6 +97,11 @@ class UnidadeRouter {
       return response.status(statusCode).json(body);
     });
 
+    this.router.get('/residencias/proprietario/:id', async (request: Request, response: Response) => {
+      const { statusCode, body } = await this.residenciaController.findByProprietarioId(request);
+      return response.status(statusCode).json(body);
+    });
+
     this.router.put('/residencias/:id', async (request: Request, response: Response) => {
       const { statusCode, body } = await this.residenciaController.update(request);
       return response.status(statusCode).json(body);

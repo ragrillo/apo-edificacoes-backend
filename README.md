@@ -175,6 +175,14 @@ GET /unidades/residencias/:id
 Resposta:
 - 200 | Retorna uma residência
 
+Obter uma residência pelo ID do proprietário:
+```
+/residencias/proprietario/:id
+```
+
+Resposta:
+- 200 | Retorna uma lista de residências cadastradas pelo proprietário
+
 Atualizar uma residência pelo ID:
 ```
 PUT /unidades/residencias/:id
