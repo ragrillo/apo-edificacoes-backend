@@ -29,7 +29,7 @@ class ResidenciaMongoRepository implements IResidenciaRepository {
   }
 
   async findByProprietarioId(id: string): Promise<ResidenciaModel[]> {
-    const residencias: ResidenciaModel[] = await MongoClient.db.collection<ResidenciaModel>('residencias').find({ proprietarioId: id }).toArray();
+    const residencias: ResidenciaModel[] = await MongoClient.db.collection<ResidenciaModel>('residencias').find({ proprietario: id }).toArray();
 
     return residencias;
   }
