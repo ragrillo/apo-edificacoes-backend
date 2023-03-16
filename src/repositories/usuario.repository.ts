@@ -10,7 +10,13 @@ interface IUsuarioRepository extends IBaseRepository<UsuarioModel, UsuarioDTO> {
 
 class UsuarioMongoRepository implements IUsuarioRepository {
   async create(data: UsuarioDTO): Promise<void> {
-    await MongoClient.db.collection<Omit<UsuarioModel, 'id'>>('usuarios').insertOne(data);
+    const { insertedId } = await MongoClient.db.collection('usuarios').insertOne(data);
+
+    if (!insertedId) {
+      throw new Error('Erro ao cadastrar usuário');
+    }
+
+    await MongoClient.db.collection('usuarios').updateOne({ _id: new ObjectId(insertedId) }, { $set: { id: insertedId } });
   }
 
   async findAll(): Promise<UsuarioModel[]> {
