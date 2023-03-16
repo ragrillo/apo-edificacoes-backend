@@ -5,6 +5,7 @@ import UnidadeRouter from './routers/unidade.router';
 import AmbienteRouter from './routers/ambiente.router';
 import EmpresaRouter from './routers/empresa.router';
 import UsuarioRouter from './routers/usuario.router';
+import CriterioRouter from './routers/criterio.router';
 import FormularioRouter from './routers/formulario.router';
 
 class App {
@@ -27,6 +28,7 @@ class App {
     this.app.use('/api/v1/ambientes', new AmbienteRouter().router);
     this.app.use('/api/v1/empresas', new EmpresaRouter().router);
     this.app.use('/api/v1/usuarios', new UsuarioRouter().router);
+    this.app.use('/api/v1/criterios', new CriterioRouter().router);
     this.app.use('/api/v1/formularios', new FormularioRouter().router);
   }
 }
