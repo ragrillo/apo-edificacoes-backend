@@ -1,0 +1,642 @@
+[
+    {
+        "codigo": "1501",
+        "enunciado": "Nesta edificação é feita a coleta e o aproveitamento de águas da chuva? (Ex.: Utilização em bacias sanitárias, rega de jardins, limpeza ou outros usos permitidos).",
+        "categoria": "Gestão de captação de chuvas",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1502",
+        "enunciado": "Existe estratégias para a redução da poluição ambiental causada por poluentes internos e externos?",
+        "categoria": "Poluição ambiental - redução de poluentes internos e externos",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1503",
+        "enunciado": "Existe gestão dos possíveis riscos causados pela poluição sejam eles químicos, biológicos ou ambientais?",
+        "categoria": "Poluição ambiental - redução de poluentes internos e externos",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder",
+            "Não se aplica"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1504",
+        "enunciado": "Existe gestão das emissões de CO2 no local?",
+        "categoria": "Poluição ambiental - redução de poluentes internos e externos",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder",
+            "Não se aplica"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1505",
+        "enunciado": "Existe um plano de gestão ambiental?",
+        "categoria": "Plano de gestão ambiental",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder",
+            "Não se aplica"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1506",
+        "enunciado": "Foi adotada, ou está prevista para adoção futura, alguma ferramenta de classificação da sustentabilidade da edificação (green rating tools)?",
+        "categoria": "Plano de gestão ambiental",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "2"
+        ]
+    },
+    {
+        "codigo": "1507",
+        "enunciado": "Como você avalia as medidas adotadas de conscientização e educação para a sustentabilidade dos ocupantes em geral?",
+        "categoria": "Plano de gestão ambiental",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1508",
+        "enunciado": "Como você avalia as medidas adotadas de conscientização e educação para a sustentabilidade dos servidores especificamente?",
+        "categoria": "Plano de gestão ambiental",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1509",
+        "enunciado": "São estimuladas inovações que tragam melhor desempenho ambiental na edificação?",
+        "categoria": "Plano de gestão ambiental",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder",
+            "Não se aplica"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1510",
+        "enunciado": "Existe estratégias para diminuir a demanda de energia para iluminação e ao mesmo tempo aprimorar o desempenho na iluminação da edificação? (Ex.: sensores de presença para acionamento de lâmpadas; especificação de luminárias e lâmpadas de baixo consumo energético).",
+        "categoria": "Economia e eficiência energética",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1511",
+        "enunciado": "Existe estratégias para diminuir a demanda para o sistema de climatização da edificação, e aprimorar o desempenho dos equipamentos?",
+        "categoria": "Economia e eficiência energética",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1512",
+        "enunciado": "Existe estratégias para diminuir o consumo por meio do uso racional, equipamentos e materiais mais eficientes?",
+        "categoria": "Economia e eficiência energética",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1513",
+        "enunciado": "Como você avalia o desempenho energético da edificação?",
+        "categoria": "Economia e eficiência energética",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1514",
+        "enunciado": "São utilizados materiais que tenham menor consumo de energia embutida?",
+        "categoria": "Economia e eficiência energética",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1515",
+        "enunciado": "Existe o uso de fontes alternativas de energia?",
+        "categoria": "Fontes de energia alternativa",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1516",
+        "enunciado": "Existe produção local de energia?",
+        "categoria": "Fontes de energia alternativa",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1517",
+        "enunciado": "Como você avalia o consumo de água por meio da estatística e dos equipamentos e instalações?",
+        "categoria": "Economia e eficiência hídrica",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1518",
+        "enunciado": "Existem estratégias para diminuir o consumo de água pelo uso racional, equipamentos e materiais mais eficientes?",
+        "categoria": "Economia e eficiência hídrica",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1519",
+        "enunciado": "Como você avaliia a adoção de maneiras de reduzir o consumo da água para irrigação do paisagismo?",
+        "categoria": "Economia e eficiência hídrica",
+        "opcoesResposta": [
+            "Inexistente",
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1520",
+        "enunciado": "Existe o reuso de águas cinzas/ servidas?",
+        "categoria": "Uso de águas cinzas",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1521",
+        "enunciado": "Existem medidas para evitar a formação do efeito ilha de calor?",
+        "categoria": "Redução do efeito ilha de calor",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1522",
+        "enunciado": "Estão sendo desenvolvidas avaliações do impacto do ciclo de vida do edifício? Estão sendo tomadas medidas para que essas sejam desenvolvidas futuramente?",
+        "categoria": "ACV - Avaliação do ciclo de vida",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1523",
+        "enunciado": "São feitas contratações de especialistas em questões de desempenho ambiental, para verificação externa?",
+        "categoria": "Contratação de especialista ambiental",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1524",
+        "enunciado": "Existe o uso racional de insumos, visando o decréscimo na produção de resíduos?",
+        "categoria": "Uso racional de insumos",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1525",
+        "enunciado": "Como você avalia a produção de resíduos na edificação?",
+        "categoria": "Gestão de resíduos",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1526",
+        "enunciado": "Como você avalia o gerenciamento de resíduo sólido considerando sua separação, reciclagem e reutilização?",
+        "categoria": "Gestão de resíduos",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1527",
+        "enunciado": "Como você avalia o gerenciamento de resíduos líquidos englobando o tratamento de efluente e a preservação de recursos hídricos?",
+        "categoria": "Gestão de resíduos",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1528",
+        "enunciado": "São adotadas medidas para evitar a liberação de resíduos gasosos para a atmosfera e combater emissão de compostos que prejudiquem a saúde?",
+        "categoria": "Gestão de resíduos",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1529",
+        "enunciado": "Como você avalia a destinação de resíduos radioativos? Está adequada evitando a contaminação e visando a preservação da saúde?",
+        "categoria": "Gestão de resíduos",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1530",
+        "enunciado": "Como você avalia a gestão de resíduos buscando o uso racional de recursos naturais?",
+        "categoria": "Gestão de resíduos",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1531",
+        "enunciado": "São adotadas medidas de recuperação de efluentes?",
+        "categoria": "Recuperação de efluentes",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    }
+]

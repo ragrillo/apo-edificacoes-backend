@@ -1,0 +1,258 @@
+[
+  {
+    "codigo": "0901",
+    "enunciado": "Há isolamento térmico nas paredes?",
+    "categoria": "Isolamento e conforto térmico",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "dica": null
+  },
+  {
+    "codigo": "0902",
+    "enunciado": "Há isolamento térmico da cobertura?",
+    "categoria": "Isolamento e conforto térmico",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "0903",
+    "enunciado": "São utilizados materiais que tenham melhor desempenho térmico a fim de minimizar o uso de sistemas de climatização?",
+    "categoria": "Isolamento e conforto térmico",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "0904",
+    "enunciado": "A climatização neste ambiente, para fins de conforto e/ou assepsia, está adequada as normas?",
+    "categoria": "Isolamento e conforto térmico",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "0905",
+    "enunciado": "Como você avalia o conforto térmico e a satisfação com as condições térmicas do ocupante?",
+    "categoria": "Isolamento e conforto térmico",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "0906",
+    "enunciado": "Como você avalia a sensação térmica no ambiente?",
+    "categoria": "Isolamento e conforto térmico",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "0907",
+    "enunciado": "Como você avalia a faixa de temperatura interna, e sua variação, no ambiente?",
+    "categoria": "Isolamento e conforto térmico",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "0908",
+    "enunciado": "Como você avalia os níveis de umidade no ambiente?",
+    "categoria": "Umidade nos ambientes",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "0909",
+    "enunciado": "Como você avalia a variação de temperatura do ar (diferença entre temperatura no exterior e interior da edificação) neste ambiente?",
+    "categoria": "Variação térmica",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "0910",
+    "enunciado": "Como você avalia as temperaturas no interior do ambiente em diferentes estações do ano?",
+    "categoria": "Variação térmica",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "0911",
+    "enunciado": "A ventilação natural do ambiente atende os valores mínimos exigidos?",
+    "categoria": "Ventilação natural",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ],
+    "dica": "Ver planilha de cálculo de ventilação natural",
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "0912",
+    "enunciado": "Como você avalia a ventilação natural neste ambiente?",
+    "categoria": "Ventilação natural",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  }
+]

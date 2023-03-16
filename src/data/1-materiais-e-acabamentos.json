@@ -1,0 +1,556 @@
+[
+    {
+        "codigo": "0101",
+        "enunciado": "Como você avalia a escolha de materiais para os itens abaixo? Estão de acordo com as normas e legislação? (Ex.: contribuir para o conforto do ocupante (térmica e visualmente) e com a higiene do local). - Pintura de paredes",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": "1. Devem ser sempre priorizados para as áreas críticas e mesmo nas áreas semicríticas, materiais deacabamento que tornem as superfícies monolíticas, com o menor número possível de ranhuras ou frestas, mesmo após o uso e limpeza frequente.2. Os materiais adequados para o revestimento de paredes, pisos e tetos de ambientes de áreas críticas e semicríticas devem ser resistentes à lavagem e ao uso de desinfetantes.3. Rodapés: a execução da junção entre o rodapé e o piso deve ser de tal forma que permita a completa limpeza do canto formado.4. Forros: os tetos em áreas críticas (especialmente nas salas destinadas à realização de procedimentos cirúrgicos ou similares) devem ser contínuos, sendo proibido o uso de forros falsos removíveis, do tipo que interfira na assepsia dos ambientes. Nas demais se pode utilizar forro removível, inclusive por razões ligadas à manutenção, desde que nas áreas semicríticas esses sejam resistentes aos processos de limpeza, descontaminação e desinfecção."
+    },
+    {
+        "codigo": "0102",
+        "enunciado": "Como você avalia a escolha de materiais para os itens abaixo? Estão de acordo com as normas e legislação? (Ex.: contribuir para o conforto do ocupante (térmica e visualmente) e com a higiene do local). - Revestimentos",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": "1. Devem ser sempre priorizados para as áreas críticas e mesmo nas áreas semicríticas, materiais deacabamento que tornem as superfícies monolíticas, com o menor número possível de ranhuras ou frestas, mesmo após o uso e limpeza frequente.2. Os materiais adequados para o revestimento de paredes, pisos e tetos de ambientes de áreas críticas e semicríticas devem ser resistentes à lavagem e ao uso de desinfetantes.3. Rodapés: a execução da junção entre o rodapé e o piso deve ser de tal forma que permita a completa limpeza do canto formado.4. Forros: os tetos em áreas críticas (especialmente nas salas destinadas à realização de procedimentos cirúrgicos ou similares) devem ser contínuos, sendo proibido o uso de forros falsos removíveis, do tipo que interfira na assepsia dos ambientes. Nas demais se pode utilizar forro removível, inclusive por razões ligadas à manutenção, desde que nas áreas semicríticas esses sejam resistentes aos processos de limpeza, descontaminação e desinfecção."
+    },
+    {
+        "codigo": "0103",
+        "enunciado": "Como você avalia a escolha de materiais para os itens abaixo? Estão de acordo com as normas e legislação? (Ex.: contribuir para o conforto do ocupante (térmica e visualmente) e com a higiene do local). - Pisos",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": "1. Devem ser sempre priorizados para as áreas críticas e mesmo nas áreas semicríticas, materiais deacabamento que tornem as superfícies monolíticas, com o menor número possível de ranhuras ou frestas, mesmo após o uso e limpeza frequente.2. Os materiais adequados para o revestimento de paredes, pisos e tetos de ambientes de áreas críticas e semicríticas devem ser resistentes à lavagem e ao uso de desinfetantes.3. Rodapés: a execução da junção entre o rodapé e o piso deve ser de tal forma que permita a completa limpeza do canto formado.4. Forros: os tetos em áreas críticas (especialmente nas salas destinadas à realização de procedimentos cirúrgicos ou similares) devem ser contínuos, sendo proibido o uso de forros falsos removíveis, do tipo que interfira na assepsia dos ambientes. Nas demais se pode utilizar forro removível, inclusive por razões ligadas à manutenção, desde que nas áreas semicríticas esses sejam resistentes aos processos de limpeza, descontaminação e desinfecção."
+    },
+    {
+        "codigo": "0104",
+        "enunciado": "Como você avalia a escolha de materiais para os itens abaixo? Estão de acordo com as normas e legislação? (Ex.: contribuir para o conforto do ocupante (térmica e visualmente) e com a higiene do local). - Tomadas",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": "1. Devem ser sempre priorizados para as áreas críticas e mesmo nas áreas semicríticas, materiais deacabamento que tornem as superfícies monolíticas, com o menor número possível de ranhuras ou frestas, mesmo após o uso e limpeza frequente.2. Os materiais adequados para o revestimento de paredes, pisos e tetos de ambientes de áreas críticas e semicríticas devem ser resistentes à lavagem e ao uso de desinfetantes.3. Rodapés: a execução da junção entre o rodapé e o piso deve ser de tal forma que permita a completa limpeza do canto formado.4. Forros: os tetos em áreas críticas (especialmente nas salas destinadas à realização de procedimentos cirúrgicos ou similares) devem ser contínuos, sendo proibido o uso de forros falsos removíveis, do tipo que interfira na assepsia dos ambientes. Nas demais se pode utilizar forro removível, inclusive por razões ligadas à manutenção, desde que nas áreas semicríticas esses sejam resistentes aos processos de limpeza, descontaminação e desinfecção."
+    },
+    {
+        "codigo": "0105",
+        "enunciado": "Como você avalia a escolha de materiais para os itens abaixo? Estão de acordo com as normas e legislação? (Ex.: contribuir para o conforto do ocupante (térmica e visualmente) e com a higiene do local). - Metais",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": "1. Devem ser sempre priorizados para as áreas críticas e mesmo nas áreas semicríticas, materiais deacabamento que tornem as superfícies monolíticas, com o menor número possível de ranhuras ou frestas, mesmo após o uso e limpeza frequente.2. Os materiais adequados para o revestimento de paredes, pisos e tetos de ambientes de áreas críticas e semicríticas devem ser resistentes à lavagem e ao uso de desinfetantes.3. Rodapés: a execução da junção entre o rodapé e o piso deve ser de tal forma que permita a completa limpeza do canto formado.4. Forros: os tetos em áreas críticas (especialmente nas salas destinadas à realização de procedimentos cirúrgicos ou similares) devem ser contínuos, sendo proibido o uso de forros falsos removíveis, do tipo que interfira na assepsia dos ambientes. Nas demais se pode utilizar forro removível, inclusive por razões ligadas à manutenção, desde que nas áreas semicríticas esses sejam resistentes aos processos de limpeza, descontaminação e desinfecção."
+    },
+    {
+        "codigo": "0106",
+        "enunciado": "Como você avalia a escolha de materiais para os itens abaixo? Estão de acordo com as normas e legislação? (Ex.: contribuir para o conforto do ocupante (térmica e visualmente) e com a higiene do local). - Esquadrias (portas e janelas)",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": "1. Devem ser sempre priorizados para as áreas críticas e mesmo nas áreas semicríticas, materiais deacabamento que tornem as superfícies monolíticas, com o menor número possível de ranhuras ou frestas, mesmo após o uso e limpeza frequente.2. Os materiais adequados para o revestimento de paredes, pisos e tetos de ambientes de áreas críticas e semicríticas devem ser resistentes à lavagem e ao uso de desinfetantes.3. Rodapés: a execução da junção entre o rodapé e o piso deve ser de tal forma que permita a completa limpeza do canto formado.4. Forros: os tetos em áreas críticas (especialmente nas salas destinadas à realização de procedimentos cirúrgicos ou similares) devem ser contínuos, sendo proibido o uso de forros falsos removíveis, do tipo que interfira na assepsia dos ambientes. Nas demais se pode utilizar forro removível, inclusive por razões ligadas à manutenção, desde que nas áreas semicríticas esses sejam resistentes aos processos de limpeza, descontaminação e desinfecção."
+    },
+    {
+        "codigo": "0107",
+        "enunciado": "Como você avalia a escolha de materiais para os itens abaixo? Estão de acordo com as normas e legislação? (Ex.: contribuir para o conforto do ocupante (térmica e visualmente) e com a higiene do local). - Forro",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": "1. Devem ser sempre priorizados para as áreas críticas e mesmo nas áreas semicríticas, materiais deacabamento que tornem as superfícies monolíticas, com o menor número possível de ranhuras ou frestas, mesmo após o uso e limpeza frequente.2. Os materiais adequados para o revestimento de paredes, pisos e tetos de ambientes de áreas críticas e semicríticas devem ser resistentes à lavagem e ao uso de desinfetantes.3. Rodapés: a execução da junção entre o rodapé e o piso deve ser de tal forma que permita a completa limpeza do canto formado.4. Forros: os tetos em áreas críticas (especialmente nas salas destinadas à realização de procedimentos cirúrgicos ou similares) devem ser contínuos, sendo proibido o uso de forros falsos removíveis, do tipo que interfira na assepsia dos ambientes. Nas demais se pode utilizar forro removível, inclusive por razões ligadas à manutenção, desde que nas áreas semicríticas esses sejam resistentes aos processos de limpeza, descontaminação e desinfecção."
+    },
+    {
+        "codigo": "0108",
+        "enunciado": "Como você avalia a escolha de materiais para os itens abaixo? Estão de acordo com as normas e legislação? (Ex.: contribuir para o conforto do ocupante (térmica e visualmente) e com a higiene do local). - Louças",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": "1. Devem ser sempre priorizados para as áreas críticas e mesmo nas áreas semicríticas, materiais deacabamento que tornem as superfícies monolíticas, com o menor número possível de ranhuras ou frestas, mesmo após o uso e limpeza frequente.2. Os materiais adequados para o revestimento de paredes, pisos e tetos de ambientes de áreas críticas e semicríticas devem ser resistentes à lavagem e ao uso de desinfetantes.3. Rodapés: a execução da junção entre o rodapé e o piso deve ser de tal forma que permita a completa limpeza do canto formado.4. Forros: os tetos em áreas críticas (especialmente nas salas destinadas à realização de procedimentos cirúrgicos ou similares) devem ser contínuos, sendo proibido o uso de forros falsos removíveis, do tipo que interfira na assepsia dos ambientes. Nas demais se pode utilizar forro removível, inclusive por razões ligadas à manutenção, desde que nas áreas semicríticas esses sejam resistentes aos processos de limpeza, descontaminação e desinfecção."
+    },
+    {
+        "codigo": "0109",
+        "enunciado": "Como você avalia o uso de materiais, neste ambiente, com respeito a durabilidade e conservação? (Ex.: Visar uma edificação durável) - Pintura de paredes",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": "1. Avaliação de fissuras excessivas ou deformações no sistema estrutural de forma a garantir adurabilidade da edificação.2. Materiais com maior resistência e durabilidade, com validade mínima de cinco anos para bens não duráveis e cinquenta para bens duráveis.3. Projetar os sistemas da edificação assistencial de saúde de acordo com valores teóricos preestabelecidos de Vida Útil de Projeto, sendo: estrutura - mínimo 50 anos; pisos internos - mínimo 13 anos; vedação vertical externa - mínimo 40 anos; vedação vertical interna - mínimo 20 anos; cobertura - mínimo 20 anos; hidrossanitário - mínimo 20 anos."
+    },
+    {
+        "codigo": "0110",
+        "enunciado": "Como você avalia o uso de materiais, neste ambiente, com respeito a durabilidade e conservação? (Ex.: Visar uma edificação durável) - Revestimentos",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": "1. Avaliação de fissuras excessivas ou deformações no sistema estrutural de forma a garantir adurabilidade da edificação.2. Materiais com maior resistência e durabilidade, com validade mínima de cinco anos para bens não duráveis e cinquenta para bens duráveis.3. Projetar os sistemas da edificação assistencial de saúde de acordo com valores teóricos preestabelecidos de Vida Útil de Projeto, sendo: estrutura - mínimo 50 anos; pisos internos - mínimo 13 anos; vedação vertical externa - mínimo 40 anos; vedação vertical interna - mínimo 20 anos; cobertura - mínimo 20 anos; hidrossanitário - mínimo 20 anos."
+    },
+    {
+        "codigo": "0111",
+        "enunciado": "Como você avalia o uso de materiais, neste ambiente, com respeito a durabilidade e conservação? (Ex.: Visar uma edificação durável) - Pisos",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": "1. Avaliação de fissuras excessivas ou deformações no sistema estrutural de forma a garantir adurabilidade da edificação.2. Materiais com maior resistência e durabilidade, com validade mínima de cinco anos para bens não duráveis e cinquenta para bens duráveis.3. Projetar os sistemas da edificação assistencial de saúde de acordo com valores teóricos preestabelecidos de Vida Útil de Projeto, sendo: estrutura - mínimo 50 anos; pisos internos - mínimo 13 anos; vedação vertical externa - mínimo 40 anos; vedação vertical interna - mínimo 20 anos; cobertura - mínimo 20 anos; hidrossanitário - mínimo 20 anos."
+    },
+    {
+        "codigo": "0112",
+        "enunciado": "Como você avalia o uso de materiais, neste ambiente, com respeito a durabilidade e conservação? (Ex.: Visar uma edificação durável) - Tomadas",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": "1. Avaliação de fissuras excessivas ou deformações no sistema estrutural de forma a garantir adurabilidade da edificação.2. Materiais com maior resistência e durabilidade, com validade mínima de cinco anos para bens não duráveis e cinquenta para bens duráveis.3. Projetar os sistemas da edificação assistencial de saúde de acordo com valores teóricos preestabelecidos de Vida Útil de Projeto, sendo: estrutura - mínimo 50 anos; pisos internos - mínimo 13 anos; vedação vertical externa - mínimo 40 anos; vedação vertical interna - mínimo 20 anos; cobertura - mínimo 20 anos; hidrossanitário - mínimo 20 anos."
+    },
+    {
+        "codigo": "0113",
+        "enunciado": "Como você avalia o uso de materiais, neste ambiente, com respeito a durabilidade e conservação? (Ex.: Visar uma edificação durável) - Metais",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": "1. Avaliação de fissuras excessivas ou deformações no sistema estrutural de forma a garantir adurabilidade da edificação.2. Materiais com maior resistência e durabilidade, com validade mínima de cinco anos para bens não duráveis e cinquenta para bens duráveis.3. Projetar os sistemas da edificação assistencial de saúde de acordo com valores teóricos preestabelecidos de Vida Útil de Projeto, sendo: estrutura - mínimo 50 anos; pisos internos - mínimo 13 anos; vedação vertical externa - mínimo 40 anos; vedação vertical interna - mínimo 20 anos; cobertura - mínimo 20 anos; hidrossanitário - mínimo 20 anos."
+    },
+    {
+        "codigo": "0114",
+        "enunciado": "Como você avalia o uso de materiais, neste ambiente, com respeito a durabilidade e conservação? (Ex.: Visar uma edificação durável) - Esquadrias (portas e janelas)",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": "1. Avaliação de fissuras excessivas ou deformações no sistema estrutural de forma a garantir adurabilidade da edificação.2. Materiais com maior resistência e durabilidade, com validade mínima de cinco anos para bens não duráveis e cinquenta para bens duráveis.3. Projetar os sistemas da edificação assistencial de saúde de acordo com valores teóricos preestabelecidos de Vida Útil de Projeto, sendo: estrutura - mínimo 50 anos; pisos internos - mínimo 13 anos; vedação vertical externa - mínimo 40 anos; vedação vertical interna - mínimo 20 anos; cobertura - mínimo 20 anos; hidrossanitário - mínimo 20 anos."
+    },
+    {
+        "codigo": "0115",
+        "enunciado": "Como você avalia o uso de materiais, neste ambiente, com respeito a durabilidade e conservação? (Ex.: Visar uma edificação durável) - Forro",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": "1. Avaliação de fissuras excessivas ou deformações no sistema estrutural de forma a garantir adurabilidade da edificação.2. Materiais com maior resistência e durabilidade, com validade mínima de cinco anos para bens não duráveis e cinquenta para bens duráveis.3. Projetar os sistemas da edificação assistencial de saúde de acordo com valores teóricos preestabelecidos de Vida Útil de Projeto, sendo: estrutura - mínimo 50 anos; pisos internos - mínimo 13 anos; vedação vertical externa - mínimo 40 anos; vedação vertical interna - mínimo 20 anos; cobertura - mínimo 20 anos; hidrossanitário - mínimo 20 anos."
+    },
+    {
+        "codigo": "0116",
+        "enunciado": "Como você avalia o uso de materiais, neste ambiente, com respeito a durabilidade e conservação? (Ex.: Visar uma edificação durável) - Louças",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": "1. Avaliação de fissuras excessivas ou deformações no sistema estrutural de forma a garantir adurabilidade da edificação.2. Materiais com maior resistência e durabilidade, com validade mínima de cinco anos para bens não duráveis e cinquenta para bens duráveis.3. Projetar os sistemas da edificação assistencial de saúde de acordo com valores teóricos preestabelecidos de Vida Útil de Projeto, sendo: estrutura - mínimo 50 anos; pisos internos - mínimo 13 anos; vedação vertical externa - mínimo 40 anos; vedação vertical interna - mínimo 20 anos; cobertura - mínimo 20 anos; hidrossanitário - mínimo 20 anos."
+    },
+    {
+        "codigo": "0117",
+        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum dos itens descritos abaixo durante o periodo de garantia. - Pintura de paredes",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0118",
+        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum dos itens descritos abaixo durante o periodo de garantia. - Revestimentos",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0119",
+        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum dos itens descritos abaixo durante o periodo de garantia. - Pisos",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0120",
+        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum dos itens descritos abaixo durante o periodo de garantia. - Tomadas",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0121",
+        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum dos itens descritos abaixo durante o periodo de garantia. - Metais",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0122",
+        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum dos itens descritos abaixo durante o periodo de garantia. - Esquadrias (portas e janelas)",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0123",
+        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum dos itens descritos abaixo durante o periodo de garantia. - Forro",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0124",
+        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum dos itens descritos abaixo durante o periodo de garantia. - Louças",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0125",
+        "enunciado": "Como você avalia o uso de cores no ambiente? (Ex.: incluir cores variadas nas paredes, tetos e pisos para tornar os ambientes mais humanos, aconchegantes e tranquilos; painéis, quadros coloridos e obras de arte; lâmpadas ou LEDS coloridos nas sinalizações, em painéis, tetos e paredes).",
+        "categoria": "Pintura de paredes",
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": "RDC 50_UBS.:  As fachadas externas da edificação recebem pintura texturizada nas cores cinza, azul everde, conforme projeto (BRASIL, 2014b).Com relação a área externa, utilizar: cor verde claro em até 60% da área; cor verde escuro em 15% da área; cor azul em até 15% da área; cor branca em até 10% da área."
+    },
+    {
+        "codigo": "0126",
+        "enunciado": "Como você avalia a orientação das fachadas com vidros? (Ex.: As aberturas de orientação solar inadequadas são protegidas por elementos externos; os vidros das janelas dos ambientes com ar-condicionado, para melhor eficiência, são duplos?).",
+        "categoria": "Esquadrias (portas e janelas)",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": "1. Os dispositivos de fechamento e os vidros devem ser de qualidade e confiança visando conferir um altonível de proteção sem a perda do conforto térmico e lumínico do edifício.2. No caso de uso de vidros ou outro tipo de lâmina, a solução deve permitir abertura total. O uso de vidros é desejável em localidades sujeitas a baixas temperaturas, e em locais sujeitos a bruscas quedas de temperatura (friagem). É desejável dispositivo que permita o controle da ventilação.3. Seguir as recomendações de tipo de vidro, com sua respectiva aplicação, execução e recebimento."
+    }
+]

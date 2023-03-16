@@ -1,0 +1,343 @@
+[
+  {
+    "codigo": "0301",
+    "enunciado": "O acesso é apropriado para os pedestres?",
+    "categoria": "Acessos e circulação no interior da edificação",
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "dica": "Todos os estacionamentos devem garantir uma faixa de circulação de pedestre que garanta um trajeto seguro, com largura mínima de 1,20 m até o local de interesse. Este trajeto vai compor a rota acessível."
+  },
+  {
+    "codigo": "0302",
+    "enunciado": "Existe diferenciação de circulação e de acessos para os diferentes tipos de usuários do edifício?",
+    "categoria": "Acessos e circulação no interior da edificação",
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ],
+    "dica": "Os acessos devem ser vinculados através de rota acessível à circulação principal e às circulações de emergência. Os acessos devem permanecer livres de quaisquer obstáculos de forma permanente."
+  },
+  {
+    "codigo": "0303",
+    "enunciado": "Como você avalia os corredores quanto suas dimensões, iluminação, sinalização, e materiais considerando a adequação, resistência, durabilidade e absorção sonora?",
+    "categoria": "Acessos e circulação no interior da edificação",
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": "Os corredores devem ser dimensionados de acordo com o fluxo de pessoas, assegurando uma faixa livre de barreiras ou obstáculos. As larguras mínimas para corredores em edificações e equipamentos urbanos são: 1,50 m para corredores de uso público."
+  },
+  {
+    "codigo": "0304",
+    "enunciado": "Como você avalia a inclinação das rampas, iluminação, sinalização, localização, materiais, corrimãos de escadas e rampas, seguindo a NBR 9050?",
+    "categoria": "Acessos e circulação no interior da edificação",
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": "Seguir requisitos da NBR 9050."
+  },
+  {
+    "codigo": "0305",
+    "enunciado": "Como você avalia a localização dos elevadores? (Ex.: é adequada, de fácil acesso e bem-sinalizada; a capacidade, o dimensionamento, a instalação e a quantidade de elevadores são calculadas corretamente).",
+    "categoria": "Acessos e circulação no interior da edificação",
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": null
+  },
+  {
+    "codigo": "0306",
+    "enunciado": "A edificação possui escadas?",
+    "categoria": "Acessibilidade",
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ],
+    "dica": null
+  },
+  {
+    "codigo": "0307",
+    "enunciado": "A edificação possui rampas?",
+    "categoria": "Acessibilidade",
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ],
+    "dica": null
+  },
+  {
+    "codigo": "0308",
+    "enunciado": "A edificação possui elevador?",
+    "categoria": "Acessibilidade",
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ],
+    "dica": null
+  },
+  {
+    "codigo": "0309",
+    "enunciado": "Existem suportes físicos como corrimão e bancos?",
+    "categoria": "Acessibilidade",
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ],
+    "dica": "NBR 9050. Sinalização de espaço reservado para PCR, barras de apoio e demais adaptações nos sanitários"
+  },
+  {
+    "codigo": "0310",
+    "enunciado": "Existe suporte cognitivo?",
+    "categoria": "Acessibilidade",
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ],
+    "dica": "NBR 9050."
+  },
+  {
+    "codigo": "0311",
+    "enunciado": "Existem mecanismos para o suporte sensorial?",
+    "categoria": "Acessibilidade",
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ],
+    "dica": "NBR 9050. Sinalização de sanitários em Braille. Faixa tátil de alcance acessível nas paredes. Uso de som e áudio."
+  },
+  {
+    "codigo": "0312",
+    "enunciado": "Como você avalia a acessibilidade do local? (Ex.: o acesso ao edifício é apropriado para todos, incluindo pessoas deficientes).",
+    "categoria": "Acessibilidade",
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ],
+    "dica": "NBR 9050."
+  },
+  {
+    "codigo": "0313",
+    "enunciado": "Como você avalia o acesso de materiais e veículos de remoção de resíduos? (EX.: é separado do acesso do público e de pessoal).",
+    "categoria": "Acesso à remoção de resíduos",
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": "Vaga para veículo coleta de resíduos com 12,5m²"
+  },
+  {
+    "codigo": "0314",
+    "enunciado": "Verificar a existência de circulação limpa e suja.",
+    "categoria": "Acesso à remoção de resíduos",
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ],
+    "dica": null
+  },
+  {
+    "codigo": "0315",
+    "enunciado": "Como você avalia a orientação e sinalização externa? (Ex.: é de boa qualidade e integrada à solução do projeto).",
+    "categoria": "Sinalização interna e externa",
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": "A sinalização deve ser autoexplicativa, perceptível e legível para todos, inclusive para as pessoas com deficiência. Incluir sinais de localização, advertência e instrução."
+  },
+  {
+    "codigo": "0316",
+    "enunciado": "Como você avalia a sinalização interna e orientações transmitidas aos ocupantes pela edificação?",
+    "categoria": "Sinalização interna e externa",
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": "Símbolos: internacional de acesso (SIA), de pessoas com deficiência visual e de pessoas com deficiência auditiva, de atendimento preferencial"
+  }
+]

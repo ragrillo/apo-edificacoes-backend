@@ -1,0 +1,194 @@
+[
+    {
+        "codigo": "1401",
+        "enunciado": "Existe o abastecimento de água? (Ex.: Rede pública, poço artesiano, cisterna, poço ou fonte).",
+        "categoria": "Instalações hidráulicas",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1402",
+        "enunciado": "Há dimensionamento e materiais adequados para as instalações hidráulicas?",
+        "categoria": "Instalações hidráulicas",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1403",
+        "enunciado": "Como você avalia as instalações hidráulicas? (Ex.:Existência de defeitos/manifestações patológicas).",
+        "categoria": "Instalações hidráulicas",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1404",
+        "enunciado": "Existe rede pública de coleta de esgoto ou fossa séptica?",
+        "categoria": "Instalações hidráulicas",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1405",
+        "enunciado": "Há dimensionamento e materiais adequados para as instalações de esgoto?",
+        "categoria": "Instalações hidráulicas",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1406",
+        "enunciado": "Como você avalia as instalações sanitárias? (Ex.: Existência de defeitos/manifestações patológicas).",
+        "categoria": "Instalações hidráulicas",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1407",
+        "enunciado": "Como você avalia a capacidade do sistema de captação e drenagem pluvial da cobertura?",
+        "categoria": "Instalações hidráulicas",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1408",
+        "enunciado": "Como você avalia a qualidade e potabilidade das águas servidas? Está de acordo com seu uso?",
+        "categoria": "Qualidade das águas servidas",
+        "opcoesResposta": [
+            "Inexistente",
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1409",
+        "enunciado": "Como você avalia a gestão hídrica englobando o abastecimento de água e os riscos hídricos (posição de hidrantes, reservas de água, etc.)?",
+        "categoria": "Gestão do sistema hidráulico",
+        "opcoesResposta": [
+            "Inexistente",
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "codigo": "2001",
+    "enunciado": "O estabelecimento estimula a partilha de conhecimentos, o ensino e a pesquisa?",
+    "categoria": "Comunicação entre usuários",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ],
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "2002",
+    "enunciado": "Como você avalia a comunicação, interação e transparência entre os diferentes usuários da edificação?",
+    "categoria": "Comunicação entre usuários",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente",
+      "Não se aplica"
+    ],
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1"
+    ]
+  },
+  {
+    "codigo": "2003",
+    "enunciado": "Existe um manual do usuário da edificação que permita o conhecimento sobre o processo construtivo e instalações?",
+    "categoria": "Manual do usuário",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "2004",
+    "enunciado": "Existe um plano de pesquisas de satisfação para obter o feedback do desempenho do estabelecimento?",
+    "categoria": "Pesquisa de satisfação",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  }
+]

@@ -1,0 +1,265 @@
+[
+    {
+        "codigo": "2201",
+        "enunciado": "Há controle de entrada e saída de usuários?",
+        "categoria": "Segurança dos usuários",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "2202",
+        "enunciado": "Há controle de entrada de pessoas estranhas na edificação?",
+        "categoria": "Segurança dos usuários",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "2203",
+        "enunciado": "Há esquema de policiamento para inibição de tráfico de tóxicos/drogas no estabelecimento?",
+        "categoria": "Segurança dos usuários",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "2204",
+        "enunciado": "Há esquema de policiamento para inibição de tráfico de tóxicos/drogas nas imediações do estabelecimento?",
+        "categoria": "Segurança dos usuários",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "2205",
+        "enunciado": "Como você avalia o nível de segurança geral como usuário da edificação?",
+        "categoria": "Segurança dos usuários",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "2206",
+        "enunciado": "Há controle de entrada de pessoas estranhas na edificação?",
+        "categoria": "Segurança dos usuários",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "2207",
+        "enunciado": "Como você avalia o nível de segurança para realizar suas atividades de trabalho como funcionário do estabelecimento?",
+        "categoria": "Segurança no trabalho",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1"
+        ]
+    },
+    {
+        "codigo": "2208",
+        "enunciado": "Há vigilância para o período diurno?",
+        "categoria": "Segurança do Patrimonio",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "2209",
+        "enunciado": "Há vigilância para o período noturno?",
+        "categoria": "Segurança do Patrimonio",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "2210",
+        "enunciado": "Há vigilância para os finais de semana e feriados?",
+        "categoria": "Segurança do Patrimonio",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "2211",
+        "enunciado": "Há iluminação do lado de fora da edificação?",
+        "categoria": "Segurança do Patrimonio",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "2212",
+        "enunciado": "Há mecanismos de proteção para equipamentos mais caros?",
+        "categoria": "Segurança do Patrimonio",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "2213",
+        "enunciado": "Há segurança nas suas imediações?",
+        "categoria": "Segurança do Patrimonio",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    }
+]

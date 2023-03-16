@@ -1,0 +1,63 @@
+[
+    {
+        "codigo": "0701",
+        "enunciado": "É necessário ligar a luz artificial durante o dia (9h00 às 15h00) para atividades rotineiras?",
+        "categoria": "Iluminação natural",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "0702",
+        "enunciado": "Se sim, em quais destes ambientes: Sala de Estar, Dormitórios, Copa/Cozinha, Área de Serviço?",
+        "categoria": "Iluminação natural",
+        "opcoesResposta": [
+            "Sala de Estar",
+            "Dormitórios",
+            "Copa/Cozinha",
+            "Área de Serviço"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "0703",
+        "enunciado": "A iluminação natural do ambiente atende a NBR 15575?",
+        "categoria": "Iluminação natural",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    }
+]

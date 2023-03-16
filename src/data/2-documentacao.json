@@ -1,0 +1,202 @@
+[
+    {
+        "codigo": "0201",
+        "enunciado": "Foi entregue (estão disponíveis para consulta) plantas, projetos e memoriais?",
+        "categoria": "Qualidade e execução de Projetos",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0202",
+        "enunciado": "Foi entregue manual de uso, operação e manutenção?",
+        "categoria": "Qualidade e execução de Projetos",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0203",
+        "enunciado": "O conceito de projeto é satisfatório, com padrões adequados de espaço, qualidade, exigências funcionais e compatibilidade dos subsistemas da construção?",
+        "categoria": "Qualidade e execução de Projetos",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": "Avaliar a adequação do projeto arquitetônico às atividades propostas pelo EAS - verificação da pertinência do projeto físico apresentado com a proposta assistencial pretendida, por unidade funcional e conjunto do EAS, objetivando o cumprimento da assistência proposta."
+    },
+    {
+        "codigo": "0204",
+        "enunciado": "É possivel modificar ou adaptar os ambientes para novas funções?",
+        "categoria": "Flexibilidade e adaptabilidade",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0205",
+        "enunciado": "Existe a presença de reserva de espaço para construção, alteração ou ampliação?",
+        "categoria": "Flexibilidade e adaptabilidade",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": "Escolher terreno que possua folga de espaço e desenvolver o projeto de forma a permitir ampliações ou alterações prevendo: expansão necessária para novas tecnologias; uso de jardins e pátios como reserva de áreas; previsão de sobra estrutural. "
+    },
+    {
+        "codigo": "0206",
+        "enunciado": "O projeto utiliza o conceito arquitetônico da planta livre, com uma modulação regular a partir de uma malha pré-definida econômica e compatível com a estrutura? São utilizados componentes pré-fabricados, padronizados que possam ser removidos, repostos ou reutilizados em ambientes diferentes?",
+        "categoria": "Sistema construtivo modulado e pré-fabricado",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": "RDC 50. Paredes pré-fabricadas podem ser usadas, desde que quando instaladas tenham acabamento monolítico, ou seja, não possuam ranhuras ou perfis estruturais aparentes e sejam resistentes à lavagem e ao uso de desinfetantes, conforme preconizado no manual citado no primeiro parágrafo desse item. Nas áreas semicríticas as divisórias só podem ser utilizadas se forem, também, resistentes ao uso de desinfetantes e a lavagem com água e sabão, conforme preconizado no manual citado no primeiro parágrafo desse item."
+    },
+    {
+        "codigo": "0207",
+        "enunciado": "O projeto foi aprovado pelos órgãos competentes? (Prefeitura, Meio Ambiente, Corpo de Bombeiros, etc)",
+        "categoria": "Legislação de uso do terreno",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0208",
+        "enunciado": "O projeto reflete exigências das autoridades de planejamento urbano? (Ex.: Avaliar o uso adequado à legislação de uso do solo quanto ao seu zoneamento).",
+        "categoria": "Legislação de uso do terreno",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": "RDC 50. Atendimento às normas e leis de uso e ocupação do solo. Verificação conformidade da ocupação da edificação com os parâmetros construtivos estabelecidos pelo zoneamento."
+    },
+    {
+        "codigo": "0209",
+        "enunciado": "A edificação atende à legislação quanto ao uso adequado do solo quanto à sua taxa de ocupação?",
+        "categoria": "Legislação de uso do terreno",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": "RDC 50. Atendimento às normas e leis de uso e ocupação do solo. Verificação conformidade da ocupação da edificação com os parâmetros construtivos estabelecidos pelo zoneamento."
+    },
+    {
+        "codigo": "0210",
+        "enunciado": "Como você avalia a tramitação interna de documentos entre os usuários da edificação?",
+        "categoria": "Tramitação de documentos",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    }
+]

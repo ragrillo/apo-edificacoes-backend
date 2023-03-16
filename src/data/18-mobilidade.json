@@ -1,0 +1,278 @@
+[
+    {
+        "codigo": "1801",
+        "enunciado": "Como você avalia a oferta de linhas de ônibus, urbanas e metropolitanas, próximas à edificação?",
+        "categoria": "Acesso ao transporte público",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1802",
+        "enunciado": "Existe bicicletário adequado, visível e bem localizado?",
+        "categoria": "Mobilidade de baixo impacto",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder",
+            "Não se aplica"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1803",
+        "enunciado": "Existem calçadas adequadas para os usuários que desejem ir a pé?",
+        "categoria": "Mobilidade de baixo impacto",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder",
+            "Não se aplica"
+        ],
+        "dica": " Deve ser livre de qualquer obstáculo, ter inclinação transversal até 3 %, ser contínua entre lotes e ter no mínimo 1,20 m de largura e 2,10m de altura livre.",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1804",
+        "enunciado": "Existem estacionamentos diferenciados por tipo de usuário? (Ex.: Funcionários, visitantes, usuários da edificação).",
+        "categoria": "Áreas de estacionamentos e gestão do tráfego",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder",
+            "Não se aplica"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1805",
+        "enunciado": "Área de estacionamento com material permeável?",
+        "categoria": "Áreas de estacionamentos e gestão do tráfego",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder",
+            "Não se aplica"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1806",
+        "enunciado": "Reserva de vagas para idosos e para pessoas com deficiência?",
+        "categoria": "Áreas de estacionamentos e gestão do tráfego",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder",
+            "Não se aplica"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1807",
+        "enunciado": "Áreas de embarque/ desembarque ou outras medidas do tipo para evitar tráfego, sem influenciar no estacionamento?",
+        "categoria": "Áreas de estacionamentos e gestão do tráfego",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder",
+            "Não se aplica"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1808",
+        "enunciado": "Espaço destinado a veículos de apoio e manutenção? (Ex.: Previsão de parada de ambulâncias / remoção de resíduos / carga e descarga de mantimentos).",
+        "categoria": "Áreas de estacionamentos e gestão do tráfego",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder",
+            "Não se aplica"
+        ],
+        "dica": "A área externa para embarque e desembarque de ambulância deve ter 21m².",
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1809",
+        "enunciado": "Como você avalia o estacionamento edificação? Existência de defeitos/manifestações patológicas?",
+        "categoria": "Áreas de estacionamentos e gestão do tráfego",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1810",
+        "enunciado": "Como você avalia o layout do estacionamento?",
+        "categoria": "Áreas de estacionamentos e gestão do tráfego",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1811",
+        "enunciado": "Como você avalia a distância da edificação em relação a outros serviços? (Ex.: Farmácias, supermercados, bancos, etc.)",
+        "categoria": "Distâncias ",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1"
+        ]
+    },
+    {
+        "codigo": "1812",
+        "enunciado": "Como você avalia a distância entre a casa dos funcionários até o destino na edificação?",
+        "categoria": "Distâncias ",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1"
+        ]
+    },
+    {
+        "codigo": "1813",
+        "enunciado": "Como você avalia as distâncias internas percorridas pelos funcionários?",
+        "categoria": "Distâncias ",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1"
+        ]
+    }
+]

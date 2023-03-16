@@ -1,0 +1,84 @@
+[
+  {
+    "codigo": "1001",
+    "enunciado": "Há isolamento acústico adequado, no que se refere aos ruídos aéreos provenientes do exterior da edificação?",
+    "categoria": "Isolamento e conforto acústico",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "1002",
+    "enunciado": "Há isolamento acústico adequado, no que se refere aos ruídos aéreos gerados no interior da edificação? (Ex.: isolação entre ambientes).",
+    "categoria": "Isolamento e conforto acústico",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "1003",
+    "enunciado": "A edificação está localizada distante de fontes de ruído intenso ou moderado?",
+    "categoria": "Isolamento e conforto acústico",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "1004",
+    "enunciado": "Como você avalia a satisfação com o ambiente acústico e o conforto acústico?",
+    "categoria": "Isolamento e conforto acústico",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  }
+]

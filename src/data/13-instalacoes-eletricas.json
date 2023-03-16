@@ -1,0 +1,165 @@
+[
+    {
+        "codigo": "1301",
+        "enunciado": "Existe o abastecimento de energia elétrica? (Ex.: Rede pública, gerador ou energia solar).",
+        "categoria": "Instalações elétricas",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1302",
+        "enunciado": "Há dimensionamento e materiais adequados para as instalações elétricas? ",
+        "categoria": "Instalações elétricas",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1303",
+        "enunciado": "Como você avalia as instalações elétricas? (Ex.:Existência de defeitos/manifestações patológicas)",
+        "categoria": "Instalações elétricas",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1304",
+        "enunciado": "Existe a verificação do consumo de energia da edificação?",
+        "categoria": "Instalações elétricas",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1305",
+        "enunciado": "Foi verificada a fonte energética principal do empreendimento durante as fases do empreendimento?",
+        "categoria": "Instalações elétricas",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "2"
+        ]
+    },
+    {
+        "codigo": "1306",
+        "enunciado": "Como você avalia o sistema de telecomunicação instalado na edificação? (Ex.: Telefones, computadores).",
+        "categoria": "Sistema de telecomunicação",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1307",
+        "enunciado": "Existe acesso à internet",
+        "categoria": "Sistema de telecomunicação",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1308",
+        "enunciado": "Estão sendo tomadas medidas para a redução de consumo em horário de pico, evitando que o sistema de abastecimento de energia entre em pane devido à sobrecarga do sistema na hora de pico?",
+        "categoria": "Redução de consumo em horário de pico (gestão)",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    }
+]

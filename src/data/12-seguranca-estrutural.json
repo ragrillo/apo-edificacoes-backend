@@ -1,0 +1,372 @@
+[
+    {
+        "codigo": "1201",
+        "enunciado": "O edificio possui extintores?",
+        "categoria": "Extintores",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1202",
+        "enunciado": "Há rotas de fuga?",
+        "categoria": "Rotas de fuga",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1203",
+        "enunciado": "Há equipamentos sinalização adequados?",
+        "categoria": "Sinalização",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1204",
+        "enunciado": "Há equipamentos de iluminação de emergência adequados?",
+        "categoria": "Sinalização",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1205",
+        "enunciado": "A edificação possui Certificado de Vistoria de Prevenção contra Incêncio / Plano de Prevenção contra Incêndio emitido pelo Corpo de Bombeiros vigente?",
+        "categoria": "Gestão de emergências",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1206",
+        "enunciado": "Existe uma gestão de emergências, gerenciamento de riscos e planos de contingência avaliando se os sistemas de emergência são projetados para minimizar a interrupção dos serviços prestados? A edificação possui planos de emergência para enfrentar situações críticas como falta de energia elétrica, água, incêndio e inundações?",
+        "categoria": "Gestão de emergências",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1207",
+        "enunciado": "Há a disponibilidade de telefones de emergência?",
+        "categoria": "Gestão de emergências",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1"
+        ]
+    },
+    {
+        "codigo": "1208",
+        "enunciado": "Foi realizada a impermeabilização da cobertura?",
+        "categoria": "Recalques, trincas e fissuras",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "2"
+        ]
+    },
+    {
+        "codigo": "1209",
+        "enunciado": "Como você avalia a estrutura de cobertura? Os materiais são adequados?",
+        "categoria": "Recalques, trincas e fissuras",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1210",
+        "enunciado": "Como você avalia o telhamento da cobertura? Os materiais são adequados?",
+        "categoria": "Recalques, trincas e fissuras",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1211",
+        "enunciado": "Como você avalia a cobertura em geral? Existência de defeitos/manifestações patológicas?",
+        "categoria": "Recalques, trincas e fissuras",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1212",
+        "enunciado": "Como você avalia os portões, grades e muros? Existência de defeitos/manifestações patológicas?",
+        "categoria": "Recalques, trincas e fissuras",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1213",
+        "enunciado": "O pátio de serviço possui portões com trava?",
+        "categoria": "Recalques, trincas e fissuras",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1214",
+        "enunciado": "Há cercamento visualmente permeável? (Ex.: Cobogó, gradil, tela, muro ou outro).",
+        "categoria": "Recalques, trincas e fissuras",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1215",
+        "enunciado": "Como você avalia a ergonomia dos portões, grades e muros?",
+        "categoria": "Recalques, trincas e fissuras",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1216",
+        "enunciado": "Como você avalia as áreas não pavimentadas? Existência de defeitos/manifestações patológicas?",
+        "categoria": "Recalques, trincas e fissuras",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1217",
+        "enunciado": "Como você avalia o desempenho estrutural da edificação (Existe Recalques, trincas e/ou fissuras)?",
+        "categoria": "Recalques, trincas e fissuras",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    },
+    {
+        "codigo": "1218",
+        "enunciado": "Como você avalia a estrutura da edificação? Existência de defeitos/manifestações patológicas?",
+        "categoria": "Recalques, trincas e fissuras",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null,
+        "edificacoes": [
+            "escolas",
+            "residencias",
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ]
+    }
+]

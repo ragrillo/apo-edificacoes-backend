@@ -1,0 +1,676 @@
+[
+    {
+        "codigo": "0501",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Como você avalia as quadras poliesportivas? (Ex.:Existência de defeitos/manifestações patológicas)",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ]
+    },
+    {
+        "codigo": "0502",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Como você avalia os playgrounds e pátios? (Ex.:Existência de defeitos/manifestações patológicas)",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ]
+    },
+    {
+        "codigo": "0503",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "A configuração do pátio é compatível com a capacidade de usuários?",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0504",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "O pátio é planejado para utilização em atividades diversas? (Ex.: lazer, festas, eventos).",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0505",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Possui áreas de descanso com bancos, bebedouros e espaço para exposição de trabalhos?",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0506",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Os pisos dos playgrounds e pátios possuem revestimento liso, mas não escorregadio? (Ex.: piso cerâmico ou piso material lavável, não escorregadio e resistente à abrasão).",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0507",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "O dimensionamento dos os playgrounds e pátios está adequado?",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0508",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Os pátios cobertos possuem paredes de material liso, lavável e impermeável até a altura mínima de 0,50 m?",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0509",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Os pátios cobertos possuem tetos com material que permita conforto térmico e acústico?",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0510",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Os pátios cobertos possuem esquadrias com material de fácil manutenibilidade, resistente e que garanta estanqueidade?",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0511",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Os pátios descobertos estão implantados em locais distante das áreas de serviços, depósito de lixo, gás e estacionamento?",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0512",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Os pátios descobertos apresentam espaços diversificados, sombreados e descobertos?",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0513",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Os patios descobertos possuem áreas permeáveis, pisos variados como grama e areia?",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0514",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Os pátios descobertos possuem bancos e brinquedos como escorregador, balanço, túneis, casa de boneca, etc.?",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0515",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Os pátios descobertos possuem brinquedos acessíveis para crianças com deficiência?",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0516",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Os playgrounds e pátios possuem áreas adequadas (medidas)?",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0517",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Os playgrounds e pátios possuem bancos com material impermeável?",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0518",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Os playgrounds e pátios possuem iluminação adequada?",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0519",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Existem amenidades para os usuários? (Ex.: lugares para comprar bebidas e lanches).",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0520",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Os funcionários têm acesso a amenidades como bancos (ATM), bebidas e lanches?",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0521",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Existe área coberta para recreação dos usuários?",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0522",
+        "edificacoes": [
+            "escolas"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Existe área de jogos e brinquedos?",
+        "categoria": "Área de recreação e amenidades",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0523",
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Este ambiente possui a amplitude a ele necessária?",
+        "categoria": "Dimensões dos espaços",
+        "dica": "Sala de recepção e espera com capacidade para 45 pessoas com área total de 68m² Banheiros para pessoas com deficiência com área útil de 2,55m²Dispor de 2 banheiros para funcionários com 3,5m² cadaDispor de dois ,consultórios com sanitário anexo: 1 sanitário comum com 1,6m² e 1 sanitário para pessoas com deficiência com 2,55m²1 espaço de almoxarifado com área de 3m²1 espaço de depósito de material de limpeza com 2m²Sala de administração e gerência com área de 12,5m²Farmácia (estocagem/dispensação de medicamentos) com 14m²4 consultórios indiferenciados / acolhimento com 9m²2 consultórios com sanitário com área total de 9m² cada1 consultório odontológico para 3equipes com 30m²1 sala de coleta com 4m²1 sala de imunização com 9m²1 sala de curativos com 9m²Sala de coleta e curativos com 9m²Copa com área mínima de 6m²Sala de expurgo com 5 m²Sala de esterilização/ estocagem de material esterilizado com 5m²Depósito de resíduos comuns com 2,3m²Depósito de resíduos contaminados com 1,5m² Depósito de resíduos recicláveis com 1,5m²",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0524",
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Existe um balcão de informações para área de registro, com informações sobre a localização dos funcionários?",
+        "categoria": "Atendimento ao público",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0525",
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Existe uma sala para área de espera, em boas condições, para os usuários da edificação?",
+        "categoria": "Área de espera",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0526",
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Os banheiros estão localizados de forma lógica, conveniente e discreta?",
+        "categoria": "Banheiros",
+        "dica": "Dispor de 3 banheiros para pessoas com deficiência com área útil de 2,55m²Dispor de 2 banheiros para funcionários com 3,5m² cadaDispor de dois consultórios com sanitário anexo: 1 sanitário comum com 1,6m² e 1 sanitário ,para pessoas com deficiência com 2,55m²Banheiro anexo a sala de procedimento (área de 4,8m²)",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0527",
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Existem espaços para armazenamento?",
+        "categoria": "Espaço de armazenamento / almoxarifado",
+        "dica": "1 espaço de almoxarifado com área de 3m²1 espaço de depósito de material de limpeza com 2m²",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0528",
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Existe espaço para administração e reuniões formais?",
+        "categoria": "Espaços de administração",
+        "dica": "1 espaço com área de 12,5m²",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0529",
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Os funcionários possuem locais convenientes para se concentrar no trabalho?",
+        "categoria": "Área de trabalho",
+        "dica": "1 sala de atividades coletivas/ ACS 25m² (funcionários)1 Sala de demonstração e aplicação em saúde (1m² por ouvinte)1 sala de imunização com 9m²Farmácia (estocagem/dispensação de medicamentos) com 14m²4 consultórios ,indiferenciados / acolhimento com 9m² cada (englobando sala de preparo do paciente)2 consultórios com sanitário com área total de 9m² cada1 consultório odontológico para 2 equipes com 20m²1 consultório odontológico para 3 equipes com 30m²1 sala de inalação coletiva para 6 pacientes com 9m² (previsto 1,6m² por paciente na RDC Nº 50)1 sala de coleta com 4m²Sala de coleta e curativos1 sala de curativos com 9m²1 sala de relatório (1m² porfuncionário)1 sala de aplicação de medicamentosSala de armazenagem e distribuição de alimentos de programas especiais",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0530",
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Os funcionários têm um local conveniente para mudar e armazenar com segurança pertences e roupas?",
+        "categoria": "Área de vestiário",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0531",
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Os funcionários possuem local dedicado as refeições?",
+        "categoria": "Copa / Cozinha",
+        "dica": "Copa com área mínima de 6m²",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0532",
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "A equipe de funcionários pode descansar e relaxar em locais separados dos demais usuários da edificação?",
+        "categoria": "Área de descanso",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0533",
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Existem instalações para os acompanhantes?",
+        "categoria": "Área de apoio aos usuários",
+        "dica": "Em quartos hospitalares de pediatria e geriatria devem ser previstos espaços para cadeira de acompanhante ao lado do leito",
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0534",
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "O ambiente têm janelas que permitam aos usuários a visualização de cenas e paisagens do exterior?",
+        "categoria": "Paisagismo",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0535",
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Os ambientes têm aberturas que permitam fácil acesso a áreas externas ajardinadas? (Ex: áreas com plantas e fontes d’água, sombreadas e com bancos).",
+        "categoria": "Paisagismo",
+        "dica": null,
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ]
+    },
+    {
+        "codigo": "0536",
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Como você avalia a conexão com a natureza ou área externa? (Ex.: os usuários podem ver facilmente o céu, o terreno, as plantas, a vegetação e a natureza?)",
+        "categoria": "Paisagismo",
+        "dica": null,
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ]
+    },
+    {
+        "codigo": "0537",
+        "edificacoes": [
+            "ubs"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "enunciado": "Como você avalia a adequação do projeto paisagístico? Os usuários têm acesso a áreas paisagísticas utilizáveis?",
+        "categoria": "Paisagismo",
+        "dica": "Vista interna para detalhe de jardim gramado com 3,2m²Priorizar as espécies vegetais que demandem pouca manutenção; espécies nativas da região e frutíferas; vegetação de rápido crescimento e resistentes a pragas e ,doenças; vegetação de porte ou rasteira, evitando-se a formação de moitas.",
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente"
+        ]
+    }
+]

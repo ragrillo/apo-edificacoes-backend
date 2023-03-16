@@ -1,0 +1,64 @@
+[
+  {
+    "codigo": "2101",
+    "enunciado": "O empreendimento contribui positivamente para a vizinhança e a comunidade com geração de renda e postos de trabalho?",
+    "categoria": "Desenvolvimento da comunidade local",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "2102",
+    "enunciado": "Existe uma política de contratação de bens e serviços locais buscando uma prioridade regional?",
+    "categoria": "Contratação de bens e serviços locais / prioridade regional",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "ubs, Escola"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "2103",
+    "enunciado": "Como você avalia o valor cultural do estabelecimento?",
+    "categoria": "Valor cultural - Estrutura do patrimônio",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  }
+]

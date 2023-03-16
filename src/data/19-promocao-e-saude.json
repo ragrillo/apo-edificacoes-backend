@@ -1,0 +1,219 @@
+[
+  {
+    "codigo": "1901",
+    "enunciado": "Esta edificação tem capacidade de influenciar positivamente na saúde de seus ocupantes?",
+    "categoria": "Influência na saúde",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "1902",
+    "enunciado": "O projeto desta edificação respeita a importância e a dignidade do indivíduo buscando espaços agradáveis para os usuários?",
+    "categoria": "Influência na saúde",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "2"
+    ]
+  },
+  {
+    "codigo": "1903",
+    "enunciado": "São adotadas medidas de apoio ao funcionário, sejam elas físicas ou mentais?",
+    "categoria": "Influência na saúde",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "1904",
+    "enunciado": "Como você avalia as medidas de higiene e limpeza adotadas na edificação?",
+    "categoria": "Medidas de limpeza",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente",
+      "Não se aplica"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1"
+    ]
+  },
+  {
+    "codigo": "1905",
+    "enunciado": "Como você avalia a limpeza do estabelecimento e o serviço de hotelaria, incluindo os serviços de lavandeira?",
+    "categoria": "Medidas de limpeza",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente",
+      "Não se aplica"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1"
+    ]
+  },
+  {
+    "codigo": "1906",
+    "enunciado": "Esta edificação atende às necessidades dos ocupantes?",
+    "categoria": "Capacidade de atender às necessidades dos ocupantes",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "1907",
+    "enunciado": "São utilizados materiais antialérgicos, de fácil limpeza e manutenção, a fim de evitar alergias aos usuários?",
+    "categoria": "Medidas preventivas",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1"
+    ]
+  },
+  {
+    "codigo": "1908",
+    "enunciado": "São disponibilizados mecanismos para sanitarização das mãos assim como sua divulgação?",
+    "categoria": "Medidas preventivas",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1"
+    ]
+  },
+  {
+    "codigo": "1909",
+    "enunciado": "Como você avalia a oferta de serviços médicos na edificação? Está de acordo com o objetivo do estabelecimento e com a demanda local?",
+    "categoria": "Serviços de saúde",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente",
+      "Não se aplica"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "ubs, escolas"
+    ],
+    "cargos": [
+      "1"
+    ]
+  },
+  {
+    "codigo": "1910",
+    "enunciado": "O estabelecimento fornece serviços de nutrição?",
+    "categoria": "Serviços de nutrição",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "ubs, escolas"
+    ],
+    "cargos": [
+      "1"
+    ]
+  },
+  {
+    "codigo": "1911",
+    "enunciado": "Como funcionário você se sente cansado e estressado devido à rotina de trabalho?",
+    "categoria": "Fadiga e stress no trabalho",
+    "opcoesResposta": [
+      "Sempre estressado",
+      "Muito estressado",
+      "Estresse médio",
+      "Pouco estressado",
+      "Nunca se sentiu estressado",
+      "Não se aplica"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "ubs, escolas"
+    ],
+    "cargos": [
+      "1"
+    ]
+  }
+]

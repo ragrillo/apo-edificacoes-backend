@@ -1,0 +1,155 @@
+[
+  {
+    "codigo": "0601",
+    "enunciado": "Há a disponibilidade de mecanismos de controle da irradiação térmica no ambiente e inércia térmica?",
+    "categoria": "Conforto e satisfação",
+    "dica": null,
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ]
+  },
+  {
+    "codigo": "0602",
+    "enunciado": "Como você avalia a poluição luminosa causada pelo brilho da iluminação artificial?",
+    "categoria": "Conforto e satisfação",
+    "dica": null,
+    "opcoesResposta": [
+      "Extremamente poluído luminosamente",
+      "Muita poluição luminosa",
+      "Regular",
+      "Pouca poluição luminosa",
+      "Sem poluição luminosa"
+    ]
+  },
+  {
+    "codigo": "0603",
+    "enunciado": "Como você avalia a satisfação com o trabalho pelo funcionário?",
+    "categoria": "Conforto e satisfação",
+    "dica": null,
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente",
+      "Não se aplica"
+    ]
+  },
+  {
+    "codigo": "0604",
+    "enunciado": "Como você avalia o conforto geral do ocupante?",
+    "categoria": "Conforto e satisfação",
+    "dica": null,
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ]
+  },
+  {
+    "codigo": "0605",
+    "enunciado": "Como você avalia a satisfação geral do ocupante?",
+    "categoria": "Conforto e satisfação",
+    "dica": null,
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ]
+  },
+  {
+    "codigo": "0606",
+    "enunciado": "Como você avalia o bem-estar do ocupante?",
+    "categoria": "Conforto e satisfação",
+    "dica": null,
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ]
+  },
+  {
+    "codigo": "0607",
+    "enunciado": "Como você avalia a sensação de acolhimento do ocupante?",
+    "categoria": "Conforto e satisfação",
+    "dica": null,
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ]
+  },
+  {
+    "codigo": "0608",
+    "enunciado": "Como você avalia a capacidade do ocupante em controlar o ambiente em sua volta?",
+    "categoria": "Controle do conforto geral",
+    "dica": null,
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ]
+  },
+  {
+    "codigo": "0609",
+    "enunciado": "Há o controle de fechamento e abertura de persiana, portas e janelas pelos ocupantes?",
+    "categoria": "Controle do conforto geral",
+    "dica": null,
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ]
+  },
+  {
+    "codigo": "0610",
+    "enunciado": "Os ocupantes têm controle da iluminação?",
+    "categoria": "Controle do conforto geral",
+    "dica": null,
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ]
+  },
+  {
+    "codigo": "0611",
+    "enunciado": "Como você avalia a capacidade do ocupante em controlar seu conforto higro-térmico englobando os sistemas de resfriamento, aquecimento, ventilação e sistemas de condicionamento de ar?",
+    "categoria": "Controle do conforto geral",
+    "dica": null,
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente",
+      "Não se aplica"
+    ]
+  },
+  {
+    "codigo": "0612",
+    "enunciado": "Foram tomadas medidas para possibilitar o controle do conforto acústico?",
+    "categoria": "Controle do conforto geral",
+    "dica": null,
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ]
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "codigo": "1601",
+    "enunciado": "Algum componente da edificação já teve que ser trocado?",
+    "categoria": "Custos de manutenção",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "1602",
+    "enunciado": "Foram realizadas estratégias para redução de custos? (Ex.: Custos de execução da obra, custos de manutenção da edificação).",
+    "categoria": "Custos de manutenção",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "1603",
+    "enunciado": "Como você avalia os custos operacionais e custos de manutenção?",
+    "categoria": "Custos de manutenção",
+    "opcoesResposta": [
+      "Muito caro",
+      "Caro",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "1604",
+    "enunciado": "Como você avalia a viabilidade econômica do empreendimento? A edificação atingiu as expectativas técnicas e financeiras (custos previstos x realizados)?",
+    "categoria": "Custos previstos x realizados",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "2"
+    ]
+  },
+  {
+    "codigo": "1605",
+    "enunciado": "Foi realizada uma avaliação dos custos antes de iniciar o empreendimento? (Ex.: Plano de negócios).",
+    "categoria": "Custos previstos x realizados",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "2"
+    ]
+  }
+]

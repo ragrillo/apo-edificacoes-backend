@@ -1,0 +1,144 @@
+[
+  {
+    "codigo": "1701",
+    "enunciado": "Há relação harmoniosa da construção com o entorno, visando o conforto dos seus usuários?",
+    "categoria": "Localização e conexão com o entorno",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "1702",
+    "enunciado": "Como você avalia a escolha do local da edificação e sua conexão com a cidade?",
+    "categoria": "Localização e conexão com o entorno",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": "1. É proibida a localização de Edificação Assistencial à Saúde (EAS) em zonas próximas a depósitos de lixo, indústrias ruidosas e/ou poluentes.\n\n2. Evitar implantação em locais de preservação ambiental.\n\n3. Deverão ser evitados terrenos próximos de rede de alta tensão, cemitério, posto de gasolina, aeroporto, matadouro, vazadouros de lixo e vias de grande tráfego.\n\n4. Dimensões adequadas para a instalação do Porte da UBS definida (para UBS de Porte I - mínimo de 30mx30m, para o UBS de Porte II - mínimo de 35mx30m, para UBS de Porte III - mínimo de 39mx33m e para UBS de Porte IV - mínimo de 49mx33m).",
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "1703",
+    "enunciado": "Na sua opinião o empreendimento é um bom vizinho para os edifícios adjacentes? Como você avalia os impactos relativos à implantação da edificação no entorno?",
+    "categoria": "Localização e conexão com o entorno",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": "1. Evitar: sombreamento de áreas do entorno; alteração da ventilação sobre o entorno imediato; criação de calor na implantação da edificação; perturbação do solo; transtornos pelo PGT; alterações na paisagem.\n\n2. Em fase de obra, evitar interferências com as propriedades, atividades e tráfego de veículos na vizinhança do local dos serviços e obras, programando adequadamente as atividades executivas.",
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "1704",
+    "enunciado": "Como você avalia a reabilitação das redondezas? Foi previsto cuidados com a implantação nas redondezas do empreendimento? (Ex.: Zelo pelos encontros das calçadas, paisagismo integrado, entre outros.)",
+    "categoria": "Localização e conexão com o entorno",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "1705",
+    "enunciado": "Como você avalia as estratégias em relação à iluminação e ventilação? O edifício foi projetado com orientação das aberturas para insolação adequada e uso de iluminação natural?",
+    "categoria": "Implantação/ orientação solar",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": "1. Nenhuma janela de ambientes de uso prolongado poderá possuir afastamentos menores do que 3,0 m em relação as paredes laterais de qualquer edificação (empenas). Nos demais ambientes, esses afastamentos não poderão ser menores do que 1,5 m, exceto banheiros, sanitários, vestiários e DML, que poderão ser ventilados através de poços de ventilação ou similares.\n\n2. Preferivelmente os consultórios devem estar na orientação norte. Farmácia com mínimo de sol possível. ",
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "1706",
+    "enunciado": "Houve um bom aproveitamento da topografia natural do terreno?(Ex.:  Compensação dentro do próprio lote do corte/ aterro. Pequeno uso de máquinas e equipamentos de acomodação de terra.)",
+    "categoria": "Topografia",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "2"
+    ]
+  },
+  {
+    "codigo": "1707",
+    "enunciado": "Houve adequada vedação do solo para construção? (Ex.: Prevenção de infiltração de água de chuva e de umidade do solo, considerando sistemas de drenagem, impermeabilização de bases de fachadas e quaisquer paredes em contato com o solo, impermeabilização de fundações e pisos em contato com o solo, interfaces entre os diversos elementos e componentes da construção, em particular com a cobertura, telhados, pisos e calçadas laterais etc.)",
+    "categoria": "Vedação do solo",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "dica": "1. Uso de materiais com inércia e isolamento adequados no solo-tratamento do terreno. Uso de piso elevado do solo (desejável), sendo esse desnível protegido da umidade e ventilado.",
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "2"
+    ]
+  }
+]

@@ -1,0 +1,541 @@
+[
+  {
+    "codigo": "0401",
+    "enunciado": "Como você avalia o isolamento/proteção a entrada de ar na edificação (vedações/esquadrias)?",
+    "categoria": "Manutenção",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ]
+  },
+  {
+    "codigo": "0402",
+    "enunciado": "Como você avalia a estanqueidade à água utilizada na operação e manutenção do imóvel?",
+    "categoria": "Manutenção",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ]
+  },
+  {
+    "codigo": "0403",
+    "enunciado": "Como você avalia a estanqueidade à água de vedações verticais internas e externas com incidência direta de água?",
+    "categoria": "Manutenção",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ]
+  },
+  {
+    "codigo": "0404",
+    "enunciado": "Como você avalia a estanqueidade à água de sistemas de pisos?",
+    "categoria": "Manutenção",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ]
+  },
+  {
+    "codigo": "0405",
+    "enunciado": "Como você avalia a impermeabilidade da cobertura?",
+    "categoria": "Manutenção",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ]
+  },
+  {
+    "codigo": "0405",
+    "enunciado": "Como você avalia a estanqueidade à água do sistema de cobertura?",
+    "categoria": "Manutenção",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ]
+  },
+  {
+    "codigo": "0406",
+    "enunciado": "Como você avalia a captação e escoamento de águas pluviais em sistemas de cobertura?",
+    "categoria": "Manutenção",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ]
+  },
+  {
+    "codigo": "0407",
+    "enunciado": "Como você avalia a aparência interna do ambiente? (Ex.: Os ambientes transmitem a sensação de limpeza, tranquilidade, confiança e conforto).",
+    "categoria": "Manutenção",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ]
+  },
+  {
+    "codigo": "0408",
+    "enunciado": "Como você avalia a aparência externa da edificação? (Ex.: Induz o local de entrada sendo convidativa e transmitindo segurança).",
+    "categoria": "Manutenção",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ]
+  },
+  {
+    "codigo": "0409",
+    "enunciado": "A edificação apresenta sinais de depredação (vidros, portas e janelas quebradas, lâmpadas estouradas etc.)?",
+    "categoria": "Comunicação Visual",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ]
+  },
+  {
+    "codigo": "0410",
+    "enunciado": "Há elementos arquitetônicos de identidade visual: elementos marcantes da arquitetura como pórticos, volumes e molduras, que destaquem a edificação no contexto circundante, revelando sua importância e significado, com categoria reconhecida e compartilhada pela comunidade?",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": "Comunicação Visual",
+    "type": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ]
+  },
+  {
+    "codigo": "0411",
+    "enunciado": "O layout permite bom funcionamento do edifício?",
+    "categoria": "Comunicação Visual",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ]
+  },
+  {
+    "codigo": "0412",
+    "enunciado": "Os acabamentos externos são adequados",
+    "categoria": "Comunicação Visual",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ]
+  },
+  {
+    "codigo": "0413",
+    "enunciado": "Os acabamentos internos são adequados",
+    "categoria": "Comunicação Visual",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ]
+  },
+  {
+    "codigo": "0414",
+    "enunciado": "Como você avalia a integração volumétrica do edifício com o entorno? (Ex.: existe coerência entre as partes do edifício e a sua imagem externa; se a volumetria e tipologia do edifício consideram a escala humana; e, se a categoria do edifício agrada o sentido estético).",
+    "dica": null,
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": "Composição arquitetônica",
+    "type": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ]
+  },
+  {
+    "codigo": "0415",
+    "enunciado": "A composição arquitetônica é adequada?",
+    "categoria": "Composição arquitetônica",
+    "dica": null,
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ]
+  },
+  {
+    "codigo": "0416",
+    "enunciado": "Como você avalia a divisão e organização interna da edificação?",
+    "categoria": "Uso eficiente do espaço",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ]
+  },
+  {
+    "codigo": "0417",
+    "enunciado": "Existe uma hierarquia lógica de lugares no edifício visando sua setorização e então o uso eficiente do espaço?",
+    "categoria": "Uso eficiente do espaço",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ]
+  },
+  {
+    "codigo": "0418",
+    "enunciado": "Como você avalia a capacidade de ocupação da edificação verificando sua coerência com os serviços previstos e população alvo?",
+    "categoria": "Uso eficiente do espaço",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ]
+  },
+  {
+    "codigo": "0419",
+    "enunciado": "Como você avalia os mobiliários? (Ex.:Existência de defeitos/manifestações patológicas)",
+    "categoria": "Mobiliário e ergonomia",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ]
+  },
+  {
+    "codigo": "0420",
+    "enunciado": "São utilizados materiais adequados nos mobiliários visando a ergonomia?",
+    "categoria": "Mobiliário e ergonomia",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ]
+  },
+  {
+    "codigo": "0421",
+    "enunciado": "É realizada a manutenção de mobiliário e equipamentos?",
+    "categoria": "Mobiliário e ergonomia",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ]
+  },
+  {
+    "codigo": "0422",
+    "enunciado": "Os mobiliários estão adequados à faixa etária específica, visando a ergonomia e o bom funcionamento do edifício?",
+    "categoria": "Mobiliário e ergonomia",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ]
+  },
+  {
+    "codigo": "0423",
+    "enunciado": "Há instalações, espaços e mobiliários ergonômicos?",
+    "categoria": "Mobiliário e ergonomia",
+    "dica": null,
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ]
+  },
+  {
+    "codigo": "0424",
+    "enunciado": "Altura do pé direito é adequada?",
+    "categoria": "Altura do pé direito",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ]
+  },
+  {
+    "codigo": "0425",
+    "enunciado": "Nível de limpeza dos ambientes e equipamentos é adequado?",
+    "categoria": "Nível de limpeza dos ambientes",
+    "dica": null,
+    "edificacoes": [
+      "escolas",
+      "residencias",
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ],
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ]
+  }
+]

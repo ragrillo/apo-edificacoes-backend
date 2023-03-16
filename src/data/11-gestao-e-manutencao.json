@@ -1,0 +1,155 @@
+[
+  {
+    "codigo": "1101",
+    "enunciado": "São realizadas manutenções periódicas na edificação/estabelecimento? ",
+    "categoria": "Manutenção periódica",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "ubs, escolas"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "1102",
+    "enunciado": "Como você avalia as medidas adotadas para a manutenção da edificação/estabelecimento? (Ex.: Existe a presença de equipe adequada e espaços técnicos, visando também a redução de custos?)",
+    "categoria": "Manutenção periódica",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente",
+      "Não se aplica"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "2"
+    ]
+  },
+  {
+    "codigo": "1103",
+    "enunciado": "O projeto conta com engenharia apropriada para sistema de gerenciamento e controle nas operações?",
+    "categoria": "Qualidade organizacional e gestão",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "2"
+    ]
+  },
+  {
+    "codigo": "1104",
+    "enunciado": "Existe o estímulo nas questões gerenciais que tragam melhor desempenho ambiental na edificação.",
+    "categoria": "Qualidade organizacional e gestão",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "1105",
+    "enunciado": "Como você avalia a eficiência operacional da edificação/ estabelecimento?",
+    "categoria": "Eficiência operacional",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "1106",
+    "enunciado": "Os fluxos de trabalho e a logística dos processos são otimizados? O estabelecimento funciona de maneira organizada?",
+    "categoria": "Eficiência operacional",
+    "opcoesResposta": [
+      "Sim",
+      "Não",
+      "Não sei responder",
+      "Não se aplica"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "1107",
+    "enunciado": "Como você avalia a produtividade no local de trabalho?",
+    "categoria": "Eficiência operacional",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente",
+      "Não se aplica"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "ubs, escolas"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "codigo": "1108",
+    "enunciado": "Como você avalia a casa de máquinas da edificação e/ou seus equipamentos e tecnologias?",
+    "categoria": "Equipamentos e tecnologias",
+    "opcoesResposta": [
+      "Péssimo",
+      "Ruim",
+      "Regular",
+      "Bom",
+      "Excelente"
+    ],
+    "dica": null,
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
+    ]
+  }
+]
