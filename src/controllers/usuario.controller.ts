@@ -1,11 +1,21 @@
-import { IUsuarioService } from '../services/usuario.service';
+import { IUsuarioService, TokenPayload } from '../services/usuario.service';
 import { UsuarioDTO, UsuarioModel } from '../models/usuario.model';
 
 import { IHttpResponse, HttpStatusCode, IHttpRequest } from '../interfaces/http.interface';
 import IBaseController from './base.controller';
 
+type LoginHttpRequest = {
+  email: string;
+  senha: string;
+}
+
+type LoginHttpResponse = {
+  token: string;
+  usuario: TokenPayload;
+}
+
 interface IUsuarioController extends IBaseController<UsuarioModel, UsuarioDTO> {
-  login(httpRequest: IHttpRequest<{ email: string, senha: string }>): Promise<IHttpResponse<string>>;
+  login(httpRequest: IHttpRequest<LoginHttpRequest>): Promise<IHttpResponse<LoginHttpResponse | string>>;
 }
 
 class UsuarioController implements IUsuarioController {
@@ -91,7 +101,7 @@ class UsuarioController implements IUsuarioController {
     return httpResponse;
   }
 
-  async login(httpRequest: IHttpRequest<UsuarioDTO>): Promise<IHttpResponse<string>> {
+  async login(httpRequest: IHttpRequest<LoginHttpRequest>): Promise<IHttpResponse<LoginHttpResponse | string>> {
     if (!httpRequest.body) {
       const httpResponse: IHttpResponse<string> = {
         statusCode: HttpStatusCode.UNPROCESSABLE_ENTITY,
@@ -115,9 +125,16 @@ class UsuarioController implements IUsuarioController {
     try {
       const token: string = await this.service.login(email, senha);
 
-      const httpResponse: IHttpResponse<string> = {
+      const { id, cargo, edificacao } = await this.service.findByEmail(email);
+
+      const httpResponseBody: LoginHttpResponse = {
+        token,
+        usuario: { id, cargo, edificacao },
+      };
+
+      const httpResponse: IHttpResponse<LoginHttpResponse> = {
         statusCode: HttpStatusCode.OK,
-        body: token,
+        body: httpResponseBody,
       };
 
       return httpResponse;
