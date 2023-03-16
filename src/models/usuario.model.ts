@@ -12,7 +12,7 @@ interface UsuarioModel {
 
 interface UsuarioDTO extends Omit<UsuarioModel, 'id'> { }
 
-type CargoType = 1 | 2 | 3 | 4 | 5;
+type CargoType = "1" | "2" | "3" | "4" | "5";
 
 type EdificacaoType = 'Escola' | 'UBS' | 'Residência';
 
