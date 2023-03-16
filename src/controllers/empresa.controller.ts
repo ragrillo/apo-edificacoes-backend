@@ -11,7 +11,7 @@ interface IEmpresaController extends IBaseController<EmpresaModel, EmpresaDTO> {
 class EmpresaController implements IEmpresaController {
   constructor(private readonly service: IEmpresaService) { }
 
-  async create(request: IHttpRequest<EmpresaDTO>): Promise<IHttpResponse<void>> {
+  async create(request: IHttpRequest<EmpresaDTO>): Promise<IHttpResponse<string>> {
     const payload = request.body;
 
     if (!payload) {
@@ -25,8 +25,9 @@ class EmpresaController implements IEmpresaController {
 
     await this.service.create(payload);
 
-    const httpResponse: IHttpResponse<void> = {
+    const httpResponse: IHttpResponse<string> = {
       statusCode: HttpStatusCode.CREATED,
+      body: 'Cadastro da empresa solicitado com sucesso',
     };
 
     return httpResponse;
