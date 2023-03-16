@@ -3,7 +3,6 @@ import { IUsuarioRepository } from '../repositories/usuario.repository';
 import { UsuarioModel, UsuarioDTO, EdificacaoType, CargoType } from '../models/usuario.model';
 import { IHashPasswordAdapter } from '../adapters/hash-password.adapter';
 import { ITokenJWTAdapter } from '../adapters/token-jwt.adapter';
-import { WithId } from 'mongodb';
 
 type TokenPayload = {
   id: string;
@@ -12,6 +11,7 @@ type TokenPayload = {
 };
 
 interface IUsuarioService extends IBaseService<UsuarioModel, UsuarioDTO> {
+  findByEmail(email: string): Promise<UsuarioModel>;
   login(email: string, senha: string): Promise<string>;
 }
 
@@ -80,4 +80,4 @@ class UsuarioService implements IUsuarioService {
   }
 }
 
-export { IUsuarioService, UsuarioService };
+export { IUsuarioService, UsuarioService, TokenPayload };
