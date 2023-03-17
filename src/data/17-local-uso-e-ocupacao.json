@@ -11,7 +11,6 @@
     "dica": null,
     "edificacoes": [
       "escolas",
-      "residencias",
       "ubs"
     ],
     "cargos": [
@@ -73,7 +72,6 @@
     "dica": null,
     "edificacoes": [
       "escolas",
-      "residencias",
       "ubs"
     ],
     "cargos": [
@@ -95,7 +93,6 @@
     "dica": "1. Nenhuma janela de ambientes de uso prolongado poderá possuir afastamentos menores do que 3,0 m em relação as paredes laterais de qualquer edificação (empenas). Nos demais ambientes, esses afastamentos não poderão ser menores do que 1,5 m, exceto banheiros, sanitários, vestiários e DML, que poderão ser ventilados através de poços de ventilação ou similares.\n\n2. Preferivelmente os consultórios devem estar na orientação norte. Farmácia com mínimo de sol possível. ",
     "edificacoes": [
       "escolas",
-      "residencias",
       "ubs"
     ],
     "cargos": [
@@ -115,7 +112,6 @@
     "dica": null,
     "edificacoes": [
       "escolas",
-      "residencias",
       "ubs"
     ],
     "cargos": [
@@ -134,7 +130,6 @@
     "dica": "1. Uso de materiais com inércia e isolamento adequados no solo-tratamento do terreno. Uso de piso elevado do solo (desejável), sendo esse desnível protegido da umidade e ventilado.",
     "edificacoes": [
       "escolas",
-      "residencias",
       "ubs"
     ],
     "cargos": [

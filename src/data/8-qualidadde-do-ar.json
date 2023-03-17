@@ -13,7 +13,6 @@
         "dica": null,
         "edificacoes": [
             "escolas",
-            "residencias",
             "ubs"
         ],
         "cargos": [
@@ -35,7 +34,6 @@
         "dica": null,
         "edificacoes": [
             "escolas",
-            "residencias",
             "ubs"
         ],
         "cargos": [
@@ -55,7 +53,6 @@
         "dica": null,
         "edificacoes": [
             "escolas",
-            "residencias",
             "ubs"
         ],
         "cargos": [
@@ -75,7 +72,6 @@
         "dica": "Clique aqui e veja o procedimento para mensurar corretamente a iluminação natural (prever uma tela onde possar descrever o procedimento a ser realizado pelo avaliador tecnico). Procedimento inspeção: através da análise do projeto arquitetônico baseado na NBR 15575 - 4;  Método de avaliaçãoA avaliacão da adequacão das aberturas deve ser realizada através da analise do projeto arquitetônico, utilizando a equação a seguir para determinar a relação da área de abertura e área de piso.A = 100 * (Aa/Ap)Aa a area efetiva de abertura de ventilac;ao do ambiente, sendo que para o calculo desta area somente sao consideradas as aberturas que permitam a livre circulac;ao do ar, devendo ser descontadas as areas de perfis, vidros e de qualquer outro obstaculo; nesta area nao sao computadasas areas de portas internas. No caso de c6modos dotados de portas-balcao ou semelhantes, na fachada da edificacão, toda a área aberta resultante do deslocamento da folha móvel da porta e computada.Ap - a área de piso do ambiente.Para ser considerado adequado a Segundo a NBR 15575-4 (ABNT, 2013d) ambientes de longa permanencia (salas, cozinhas e dormit6rios) devem apresentar aberturas, nas fachadas das habitac;oes, com dimensoes adequadas para proporcionar a ventilac;ao interna dos ambientes. As aberturas para ventilac;ao variam de acordo com a zona bioclimatica:⦁        Zonas bioclimaticas 1 a 7 sao necessarias aberturas com area igual ou maior a 7% da area de piso;⦁        Zona bioclimatica 8 são necessrias aberturas com area  igual ou maior a 12% da area de piso na regiao norte do Brasil, e igual ou maior a 8% da area de piso no nordeste e sudeste do pafs.",
         "edificacoes": [
             "escolas",
-            "residencias",
             "ubs"
         ],
         "cargos": [
@@ -97,7 +93,6 @@
         "dica": null,
         "edificacoes": [
             "escolas",
-            "residencias",
             "ubs"
         ],
         "cargos": [
@@ -117,7 +112,6 @@
         "dica": null,
         "edificacoes": [
             "escolas",
-            "residencias",
             "ubs"
         ],
         "cargos": [

@@ -12,7 +12,6 @@
     "dica": null,
     "edificacoes": [
       "escolas",
-      "residencias",
       "ubs"
     ],
     "cargos": [
@@ -32,7 +31,8 @@
     ],
     "dica": null,
     "edificacoes": [
-      "ubs, Escola"
+      "ubs",
+      "escolas"
     ],
     "cargos": [
       "1",
@@ -53,7 +53,6 @@
     "dica": null,
     "edificacoes": [
       "escolas",
-      "residencias",
       "ubs"
     ],
     "cargos": [
