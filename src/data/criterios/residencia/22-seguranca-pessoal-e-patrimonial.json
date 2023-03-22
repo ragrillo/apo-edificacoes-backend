@@ -1,0 +1,141 @@
+[
+    {
+        "codigo": "1000",
+        "enunciado": "Há sistema de segurança contra vandalismo, roubo e/ou intrusão na edificação?",
+        "categoria": "Segurança pessoal e patrimonial",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Existe um balcão de informações para área de registro, e controle de entrada e saída de pessoas no condomínio?",
+        "categoria": "Segurança pessoal e patrimonial",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Sim" , "Não" , "Não sei responder", "Não se aplica"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia o nível de segurança da edificação?",
+        "categoria": "Segurança pessoal e patrimonial",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Você se sente seguro na edificação?",
+        "categoria": "Segurança pessoal e patrimonial",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  
+            "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Há iluminação pública no entorno da edificação?",
+        "categoria": "Segurança pessoal e patrimonial",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Você sente segurança nas imediações da moradia?",
+        "categoria": "Segurança pessoal e patrimonial",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia os níves de violência urbana nas imediações da edificação?",
+        "categoria": "Segurança pessoal e patrimonial",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  
+            "Elevado" , "Moderado" , "Baixo"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a presença de policiamento nas imediações da edificação?",
+        "categoria": "Segurança pessoal e patrimonial",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [      
+            "Elevado" , "Moderado" , "Baixo"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia o nível de segurança no trabalho para os funcionários da edificação?",
+        "categoria": "Segurança no trabalho",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente" , "Não se aplica"
+        ],
+        "dica": null
+    }
+]

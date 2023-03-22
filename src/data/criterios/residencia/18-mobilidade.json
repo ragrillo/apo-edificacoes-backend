@@ -1,0 +1,208 @@
+[
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a oferta de linhas de ônibus e/ou metro, urbanas e metropolitanas, próximas à edificação?",
+        "categoria": "Acesso ao transporte público",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    }, 
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a acessibilidade do transporte público quanto ao atendimento de pessoas com deficiência, idosos e gestantes?",
+        "categoria": "Acesso ao transporte público",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+
+        ],
+        "dica": null
+    }, 
+
+    {
+        "codigo": "1000",
+        "enunciado": "Existe bicicletário adequado, visível e bem localizado na região de sua edificação?",
+        "categoria": "Mobilidade de baixo impacto",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim" , "Não" , "Não sei responder" , "Não se aplica"
+        ],
+        "dica": null
+    }, 
+
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a oferta de serviços de aluguel de bicicletas, e outros meios de transporte sustentávies próximos à edificação?",
+        "categoria": "Mobilidade de baixo impacto",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    }, 
+
+    {
+        "codigo": "1000",
+        "enunciado": "Existem calçadas adequadas para o deslocamento dos usuários?",
+        "categoria": "Mobilidade de baixo impacto",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim" , "Não" , "Não sei responder" , "Não se aplica"
+        ],
+        "dica": null
+    }, 
+
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia as áreas de estacionamento na sua região?",
+        "categoria": "Áreas de estacionamentos e gestão do tráfego",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    }, 
+
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a oferta de serviços de transporte particular, como Táxi e Uber, na sua região?",
+        "categoria": "Áreas de estacionamentos e gestão do tráfego",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    }, 
+
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a facilidade de acesso para transitar pelas diferentes áreas da cidade?",
+        "categoria": "Distâncias",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+
+        ],
+        "dica": null
+    }, 
+
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a distância da edificação em relação a outros serviços? (Ex.: Farmácias, supermercados, bancos, etc.)",
+        "categoria": "Distâncias",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    }, 
+
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a distância entre sua moradia e seu local de trabalho?",
+        "categoria": "Distâncias",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    }, 
+
+    {
+        "codigo": "1000",
+        "enunciado": "Empresas de transporte, como Correios, Ifood entre outras (como entrega de móveis e eletrodomésticos), fazem entrega na sua edificação?",
+        "categoria": "Distâncias",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente", "Não se aplica"
+        ],
+        "dica": null
+    }, 
+
+    {
+        "codigo": "1000",
+        "enunciado": "",
+        "categoria": "Distâncias",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [     
+            "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    }, 
+
+
+]

@@ -1,0 +1,200 @@
+[
+    {
+        "codigo": "0211",
+        "enunciado": "Foram  entregues ao morador todos os documentos que garante a posse do imóvel?",
+        "categoria": "Tramitação de documentos",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0212",
+        "enunciado": "O projeto foi aprovado pelos órgãos competentes (Prefeitura, Meio Ambiente, Corpo de Bombeiros, etc)",
+        "categoria": "Legislação de uso do terreno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0213",
+        "enunciado": "Foram entregues aos moradores plantas, projetos e memoriais na aquisição do imóvel?",
+        "categoria": "Execução do Projeto",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0210",
+        "enunciado": "As plantas, projetos e memoriais da edificação estão disponíveis para consulta?",
+        "categoria": "Execução do Projeto",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0210",
+        "enunciado": "A edificação foi construída de acordo com o projeto?",
+        "categoria": "Execução do Projeto",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0210",
+        "enunciado": "É possivel ampliar, modificar e/ou adaptar os ambientes da edificação para novas funções com facilidade?",
+        "categoria": "Flexibilidade e adaptabilidade",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0210",
+        "enunciado": "Existe reserva de espaço para construção, alteração ou ampliação da edificação?",
+        "categoria": "Flexibilidade e adaptabilidade",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0210",
+        "enunciado": "A edificação foi construída com sistema moldulado, pré-fabricado e/ou inovador?",
+        "categoria": "Sistema construtivo pré-fabricado e/ou inovador",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0210",
+        "enunciado": "O projeto utiliza o conceito arquitetônico da planta livre (possiblidade de escolha do layout/divisão dos ambientes pelo adquinte do imóvel / há baixa relação entre a estrutura da edificação e a divisão dos ambientes)?",
+        "categoria": "Sistema construtivo pré-fabricado e/ou inovador",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0210",
+        "enunciado": "Foi entregue manual do usuário aos adquirintes dos imóvel?",
+        "categoria": "Manual do usuário",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0210",
+        "enunciado": "O manual do usuário é adequado e de fácil compreensão para os usuários?",
+        "categoria": "Manual do usuário",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    }
+]

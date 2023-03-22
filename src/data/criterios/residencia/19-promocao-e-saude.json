@@ -1,0 +1,152 @@
+[
+    {
+        "codigo": "1000",
+        "enunciado": "Esta edificação influencia positivamente a saúde de seus ocupantes?",
+        "categoria": "Influência na saúde",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Esta edificação respeita a importância e a dignidade do indivíduo, entregando espaços adequados e agradáveis para os usuários?",
+        "categoria": "Influência na saúde",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Esta edificação atende às necessidades dos ocupantes?",
+        "categoria": "Capacidade de atender às necessidades dos ocupantes",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a qualidade de vida proporcionada pela edificação para a realização das suas tarefas?",
+        "categoria": "Capacidade de atender às necessidades dos ocupantes",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia as medidas de higiene e limpeza adotadas na edificação?",
+        "categoria": "Medidas preventivas e de limpeza",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Há proliferação de microrganismos/mofo, insetos ou animais perigosos na edificação ou nas proximidades da edificação?",
+        "categoria": "Medidas preventivas e de limpeza",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Esta edificação possui bancada de lavagem (pias)?",
+        "categoria": "Medidas preventivas e de limpeza",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Na sua região, vende alimentos saudáveis a preços acessíveis (valor que que você consegue pagar)?",
+        "categoria": "Nutrição ",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Esta edificação possui geladeira (ou  local similar) para conservar os mantimentos/alimentos?",
+        "categoria": "Nutrição ",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Esta edificação possui armários (ou local similar) para armazenar os mantimentos/alimentos em boas condições para o consumo?",
+        "categoria": "Nutrição ",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    }
+]

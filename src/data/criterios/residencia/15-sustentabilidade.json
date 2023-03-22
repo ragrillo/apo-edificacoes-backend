@@ -1,0 +1,319 @@
+[
+    {
+        "codigo": "1000",
+        "enunciado": "Nesta edificação é feita a coleta e o aproveitamento de águas da chuva? (Ex.: Utilização em bacias sanitárias, rega de jardins, limpeza ou outros usos permitidos).",
+        "categoria": "Gestão de captação de chuvas",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },{
+        "codigo": "1000",
+        "enunciado": "A gestão de captação da água da chuva atende as necessidades da edificação?",
+        "categoria": "Gestão de captação de chuvas",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },{
+        "codigo": "1000",
+        "enunciado": "Como você avalia as estratégias para redução da poluição ambiental proprocionadas pelo condomínio? (Exemplo: compartilhamento de veículos e/ou incentivo de uso de meios de locomoção não poluentes) ",
+        "categoria": "Poluição ambiental - redução de poluentes internos e externos",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente" ,"Não se aplica"
+        ],
+        "dica": null
+    },{
+        "codigo": "1000",
+        "enunciado": "Existe um plano de gestão ambiental?",
+        "categoria": "Plano de gestão ambiental",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim" , "Não" , "Não sei responder" , "Não se aplica"
+        ],
+        "dica": null
+    },{
+        "codigo": "1000",
+        "enunciado": "Foi adotada, ou está prevista para adoção futura, alguma ferramenta de classificação da sustentabilidade da edificação ('selo verde')?",
+        "categoria": "Plano de gestão ambiental",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim" , "Não" , "Não sei responder" , "Não se aplica"
+        ],
+        "dica": null
+    },{
+        "codigo": "1000",
+        "enunciado": "Como você avalia as medidas adotadas de conscientização e educação dos condominos e colaboradores do condomínio em prol da sustentabilidade?",
+        "categoria": "Plano de gestão ambiental",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente" ,"Não se aplica"
+        ],
+        "dica": null
+    },{
+        "codigo": "1000",
+        "enunciado": "São estimuladas inovações que tragam melhor desempenho ambiental na edificação?",
+        "categoria": "Plano de gestão ambiental",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim" , "Não" , "Não sei responder" , "Não se aplica"
+        ],
+        "dica": null
+    },{
+        "codigo": "1000",
+        "enunciado": "Como você avalia as estratégias para promover atitudes que diminuam o consumo de energia elétrica?",
+        "categoria": "Economia e eficiência energética",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente" 
+        ],
+        "dica": null
+    },{
+        "codigo": "1000",
+        "enunciado": "Como você avalia a infraestrutura e/ou os equipamentos utilizados para diminuir o consumo de energia elétrica?",
+        "categoria": "Economia e eficiência energética",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente" 
+        ],
+        "dica": null
+    },{
+        "codigo": "1000",
+        "enunciado": "Você utiliza equipamentos para a climatização da moradia (tais como ventilador, ar condicionado, aquecedores, etc)?",
+        "categoria": "Economia e eficiência energética",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sempre", "frequentemente", "ocasionalmente", "raramente", "nunca "
+        ],
+        "dica": null
+    },{
+        "codigo": "1000",
+        "enunciado": "Como você avalia o desempenho energético da edificação?",
+        "categoria": "Economia e eficiência energética",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente" 
+        ],
+        "dica": null
+    },{
+        "codigo": "1000",
+        "enunciado": "Existe o uso de fontes alternativas de energia?",
+        "categoria": "Fontes de energia alternativa",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },{
+        "codigo": "1000",
+        "enunciado": "Como você avalia o consumo de água na edificação?",
+        "categoria": "Economia e eficiência hídrica",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },{
+        "codigo": "1000",
+        "enunciado": "Como você avalia as estratégias para diminuir o consumo de água?",
+        "categoria": "Economia e eficiência hídrica",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },{
+        "codigo": "1000",
+        "enunciado": "Existe o reuso de águas cinzas/ servidas?",
+        "categoria": "Uso de águas cinzas",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },{
+        "codigo": "1000",
+        "enunciado": "Existem medidas para evitar a formação do efeito ilha de calor (tais implantação de áreas verdes/arborização)?",
+        "categoria": "Redução do efeito ilha de calor",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },{
+        "codigo": "1000",
+        "enunciado": "Estão sendo desenvolvidas avaliações do impacto do ciclo de vida do edifício?",
+        "categoria": "ACV - Avaliação do ciclo de vida",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },{
+        "codigo": "1000",
+        "enunciado": "São realizadas avaliações de especialistas para aprimorar o desempenho ambiental?",
+        "categoria": "Contratação de especialista ambiental",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+
+        ],
+        "dica": null
+    },{
+        "codigo": "1000",
+        "enunciado": "Existe o uso racional de insumos, visando o melhor aproveitamento/eficiência e menor impacto ambiental?",
+        "categoria": "Uso racional de insumos",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },{
+        "codigo": "1000",
+        "enunciado": "Como você avalia o gestão de resíduos sólidos (lixo doméstico) na edificação, considerando sua produção, separação, reciclagem e reutilização?",
+        "categoria": "Gestão de resíduos",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "ruim", "regular", "bom", "excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "São adotadas medidas de recuperação de efluentes/esgoto?",
+        "categoria": "Recuperação de efluentes",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim" , "Não" , "Não sei responder", "Não se aplica"
+        ],
+        "dica": null
+    }
+]

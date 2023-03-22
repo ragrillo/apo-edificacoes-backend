@@ -1,0 +1,377 @@
+[
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a escolha do local da edificação e sua conexão com a cidade?",
+        "categoria": "Localização e conexão com o entorno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "A edificação esta inserida em áreas de risco de desastres naturais ou artificias (enchentes/alagamentos, deslizamentos de terra, rompimento de barragens, etc)?",
+        "categoria": "Localização e conexão com o entorno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "A edificação esta inserida próxima a fontes de ruídos e/ou contaminação (indústrias, lixões, etc)?",
+        "categoria": "Localização e conexão com o entorno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia os impactos relativos à implantação da edificação no entorno?",
+        "categoria": "Localização e conexão com o entorno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a reabilitação das imediações do imóvel? (Foi previsto cuidados com a implantação nas redondezas do empreendimento)",
+        "categoria": "Localização e conexão com o entorno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a infraestrutura do entorno do imóvel: Iluminação pública",
+        "categoria": "Localização e conexão com o entorno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a infraestrutura do entorno do imóvel: Vias pavimentadas",
+        "categoria": "Localização e conexão com o entorno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a infraestrutura do entorno do imóvel: Calçadas adequadas que integrem o imóvel ao bairro e cidade",
+        "categoria": "Localização e conexão com o entorno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a infraestrutura do entorno do imóvel: Ciclovias",
+        "categoria": "Localização e conexão com o entorno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a infraestrutura do entorno do imóvel: Transporte público",
+        "categoria": "Localização e conexão com o entorno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a infraestrutura do entorno do imóvel: Pré-escolas e escolas públicas",
+        "categoria": "Localização e conexão com o entorno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a infraestrutura do entorno do imóvel: Unidade Básica de Saúde (Posto de Saúde) ",
+        "categoria": "Localização e conexão com o entorno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a infraestrutura do entorno do imóvel: Hospitais públicos ",
+        "categoria": "Localização e conexão com o entorno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a infraestrutura do entorno do imóvel: Serviços de emergência (Ambulâncias/SAMU/Corpo de Bombeiros)",
+        "categoria": "Localização e conexão com o entorno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a infraestrutura do entorno do imóvel: Serviços de segurança pública (policiamento)",
+        "categoria": "Localização e conexão com o entorno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a infraestrutura do entorno do imóvel: Serviços de limpeza urbana e coleta de lixo",
+        "categoria": "Localização e conexão com o entorno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a infraestrutura do entorno do imóvel: Mercados/Mercearias",
+        "categoria": "Localização e conexão com o entorno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a infraestrutura do entorno do imóvel: Farmácias",
+        "categoria": "Localização e conexão com o entorno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a infraestrutura do entorno do imóvel: Áreas de lazer públicas",
+        "categoria": "Localização e conexão com o entorno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a infraestrutura do entorno do imóvel:Ofertas de empregos na região (oportunidade para trabalho e renda próximo da moradia)",
+        "categoria": "Localização e conexão com o entorno",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia as estratégias em relação à iluminação natural? (O edifício foi projetado com orientação das aberturas para insolação adequada e uso de iluminação natural?)",
+        "categoria": "Implantação/ orientação solar",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia as estratégias em relação à ventilação natural?",
+        "categoria": "Implantação/ orientação solar",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [ "Péssimo", "Ruim", "Regular", "Bom", "Excelente" 
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Houve um bom aproveitamento da topografia natural do terreno?(Ex.:  Compensação dentro do próprio lote do corte/ aterro. Pequeno uso de máquinas e equipamentos de acomodação de terra.)",
+        "categoria": "Topografia",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Houve um bom aproveitamento da topografia natural do terreno?(Ex.:  Compensação dentro do próprio lote do corte/ aterro. Pequeno uso de máquinas e equipamentos de acomodação de terra.)"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Houve adequada impermeabilização do solo para construção?",
+        "categoria": "Impermeabilização do solo",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Sim" , "Não" , "Não sei responder "
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "O imóvel tem áreas permeaveis (sem concreto) para contribuir com a redução de alagamentos?",
+        "categoria": "Impermeabilização do solo",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Sim" , "Não" , "Não sei responder "
+        ],
+        "dica": null
+    }
+]

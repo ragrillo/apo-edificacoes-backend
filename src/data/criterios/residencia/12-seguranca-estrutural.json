@@ -1,0 +1,303 @@
+[
+    {
+        "codigo": "1000",
+        "enunciado": "A edificação possui certificado vigente de Vistoria de Prevenção contra Incêncio / Plano de Prevenção contra Incêndio emitido pelo Corpo de Bombeiros?",
+        "categoria": "",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não", "Não sei responder", "Não se aplica"
+
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "O edificio possui requisitos para prevenção e combate à incêndio e pânico: Sinalização de emergência",
+        "categoria": "Segurança contra incêndio e pânico",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não", "Não sei responder", "Não se aplica"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "O edificio possui requisitos para prevenção e combate à incêndio e pânico: Iluminação de emergência",
+        "categoria": "Segurança contra incêndio e pânico",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não", "Não sei responder", "Não se aplica"
+
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "O edificio possui requisitos para prevenção e combate à incêndio e pânico: Extintores",
+        "categoria": "Segurança contra incêndio e pânico",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não", "Não sei responder", "Não se aplica"
+
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "O edificio possui requisitos para prevenção e combate à incêndio e pânico: Hidrantes ",
+        "categoria": "Segurança contra incêndio e pânico",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não", "Não sei responder", "Não se aplica"
+
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "O edificio possui requisitos para prevenção e combate à incêndio e pânico: Chuveiros automáticos (sprinkler)",
+        "categoria": "Segurança contra incêndio e pânico",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não", "Não sei responder", "Não se aplica"
+
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "O edificio possui requisitos para prevenção e combate à incêndio e pânico: Rotas de fuga",
+        "categoria": "Segurança contra incêndio e pânico",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não", "Não sei responder", "Não se aplica"
+
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "O edificio possui requisitos para prevenção e combate à incêndio e pânico: Brigada contra incêndio (moradores e/ou funcionários que receberam treinamento para gerir situações de princípio de incêndio na edificação)",
+        "categoria": "Segurança contra incêndio e pânico",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não", "Não sei responder", "Não se aplica"
+
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "O edificio possui requisitos para prevenção e combate à incêndio e pânico: Acesso de viaturas de apoio para resgate de pessoas, combate a incêndio e/ou situações de desastres",
+        "categoria": "Segurança contra incêndio e pânico",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não", "Não sei responder", "Não se aplica"
+
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "O edificio possui requisitos para prevenção e combate à incêndio e pânico: Há a disponibilidade de telefones de emergência?",
+        "categoria": "Segurança contra incêndio e pânico",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não", "Não sei responder", "Não se aplica"
+
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Há presença de instalações elétricas com fios expostos e/ou desencapados, tomadas 'derretidas', vários aparelhos elétricos ligados na mesma tomada (uso de 'benjamins'), etc?",
+        "categoria": "Segurança contra incêndio e pânico",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não", "Não sei responder", "Não se aplica"
+
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Há armazenamento de GLP (gás doméstico) no interior da edificação?",
+        "categoria": "Segurança contra incêndio e pânico",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim, o botijão de gás doméstico (P13) fica dentro da moradia", "Não, o botijão de gás fica em uma central de gás ou abrigo fora da moradia" , "Não sei responder" , "Não se aplica"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia o desempenho estrutural da edificação? (Como você considera a resistência da edificação?)",
+        "categoria": "Segurança estrutural",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Há defeitos na estrutura da edificação? (Recalques, rachaduras, trincas ou fissuras, etc)",
+        "categoria": "Segurança estrutural",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não", "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a estrutura de cobertura?",
+        "categoria": "Segurança estrutural",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Há defeitos na estrutura da cobertura da edificação? (Empenamentos, torções ou flambagens da estrutura; destelhamento, etc)",
+        "categoria": "Segurança estrutural",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não", "Não sei responder"
+
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a estrutura dos muros, grades e portões? ",
+        "categoria": "Segurança estrutural",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Há defeitos ou avarias nos portões, grades e muros?",
+        "categoria": "Segurança estrutural",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não", "Não sei responder"
+        ],
+        "dica": null
+    }
+]

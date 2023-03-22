@@ -1,0 +1,94 @@
+[
+    {
+        "codigo": "0613",
+        "enunciado": "Como você avalia o conforto geral proporcionado pela edificação?",
+        "categoria": "Conforto e satisfação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", 
+            "Ruim", 
+            "Regular", 
+            "Bom", 
+            "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0613",
+        "enunciado": "Você sente que a moradia te proporciona bem-estar?",
+        "categoria": "Conforto e satisfação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", 
+            "Não",
+            "Não sei responder" 
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0613",
+        "enunciado": "Você sente que a moradia traz uma sensação de acolhimento?",
+        "categoria": "Conforto e satisfação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", 
+            "Não",
+            "Não sei responder" 
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0613",
+        "enunciado": "De forma geral, qual é a sua satisfação com a edificação?",
+        "categoria": "Conforto e satisfação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0613",
+        "enunciado": "Como você avalia a satisfação No trabalho pelos funcionários?",
+        "categoria": "Conforto e satisfação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", 
+            "Ruim", 
+            "Regular", 
+            "Bom", 
+            "Excelente"           
+        ],
+        "dica": null
+    }
+]

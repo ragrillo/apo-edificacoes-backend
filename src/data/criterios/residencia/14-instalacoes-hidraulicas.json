@@ -1,0 +1,198 @@
+[
+    {
+        "codigo": "1000",
+        "enunciado": "Existe o abastecimento de água? (Ex.: Rede pública, poço artesiano, cisterna, poço ou fonte).",
+        "categoria": "Instalações hidráulicas",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a qualidade da água potável que chega até a edificação?",
+        "categoria": "Instalações hidráulicas",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Ocorre falhas/falta no abastecimento de água?",
+        "categoria": "Instalações hidráulicas",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sempre", "frequentemente", "ocasionalmente", "raramente", "nunca"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a qualidade das instalações hidráulicas?",
+        "categoria": "Instalações hidráulicas",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+            
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "O sistema hidraulico é de fácil manutenção?",
+        "categoria": "Instalações hidráulicas",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não" , "Não sei responder"
+
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Já houve algum tipo de vazamento de água na edificação?",
+        "categoria": "Instalações hidráulicas",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não" , "Não sei responder"
+
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Qual é a média de consumo de água mensal da edificação?",
+        "categoria": "Instalações hidráulicas",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Valor da fatura divido por numero de moradores"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Existem instalações sanitárias na edificação?",
+        "categoria": "Instalações sanitárias e rede de esgoto",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não" , "Não sei responder"
+            
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia as condições de conservação/qualidade para o uso das instalações sanitárias na edificação?",
+        "categoria": "Instalações sanitárias e rede de esgoto",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Existe rede pública de coleta de esgoto ou fossa séptica?",
+        "categoria": "Instalações sanitárias e rede de esgoto",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Existe instalações para captação e drenagem de água pluvial  da cobertura da edificação?  (Calhas e condutores)",
+        "categoria": "Instalações de águas pluviais",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não" , "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a qualidade das instalações de captação e drenagem de água pluvial  da cobertura da edificação?  (Calhas e condutores)",
+        "categoria": "Instalações de águas pluviais",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    }
+]

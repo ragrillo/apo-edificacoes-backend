@@ -1,0 +1,641 @@
+[
+    {
+        "codigo": "0127",
+        "enunciado": "Avalie a qualidade dos materiais e acabamento de: Pintura de paredes",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente",
+            "Não se aplica"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0128",
+        "enunciado": "Avalie a qualidade dos materiais e acabamento de: Revestimentos",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente",
+            "Não se aplica"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0129",
+        "enunciado": "Avalie a qualidade dos materiais e acabamento de: Pisos",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente",
+            "Não se aplica"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0130",
+        "enunciado": "Avalie a qualidade dos materiais e acabamento de: Tomadas",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente",
+            "Não se aplica"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0131",
+        "enunciado": "Avalie a qualidade dos materiais e acabamento de: Metais",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente",
+            "Não se aplica"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0132",
+        "enunciado": "Avalie a qualidade dos materiais e acabamento de: Esquadrias (portas e janelas)",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente",
+            "Não se aplica"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0133",
+        "enunciado": "Avalie a qualidade dos materiais e acabamento de: Forro",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente",
+            "Não se aplica"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0134",
+        "enunciado": "Avalie a qualidade dos materiais e acabamento de: Louças",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente",
+            "Não se aplica"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0135",
+        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum(ns) dos itens descritos abaixo durante o periodo de garantia: Pintura das paredes",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0136",
+        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum(ns) dos itens descritos abaixo durante o periodo de garantia: Revestimentos",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0137",
+        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum(ns) dos itens descritos abaixo durante o periodo de garantia: Piso",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0138",
+        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum(ns) dos itens descritos abaixo durante o periodo de garantia: Tomadas",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0139",
+        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum(ns) dos itens descritos abaixo durante o periodo de garantia: Metais",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0140",
+        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum(ns) dos itens descritos abaixo durante o periodo de garantia: Esquadrias (portas e janelas)",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0141",
+        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum(ns) dos itens descritos abaixo durante o periodo de garantia: Forro",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0142",
+        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum(ns) dos itens descritos abaixo durante o periodo de garantia: Louças",
+        "categoria": "Qualidade dos materiais utilizados na edificação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0143",
+        "enunciado": "A edificação apresenta sinais de depredação, vandalismo ou abandono?",
+        "categoria": "Manutenção",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": " Exemplo: vidros, portas e janelas quebradas, pichações, lâmpadas estouradas."
+    },
+    {
+        "codigo": "0144",
+        "enunciado": "São realizadas manutenções periódicas conforme instruções do manual de usuário?",
+        "categoria": "Manutenção",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0145",
+        "enunciado": "Há um acompanhamento contínuo (mensal) para substituir itens danificados?",
+        "categoria": "Manutenção",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0144",
+        "enunciado": "Com qual frequência a edificação necessita de reparos?",
+        "categoria": "Manutenção",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0144",
+        "enunciado": "As manutenções são realizadas mantendo o mesmo padrão da construção inicial?",
+        "categoria": "Manutenção",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0144",
+        "enunciado": "Há sinais de defeito ou mal funcionamento, neste momento, em algum(ns) dos itens descritos abaixo? Pintura de paredes",
+        "categoria": "Manutenção",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0144",
+        "enunciado": "Há sinais de defeito ou mal funcionamento, neste momento, em algum(ns) dos itens descritos abaixo? Revestimentos",
+        "categoria": "Manutenção",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0144",
+        "enunciado": "Há sinais de defeito ou mal funcionamento, neste momento, em algum(ns) dos itens descritos abaixo? Pisos",
+        "categoria": "Manutenção",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0144",
+        "enunciado": "Há sinais de defeito ou mal funcionamento, neste momento, em algum(ns) dos itens descritos abaixo? Tomadas",
+        "categoria": "Manutenção",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0144",
+        "enunciado": "Há sinais de defeito ou mal funcionamento, neste momento, em algum(ns) dos itens descritos abaixo? Metais",
+        "categoria": "Manutenção",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0144",
+        "enunciado": "Há sinais de defeito ou mal funcionamento, neste momento, em algum(ns) dos itens descritos abaixo? Esquadrias (portas e janelas)",
+        "categoria": "Manutenção",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0144",
+        "enunciado": "Há sinais de defeito ou mal funcionamento, neste momento, em algum(ns) dos itens descritos abaixo? Forro",
+        "categoria": "Manutenção",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0144",
+        "enunciado": "Há sinais de defeito ou mal funcionamento, neste momento, em algum(ns) dos itens descritos abaixo? Louças",
+        "categoria": "Manutenção",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0144",
+        "enunciado": "Há sinais de infiltração (entrada) de água por: Paredes",
+        "categoria": "Manutenção",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0144",
+        "enunciado": "Há sinais de infiltração (entrada) de água por: Piso",
+        "categoria": "Manutenção",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0144",
+        "enunciado": "Há sinais de infiltração (entrada) de água por: Esquadrias (portas e janelas)",
+        "categoria": "Manutenção",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0144",
+        "enunciado": "Há sinais de infiltração (entrada) de água por: Cobertura",
+        "categoria": "Manutenção",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0144",
+        "enunciado": "Como você avalia, de forma geral, a manutenção da edificação?",
+        "categoria": "Manutenção",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular",
+            "Bom",
+            "Excelente",
+            "Não se aplica"
+        ],
+        "dica": null
+    }
+]

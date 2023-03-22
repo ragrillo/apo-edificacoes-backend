@@ -1,0 +1,52 @@
+[
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia o isolameto acústico da edificação, no que se refere aos ruídos provinientes do exterior da edificação?",
+        "categoria": "Isolamento e conforto acústico",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia o isolameto acústico da edificação, no que se refere aos ruídos provinientes do interior edificação (entre ambientes internos)?",
+        "categoria": "Isolamento e conforto acústico",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia o controle para ajustar o conforto acústico na sua moradia através da abertura/fechamento de janelas e portas?",
+        "categoria": "Isolamento e conforto acústico",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    }
+    
+   
+]

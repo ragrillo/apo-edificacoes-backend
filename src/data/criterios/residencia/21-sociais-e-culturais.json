@@ -1,0 +1,78 @@
+[
+    {
+        "codigo": "1000",
+        "enunciado": "O empreendimento contribui positivamente para o desenvolvimento regional e urbano?",
+        "categoria": "Desenvolvimento da comunidade local",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Sim" , "Não" , "Não sei responder" , "Não se aplica"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "O empreendimento contribui positivamente para a vizinhança e a comunidade com geração de renda e postos de trabalho através de cosumo em comercios locais?",
+        "categoria": "Desenvolvimento da comunidade local",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Sim" , "Não" , "Não sei responder" , "Não se aplica"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Existe uma política de contratação de bens e serviços locais buscando uma prioridade regional?",
+        "categoria": "Contratação de bens e serviços locais / prioridade regional",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Sim" , "Não" , "Não sei responder" , "Não se aplica"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a contribuição cultural do empreendimento?",
+        "categoria": "Valor cultural - Estrutura do patrimônio",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Você se sente culturalmente representado por sua edificação?",
+        "categoria": "Valor cultural - Estrutura do patrimônio",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Péssimo", "Ruim", "Regular", "Bom", "Excelente"
+        ],
+        "dica": null
+    }
+
+]

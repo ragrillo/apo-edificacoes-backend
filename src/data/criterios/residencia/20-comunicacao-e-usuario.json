@@ -1,0 +1,64 @@
+[
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a comunicação e interação entre os diferentes usuários da edificação? (interação entre vizinhos)",
+        "categoria": "Comunicação entre usuários ",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [ 
+            "Péssimo", "Ruim", "Regular", "Bom", "Excelente" , "Não se aplica"    
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia a comunicação e interação entre os diferentes usuários da edificação? (interação entre vizinhos)",
+        "categoria": "Pesquisa de satisfação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [     "Sim" , "Não" , "Não sei responder"
+        ],
+        "dica": null
+    }, 
+    {
+        "codigo": "1000",
+        "enunciado": "Já houve alguma pesquisa pós-ocupação realizada pela própria construtora?",
+        "categoria": "Pesquisa de satisfação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [  "Sim" , "Não" , "Não sei responder"   
+        ],
+        "dica": null
+    }, 
+    {
+        "codigo": "1000",
+        "enunciado": "A construtora oferece suporte pós-construção?",
+        "categoria": "Pesquisa de satisfação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [   "Sim" , "Não" , "Não sei responder"  
+        ],
+        "dica": null
+    }
+ 
+]

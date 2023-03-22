@@ -1,0 +1,159 @@
+[
+    {
+        "codigo": "0426",
+        "enunciado": "Qual o estado de conservação da edificação?",
+        "categoria": "Conservação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo",
+            "Ruim",
+            "Regular", 
+            "Bom",
+            "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0426",
+        "enunciado": "A edificação possui identidade visual que traga individualidade ao imóvel?",
+        "categoria": "Identidade  Visual",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", 
+            "Não", 
+            "Não sei responder", 
+            "Não se aplica"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0426",
+        "enunciado": "Como você avalia a beleza da edificação?",
+        "categoria": "Identidade  Visual",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", 
+            "Ruim", 
+            "Regular", 
+            "Bom", 
+            "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0426",
+        "enunciado": "Como você avalia a integração arquitetônica do edifício com o entorno? ",
+        "categoria": "Composição arquitetônica",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", 
+            "Ruim", 
+            "Regular", 
+            "Bom", 
+            "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0426",
+        "enunciado": "A composição arquitetônica é adequado?",
+        "categoria": "Composição arquitetônica",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", 
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0426",
+        "enunciado": "Como você avalia a divisão e organização interna da edificação?",
+        "categoria": "Uso eficiente do espaço",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", 
+            "Ruim", 
+            "Regular", 
+            "Bom", 
+            "Excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0426",
+        "enunciado": "Como você avalia a altura do pé direito da edificação?",
+        "categoria": "Uso eficiente do espaço",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", 
+            "Ruim", 
+            "Regular", 
+            "Bom", 
+            "Excelente"           
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "0426",
+        "enunciado": "O layout permite bom funcionamento da edificação?",
+        "categoria": "Uso eficiente do espaço",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim",
+            "Não",
+            "Não sei responder"
+        ],
+        "dica": null
+    }
+
+
+]

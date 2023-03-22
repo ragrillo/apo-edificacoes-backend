@@ -219,8 +219,8 @@
       "1",
       "2"
     ],
-    "opcoesResposta": "Comunicação Visual",
-    "type": [
+    "categoria": "Comunicação Visual",
+    "opcoesResposta": [
       "Sim",
       "Não",
       "Não sei responder",
@@ -295,8 +295,8 @@
       "1",
       "2"
     ],
-    "opcoesResposta": "Composição arquitetônica",
-    "type": [
+    "categoria": "Composição arquitetônica",
+    "opcoesResposta": [
       "Péssimo",
       "Ruim",
       "Regular",

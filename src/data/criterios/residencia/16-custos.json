@@ -1,0 +1,142 @@
+[
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia os custos de manutenção?",
+        "categoria": "Custos de manutenção e operação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "ruim", "regular", "bom", "excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia os custos operacionais?",
+        "categoria": "Custos de manutenção e operação",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "ruim", "regular", "bom", "excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Caso você tivesse oportunidade de voltar no tempo, você compraria novamente esse mesmo imóvel?",
+        "categoria": "Custos previstos x realizados",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não", "Não sei responder - PORQUE?"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia o custo x beneficio proporcionado pela edificação? (valor desembolsado para residir no imóvel x conforto proporcionado na edificação)",
+        "categoria": "Custos previstos x realizados",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Péssimo", "ruim", "regular", "bom", "excelente"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "A edificação atingiu suas expectativas financeiras com relação aos custos mensais?",
+        "categoria": "Custos previstos x realizados",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": [
+            "Sim", "Não", "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Você está satisfeito com os custos de água que vem gastando na edificação?",
+        "categoria": "Custos previstos x realizados",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": ["Sim", "Não", "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Você está satisfeito com os custos de energia elétrica que vem gastando na edificação?",
+        "categoria": "Custos previstos x realizados",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": ["Sim", "Não", "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Você já deixou de comprar itens essenciais, como alimentos ou remédios para conseguir pagar as contas de energia elétrica e/ou água nesta edificação?",
+        "categoria": "Custos previstos x realizados",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": ["Sim", "Não", "Não sei responder"
+        ],
+        "dica": null
+    },
+    {
+        "codigo": "1000",
+        "enunciado": "Como você avalia os custos com deslocamento (entre a moradia e o trabalho, escola, mercados, etc)?",
+        "categoria": "Custos previstos x realizados",
+        "edificacoes": [
+            "residencias"
+        ],
+        "cargos": [
+            "1",
+            "2"
+        ],
+        "opcoesResposta": ["Sim", "Não", "Não sei responder"
+        ],
+        "dica": null
+    }
+]

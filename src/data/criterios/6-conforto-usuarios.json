@@ -9,6 +9,13 @@
       "Não",
       "Não sei responder",
       "Não se aplica"
+    ],
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
     ]
   },
   {
@@ -22,6 +29,13 @@
       "Regular",
       "Pouca poluição luminosa",
       "Sem poluição luminosa"
+    ],
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
     ]
   },
   {
@@ -36,6 +50,12 @@
       "Bom",
       "Excelente",
       "Não se aplica"
+    ],
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1"
     ]
   },
   {
@@ -49,6 +69,13 @@
       "Regular",
       "Bom",
       "Excelente"
+    ],
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
     ]
   },
   {
@@ -62,6 +89,13 @@
       "Regular",
       "Bom",
       "Excelente"
+    ],
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
     ]
   },
   {
@@ -75,6 +109,13 @@
       "Regular",
       "Bom",
       "Excelente"
+    ],
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
     ]
   },
   {
@@ -88,6 +129,13 @@
       "Regular",
       "Bom",
       "Excelente"
+    ],
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
     ]
   },
   {
@@ -101,6 +149,13 @@
       "Regular",
       "Bom",
       "Excelente"
+    ],
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
     ]
   },
   {
@@ -113,6 +168,13 @@
       "Não",
       "Não sei responder",
       "Não se aplica"
+    ],
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
     ]
   },
   {
@@ -125,6 +187,13 @@
       "Não",
       "Não sei responder",
       "Não se aplica"
+    ],
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
     ]
   },
   {
@@ -139,6 +208,13 @@
       "Bom",
       "Excelente",
       "Não se aplica"
+    ],
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
     ]
   },
   {
@@ -150,6 +226,13 @@
       "Sim",
       "Não",
       "Não sei responder"
+    ],
+    "edificacoes": [
+      "ubs"
+    ],
+    "cargos": [
+      "1",
+      "2"
     ]
   }
 ]
