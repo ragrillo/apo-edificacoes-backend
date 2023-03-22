@@ -9,7 +9,7 @@ interface IFormularioController extends IBaseController<FormularioModel, Formula
 class FormularioController implements IFormularioController {
   constructor(private readonly service: IFormularioService) {}
 
-  async create(request: IHttpRequest<FormularioDTO>): Promise<IHttpResponse<void>> {
+  async create(request: IHttpRequest<FormularioDTO>): Promise<IHttpResponse<string>> {
     const payload = request.body;
 
     if (!payload) {
@@ -23,8 +23,9 @@ class FormularioController implements IFormularioController {
 
     await this.service.create(payload);
 
-    const httpResponse: IHttpResponse<void> = {
+    const httpResponse: IHttpResponse<string> = {
       statusCode: HttpStatusCode.CREATED,
+      body: 'Sua resposta foi enviada com sucesso!',
     };
 
     return httpResponse;
