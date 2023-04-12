@@ -1,7 +1,7 @@
 [
     {
         "codigo": "0101",
-        "enunciado": "Como você avalia a escolha de materiais para os itens abaixo? Estão de acordo com as normas e legislação? (Ex.: contribuir para o conforto do ocupante (térmica e visualmente) e com a higiene do local). - Pintura de paredes",
+        "enunciado": "Os materiais escolhidos contribuem para o conforto e a higiene do local? PINTURA DAS PAREDES",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -22,7 +22,7 @@
     },
     {
         "codigo": "0102",
-        "enunciado": "Como você avalia a escolha de materiais para os itens abaixo? Estão de acordo com as normas e legislação? (Ex.: contribuir para o conforto do ocupante (térmica e visualmente) e com a higiene do local). - Revestimentos",
+        "enunciado": "REVESTIMENTOS",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -43,7 +43,7 @@
     },
     {
         "codigo": "0103",
-        "enunciado": "Como você avalia a escolha de materiais para os itens abaixo? Estão de acordo com as normas e legislação? (Ex.: contribuir para o conforto do ocupante (térmica e visualmente) e com a higiene do local). - Pisos",
+        "enunciado": "PISOS",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -64,7 +64,7 @@
     },
     {
         "codigo": "0104",
-        "enunciado": "Como você avalia a escolha de materiais para os itens abaixo? Estão de acordo com as normas e legislação? (Ex.: contribuir para o conforto do ocupante (térmica e visualmente) e com a higiene do local). - Tomadas",
+        "enunciado": "TOMADAS",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -85,7 +85,7 @@
     },
     {
         "codigo": "0105",
-        "enunciado": "Como você avalia a escolha de materiais para os itens abaixo? Estão de acordo com as normas e legislação? (Ex.: contribuir para o conforto do ocupante (térmica e visualmente) e com a higiene do local). - Metais",
+        "enunciado": "METAIS",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -106,7 +106,7 @@
     },
     {
         "codigo": "0106",
-        "enunciado": "Como você avalia a escolha de materiais para os itens abaixo? Estão de acordo com as normas e legislação? (Ex.: contribuir para o conforto do ocupante (térmica e visualmente) e com a higiene do local). - Esquadrias (portas e janelas)",
+        "enunciado": "ESQUADRIAS (PORTAS E JANELAS)",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -127,7 +127,7 @@
     },
     {
         "codigo": "0107",
-        "enunciado": "Como você avalia a escolha de materiais para os itens abaixo? Estão de acordo com as normas e legislação? (Ex.: contribuir para o conforto do ocupante (térmica e visualmente) e com a higiene do local). - Forro",
+        "enunciado": "FORRO",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -148,7 +148,7 @@
     },
     {
         "codigo": "0108",
-        "enunciado": "Como você avalia a escolha de materiais para os itens abaixo? Estão de acordo com as normas e legislação? (Ex.: contribuir para o conforto do ocupante (térmica e visualmente) e com a higiene do local). - Louças",
+        "enunciado": "LOUÇAS",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -169,7 +169,7 @@
     },
     {
         "codigo": "0109",
-        "enunciado": "Como você avalia o uso de materiais, neste ambiente, com respeito a durabilidade e conservação? (Ex.: Visar uma edificação durável) - Pintura de paredes",
+        "enunciado": "Os materiais escolhidos são resistentes e duráveis? PINTURA DAS PAREDES",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -190,7 +190,7 @@
     },
     {
         "codigo": "0110",
-        "enunciado": "Como você avalia o uso de materiais, neste ambiente, com respeito a durabilidade e conservação? (Ex.: Visar uma edificação durável) - Revestimentos",
+        "enunciado": "REVESTIMENTOS",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -211,7 +211,7 @@
     },
     {
         "codigo": "0111",
-        "enunciado": "Como você avalia o uso de materiais, neste ambiente, com respeito a durabilidade e conservação? (Ex.: Visar uma edificação durável) - Pisos",
+        "enunciado": "PISOS",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -232,7 +232,7 @@
     },
     {
         "codigo": "0112",
-        "enunciado": "Como você avalia o uso de materiais, neste ambiente, com respeito a durabilidade e conservação? (Ex.: Visar uma edificação durável) - Tomadas",
+        "enunciado": "TOMADAS",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -253,7 +253,7 @@
     },
     {
         "codigo": "0113",
-        "enunciado": "Como você avalia o uso de materiais, neste ambiente, com respeito a durabilidade e conservação? (Ex.: Visar uma edificação durável) - Metais",
+        "enunciado": "METAIS",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -274,7 +274,7 @@
     },
     {
         "codigo": "0114",
-        "enunciado": "Como você avalia o uso de materiais, neste ambiente, com respeito a durabilidade e conservação? (Ex.: Visar uma edificação durável) - Esquadrias (portas e janelas)",
+        "enunciado": "ESQUADRIAS (PORTAS E JANELAS)",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -295,7 +295,7 @@
     },
     {
         "codigo": "0115",
-        "enunciado": "Como você avalia o uso de materiais, neste ambiente, com respeito a durabilidade e conservação? (Ex.: Visar uma edificação durável) - Forro",
+        "enunciado": "FORRO",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -316,7 +316,7 @@
     },
     {
         "codigo": "0116",
-        "enunciado": "Como você avalia o uso de materiais, neste ambiente, com respeito a durabilidade e conservação? (Ex.: Visar uma edificação durável) - Louças",
+        "enunciado": "LOUÇAS",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -337,7 +337,7 @@
     },
     {
         "codigo": "0117",
-        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum dos itens descritos abaixo durante o periodo de garantia. - Pintura de paredes",
+        "enunciado": "Os materiais escolhidos apresentaram defeitos ou mal funcionamento durante o período de garantia? PINTURA DAS PAREDES",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -356,7 +356,7 @@
     },
     {
         "codigo": "0118",
-        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum dos itens descritos abaixo durante o periodo de garantia. - Revestimentos",
+        "enunciado": "REVESTIMENTOS",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -375,7 +375,7 @@
     },
     {
         "codigo": "0119",
-        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum dos itens descritos abaixo durante o periodo de garantia. - Pisos",
+        "enunciado": "PISOS",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -394,7 +394,7 @@
     },
     {
         "codigo": "0120",
-        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum dos itens descritos abaixo durante o periodo de garantia. - Tomadas",
+        "enunciado": "TOMADAS",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -413,7 +413,7 @@
     },
     {
         "codigo": "0121",
-        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum dos itens descritos abaixo durante o periodo de garantia. - Metais",
+        "enunciado": "METAIS",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -432,7 +432,7 @@
     },
     {
         "codigo": "0122",
-        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum dos itens descritos abaixo durante o periodo de garantia. - Esquadrias (portas e janelas)",
+        "enunciado": "ESQUADRIAS (PORTAS E JANELAS)",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -451,7 +451,7 @@
     },
     {
         "codigo": "0123",
-        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum dos itens descritos abaixo durante o periodo de garantia. - Forro",
+        "enunciado": "FORRO",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -470,7 +470,7 @@
     },
     {
         "codigo": "0124",
-        "enunciado": "A edificação apresentou defeitos ou mal funcionamento em algum dos itens descritos abaixo durante o periodo de garantia. - Louças",
+        "enunciado": "LOUÇAS",
         "categoria": "Qualidade dos materiais utilizados na edificação",
         "edificacoes": [
             "escolas",
@@ -489,7 +489,7 @@
     },
     {
         "codigo": "0125",
-        "enunciado": "Como você avalia o uso de cores no ambiente? (Ex.: incluir cores variadas nas paredes, tetos e pisos para tornar os ambientes mais humanos, aconchegantes e tranquilos; painéis, quadros coloridos e obras de arte; lâmpadas ou LEDS coloridos nas sinalizações, em painéis, tetos e paredes).",
+        "enunciado": "Como você avalia o uso de cores no ambiente? Ajuda a tornar o ambiente mais humano, aconchegante e tranquilo?",
         "categoria": "Pintura de paredes",
         "edificacoes": [
             "ubs"
