@@ -23,7 +23,14 @@ class App {
     this.app.use(express.urlencoded({ extended: true }));
   }
 
+  private grettings(): void {
+    this.app.get('/', (_request, response) => {
+      response.send('Bem vindo a API oficial da APO Edificações');
+    });
+  }
+
   private loadRoutes(): void {
+    this.grettings();
     this.app.use('/api/v1/unidades', new UnidadeRouter().router);
     this.app.use('/api/v1/ambientes', new AmbienteRouter().router);
     this.app.use('/api/v1/empresas', new EmpresaRouter().router);
