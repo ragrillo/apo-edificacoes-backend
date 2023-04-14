@@ -6,11 +6,13 @@ import AmbienteRouter from './routers/ambiente.router';
 import EmpresaRouter from './routers/empresa.router';
 import UsuarioRouter from './routers/usuario.router';
 import CriterioRouter from './routers/criterio.router';
+import DimensaoRouter from './routers/dimensao.router';
 import FormularioRouter from './routers/formulario.router';
 import DimensaoRouter from './routers/dimensao.router';
 
 class App {
-  app: express.Application;
+  public app: express.Application;
+  private readonly apiVersion: string = 'v1';
 
   constructor() {
     this.app = express();
@@ -22,6 +24,12 @@ class App {
     this.app.use(cors());
     this.app.use(express.json());
     this.app.use(express.urlencoded({ extended: true }));
+  }
+
+  private grettings(): void {
+    this.app.get('/', (_request, response) => {
+      response.send('Bem vindo a API oficial da APO Edificações');
+    });
   }
 
   private loadRoutes(): void {
