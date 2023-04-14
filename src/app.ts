@@ -6,10 +6,12 @@ import AmbienteRouter from './routers/ambiente.router';
 import EmpresaRouter from './routers/empresa.router';
 import UsuarioRouter from './routers/usuario.router';
 import CriterioRouter from './routers/criterio.router';
+import DimensaoRouter from './routers/dimensao.router';
 import FormularioRouter from './routers/formulario.router';
 
 class App {
-  app: express.Application;
+  public app: express.Application;
+  private readonly apiVersion: string = 'v1';
 
   constructor() {
     this.app = express();
@@ -31,12 +33,14 @@ class App {
 
   private loadRoutes(): void {
     this.grettings();
-    this.app.use('/api/v1/unidades', new UnidadeRouter().router);
-    this.app.use('/api/v1/ambientes', new AmbienteRouter().router);
-    this.app.use('/api/v1/empresas', new EmpresaRouter().router);
-    this.app.use('/api/v1/usuarios', new UsuarioRouter().router);
-    this.app.use('/api/v1/criterios', new CriterioRouter().router);
-    this.app.use('/api/v1/formularios', new FormularioRouter().router);
+    
+    this.app.use(`/api/${this.apiVersion}/unidades`, new UnidadeRouter().router);
+    this.app.use(`/api/${this.apiVersion}/ambientes`, new AmbienteRouter().router);
+    this.app.use(`/api/${this.apiVersion}/empresas`, new EmpresaRouter().router);
+    this.app.use(`/api/${this.apiVersion}/usuarios`, new UsuarioRouter().router);
+    this.app.use(`/api/${this.apiVersion}/criterios`, new CriterioRouter().router);
+    this.app.use(`/api/${this.apiVersion}/dimensoes`, new DimensaoRouter().router);
+    this.app.use(`/api/${this.apiVersion}/formularios`, new FormularioRouter().router);
   }
 }
 
