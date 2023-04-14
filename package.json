@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "ts-node-dev src/index.ts",
     "build": "tsc -p tsconfig.json",
-    "start": "NODE_ENV=production node dist/index.js"
+    "start": "NODE_ENV=production node dist/index.js",
+    "docker:build": "docker build -t ej0733/apo-server .",
+    "docker:create": "docker run --name server -p 3000:3000 -d ej0733/apo-server",
+    "docker:start": "docker start server",
+    "docker:stop": "docker stop server"
   },
   "repository": {
     "type": "git",
