@@ -25,7 +25,7 @@ class App {
   }
 
   private grettings(): void {
-    this.app.get('/', (_request, response) => {
+    this.app.get('/api', (_request, response) => {
       response.send('Bem vindo a API oficial da APO Edificações');
     });
   }
@@ -33,13 +33,13 @@ class App {
   private loadRoutes(): void {
     this.grettings();
 
-    this.app.use(`/api/v1/unidades`, new UnidadeRouter().router);
-    this.app.use(`/api/v1/ambientes`, new AmbienteRouter().router);
-    this.app.use(`/api/v1/empresas`, new EmpresaRouter().router);
-    this.app.use(`/api/v1/usuarios`, new UsuarioRouter().router);
-    this.app.use(`/api/v1/criterios`, new CriterioRouter().router);
-    this.app.use(`/api/v1/formularios`, new FormularioRouter().router);
-    this.app.use(`/api/v1/dimensoes`, new DimensaoRouter().router);
+    this.app.use('/api/unidades', new UnidadeRouter().router);
+    this.app.use('/api/ambientes', new AmbienteRouter().router);
+    this.app.use('/api/empresas', new EmpresaRouter().router);
+    this.app.use('/api/usuarios', new UsuarioRouter().router);
+    this.app.use('/api/criterios', new CriterioRouter().router);
+    this.app.use('/api/formularios', new FormularioRouter().router);
+    this.app.use('/api/dimensoes', new DimensaoRouter().router);
   }
 }
 
