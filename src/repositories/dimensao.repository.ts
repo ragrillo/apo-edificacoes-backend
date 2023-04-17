@@ -9,7 +9,7 @@ interface IDimensaoRepository {
 
 class DimensaoMongoRepository implements IDimensaoRepository {
     async findAll(): Promise<DimensaoModel[]> {
-        const dimensoes = await MongoClient.db.collection<DimensaoModel>('dimensoes').find().toArray();
+        const dimensoes = await MongoClient.db.collection<DimensaoModel>('dimensoes').find().sort({ numero: 1 }).toArray();
         return dimensoes;
     }
 
